@@ -1,0 +1,81 @@
+{
+  "actualizado": "2026-11-02T10:45:00.000Z",
+  "items": [],
+  "videos": [
+    { "id": "qq2wRPZvows", "titulo": "Unidad de Alimentación Escolar: balance primer año", "fecha": "2021-03-10" }
+  ],
+  "fijos": [
+    {
+      "titulo": "PAE 2027: Gobierno proyecta $3,1 billones y apunta a alimentar al 88% de los estudiantes de colegios oficiales",
+      "titulo_en": "PAE 2027: Government projects COP 3.1 trillion and aims to feed 88% of public-school students",
+      "fuente": "IFM Noticias",
+      "url": "https://ifmnoticias.com/educacion/pae-2027-gobierno-proyecta-3-1-billones-y-apunta-a-alimentar-al-88-de-los-estudi/",
+      "fecha": "2026-10-30T12:57:00.000Z",
+      "imagen": "https://www.alimentosparaaprender.gov.co/sites/default/files/2026-10/Boletin3_2_29Oct2026.jpeg"
+    },
+    {
+      "titulo": "Los recursos y la cobertura del PAE para 2027, en la agenda del Ministerio de Educación y los departamentos",
+      "titulo_en": "PAE funding and coverage for 2027 on the agenda of the Education Ministry and the departments",
+      "fuente": "Alimentos para Aprender",
+      "url": "https://www.alimentosparaaprender.gov.co/noticias/los-recursos-y-la-cobertura-del-pae-para-2027-en-la-agenda-del-ministerio-de-educacion-y",
+      "fecha": "2026-10-29T15:00:00.000Z",
+      "imagen": "https://www.alimentosparaaprender.gov.co/sites/default/files/2026-10/Boletin3_2_29Oct2026.jpeg"
+    },
+    {
+      "titulo": "Contraloría detectó hallazgos fiscales por $39.139 millones e irregularidades reiteradas en el PAE",
+      "titulo_en": "Comptroller finds COP 39,139 million in fiscal irregularities and repeated failures in the PAE",
+      "fuente": "El Colombiano",
+      "url": "https://www.elcolombiano.com/colombia/contraloria-halla-irregularidades-pae-recursos-alimentacion-escolar-NK41699150",
+      "fecha": "2026-09-29T16:00:00.000Z",
+      "imagen": "https://www.mineducacion.gov.co/1780/articles-427622_foto_g.jpg"
+    },
+    {
+      "titulo": "Contraloría investiga irregularidades en el PAE: la alimentación de miles de estudiantes estaría en riesgo",
+      "titulo_en": "Comptroller investigates PAE irregularities: meals for thousands of students at risk",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/colombia/2026/09/29/contraloria-investiga-irregularidades-en-el-pae-por-39139-millones-la-alimentacion-de-miles-de-estudiantes-estaria-en-riesgo/",
+      "fecha": "2026-09-29T14:00:00.000Z",
+      "imagen": ""
+    },
+    {
+      "titulo": "PAE en Popayán: colegio suspende el restaurante escolar hasta nueva orden",
+      "titulo_en": "PAE in Popayán: a public school suspends its school canteen until further notice",
+      "fuente": "Periódico Virtual",
+      "url": "https://periodicovirtual.com/con-la-dignidad-y-la-alimentacion-de-nuestros-ninos-no-se-juega-colegio-suspende-restaurante-escolar-mientras-alcaldia-de-popayan-impulsa-empresa-mixta/",
+      "fecha": "2026-09-12T12:00:00.000Z",
+      "imagen": ""
+    },
+    {
+      "titulo": "Informe LEE 145: el PAE en Colombia, cobertura e intermitencia (2022–2025)",
+      "titulo_en": "LEE Report 145: Colombia's school feeding program, coverage and interruptions (2022–2025)",
+      "fuente": "Universidad Javeriana — LEE",
+      "url": "https://www.javeriana.edu.co/recursosdb/d/lee/inf-145-programa-de-alimentacion-escolar-pae-lee-2026",
+      "fecha": "2026-08-12T12:00:00.000Z",
+      "imagen": ""
+    },
+    {
+      "titulo": "Nariño: PAE suspendido 4 días, 62.000 niños sin almuerzo, pero 2.369 manipuladoras quedaron formalizadas",
+      "titulo_en": "Nariño: PAE suspended for 4 days, 62,000 children without lunch, but 2,369 cooks got formal contracts",
+      "fuente": "Diario del Sur",
+      "url": "https://www.diariodelsur.com.co/narino-pae-sin-clases-4-dias-62-000-ninos-sin-almuerzo-pero-2-369-mujeres-quedaron-formalizadas/",
+      "fecha": "2026-07-28T23:37:00.000Z",
+      "imagen": ""
+    },
+    {
+      "titulo": "Gobierno aumenta recursos para alimentación escolar y proyecta beneficiar a 6,2 millones de estudiantes en 2026",
+      "titulo_en": "Government raises school-feeding funds and projects 6.2 million beneficiaries in 2026",
+      "fuente": "Presidencia",
+      "url": "https://www.presidencia.gov.co/prensa/Paginas/Gobierno-aumenta-recursos-para-alimentacion-escolar-y-proyecta-beneficiar-a-62-millones-de-estudiantes-260320.aspx",
+      "fecha": "2026-03-20T12:00:00.000Z",
+      "imagen": "https://www.mineducacion.gov.co/1780/articles-427971_foto_g.jpg"
+    },
+    {
+      "titulo": "Municipios de Antioquia iniciaron el año escolar sin PAE",
+      "titulo_en": "Antioquia towns started the school year without school meals",
+      "fuente": "Telemedellín",
+      "url": "https://telemedellin.tv/?p=161726",
+      "fecha": "2026-01-19T12:00:00.000Z",
+      "imagen": ""
+    }
+  ]
+}

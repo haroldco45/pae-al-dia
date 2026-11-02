@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PAE al Día — La comida que mantiene a los niños en el colegio</title>
+<meta name="description" content="App ciudadana de seguimiento al Programa de Alimentación Escolar (PAE) en Colombia: noticias en vivo, cifras, alertas de la Contraloría, Antioquia y Bajo Cauca, y cómo hacer control social. Vibras Positivas HM.">
+<meta name="theme-color" content="#0a1a33">
+<meta property="og:title" content="PAE al Día — ¿Le llegó hoy la comida a tu colegio?">
+<meta property="og:description" content="Seguimiento ciudadano al PAE: noticias cada 30 minutos, cifras reales y cómo reclamar.">
+<meta property="og:image" content="https://www.mineducacion.gov.co/1780/articles-427971_foto_g.jpg">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0a1a33; --navy2:#10284d; --ink:#0d1626; --paper:#f6f3ec; --cream:#fffaf0;
+  --yellow:#ffcd00; --blue:#1f5fd1; --red:#d61f35; --green:#1aa36b; --muted:#5d6b80;
+  --line:rgba(10,26,51,.12); --r:22px;
+  --h:'Bricolage Grotesque',system-ui,sans-serif; --b:'Instrument Sans',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font-family:var(--b);background:var(--paper);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased;padding-bottom:72px}
+img{display:block;max-width:100%}
+a{color:inherit}
+button{font:inherit;cursor:pointer;border:0}
+h1,h2,h3{font-family:var(--h);line-height:1.02;letter-spacing:-.02em}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+
+/* barra tricolor animada */
+.tri{height:5px;background:linear-gradient(90deg,var(--yellow) 0 50%,var(--blue) 50% 75%,var(--red) 75% 100%);background-size:200% 100%;animation:tri 6s linear infinite}
+@keyframes tri{to{background-position:-200% 0}}
+
+/* top */
+header.top{position:sticky;top:0;z-index:50;background:rgba(10,26,51,.92);backdrop-filter:blur(12px);color:#fff}
+.top .wrap{display:flex;align-items:center;gap:12px;height:60px}
+.brand{font-family:var(--h);font-weight:800;font-size:1.25rem;letter-spacing:-.03em;text-decoration:none;display:flex;align-items:baseline;gap:6px}
+.brand b{color:var(--yellow)}
+.brand small{font-family:var(--b);font-weight:500;font-size:.7rem;opacity:.6;letter-spacing:.04em}
+.top .sp{flex:1}
+.clock{font-size:.78rem;opacity:.75;font-variant-numeric:tabular-nums;white-space:nowrap}
+.pill{background:rgba(255,255,255,.1);color:#fff;border-radius:99px;padding:8px 14px;font-weight:600;font-size:.82rem;transition:.2s}
+.pill:hover{background:rgba(255,255,255,.2)}
+.pill.y{background:var(--yellow);color:var(--navy)}
+.pill.y:hover{filter:brightness(1.05);transform:translateY(-1px)}
+.pill.busy{animation:pulse 1s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.55}}
+@media(max-width:620px){.clock{display:none}.brand small{display:none}}
+
+/* hero */
+.hero{position:relative;min-height:88vh;color:#fff;overflow:hidden;display:flex;align-items:flex-end;background:var(--navy)}
+.slides{position:absolute;inset:0}
+.slides img{position:absolute;color:transparent;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.12);transition:opacity 1.6s ease}
+.slides img.on{opacity:1;animation:kb 9s ease-out forwards}
+@keyframes kb{to{transform:scale(1)}}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,26,51,.25) 0%,rgba(10,26,51,.35) 35%,rgba(10,26,51,.94) 88%)}
+.hero .wrap{position:relative;z-index:2;padding-bottom:48px;padding-top:120px}
+.kicker{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);padding:6px 12px;border-radius:99px;font-size:.78rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase}
+.live{width:8px;height:8px;border-radius:50%;background:#ff3b4e;box-shadow:0 0 0 0 rgba(255,59,78,.7);animation:live 1.6s infinite}
+@keyframes live{70%{box-shadow:0 0 0 10px rgba(255,59,78,0)}100%{box-shadow:0 0 0 0 rgba(255,59,78,0)}}
+.hero h1{font-size:clamp(2.5rem,7.5vw,5.6rem);font-weight:800;margin:18px 0 16px;max-width:15ch}
+.hero h1 em{font-style:normal;color:var(--yellow);position:relative}
+.hero p.lead{font-size:clamp(1.02rem,2.2vw,1.3rem);max-width:58ch;opacity:.92}
+.hero .cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 22px;border-radius:99px;font-weight:700;text-decoration:none;transition:.2s}
+.btn.y{background:var(--yellow);color:var(--navy)}
+.btn.g{background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.3)}
+.btn:hover{transform:translateY(-2px)}
+.hero .credit{position:absolute;right:16px;bottom:10px;z-index:3;font-size:.68rem;opacity:.55}
+
+/* ticker */
+.ticker{background:var(--yellow);color:var(--navy);overflow:hidden;white-space:nowrap;font-weight:700;font-size:.92rem;border-bottom:3px solid var(--navy)}
+.ticker .row{display:inline-flex;gap:48px;padding:12px 0;animation:tick 70s linear infinite}
+.ticker:hover .row{animation-play-state:paused}
+.ticker a{text-decoration:none}
+.ticker span.dot{display:inline-block;width:7px;height:7px;background:var(--red);border-radius:50%;margin-right:12px;vertical-align:middle}
+@keyframes tick{to{transform:translateX(-50%)}}
+
+section{padding:76px 0}
+.eyebrow{font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--red)}
+h2{font-size:clamp(2rem,5vw,3.4rem);font-weight:800;margin:10px 0 14px}
+.sub{color:var(--muted);max-width:62ch;font-size:1.05rem}
+
+/* HOY */
+#hoy{background:var(--cream)}
+.hoyhead{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px}
+.today{font-family:var(--h);font-weight:800;font-size:clamp(1.3rem,3vw,1.9rem);color:var(--navy)}
+.status{font-size:.88rem;color:var(--muted);margin-top:6px}
+.status b{color:var(--green)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0 8px}
+.chip{padding:8px 14px;border-radius:99px;background:#fff;border:1px solid var(--line);font-weight:600;font-size:.85rem;color:var(--navy)}
+.chip.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+.rail{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(280px,340px);gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding:18px 2px 22px;scrollbar-width:thin}
+.card{scroll-snap-align:start;background:#fff;border-radius:var(--r);overflow:hidden;text-decoration:none;display:flex;flex-direction:column;box-shadow:0 1px 0 var(--line),0 10px 30px -18px rgba(10,26,51,.35);transition:transform .25s,box-shadow .25s}
+.card:hover{transform:translateY(-5px);box-shadow:0 1px 0 var(--line),0 22px 40px -18px rgba(10,26,51,.45)}
+.card .ph{aspect-ratio:16/9;background:var(--navy2);position:relative;overflow:hidden}
+.card .ph img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.card:hover .ph img{transform:scale(1.06)}
+.card .tag{position:absolute;left:12px;top:12px;background:var(--red);color:#fff;font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:5px 9px;border-radius:7px}
+.card .tag.n{background:var(--yellow);color:var(--navy)}
+.card .bd{padding:16px 18px 18px;display:flex;flex-direction:column;gap:10px;flex:1}
+.card h3{font-family:var(--b);font-weight:700;font-size:1.02rem;line-height:1.32;letter-spacing:0}
+.card .meta{margin-top:auto;font-size:.78rem;color:var(--muted);display:flex;justify-content:space-between;gap:8px}
+.empty{padding:30px;background:#fff;border-radius:var(--r);color:var(--muted)}
+
+/* cifras */
+#cifras{background:var(--navy);color:#fff;position:relative;overflow:hidden}
+#cifras .sub{color:rgba(255,255,255,.7)}
+#cifras .eyebrow{color:var(--yellow)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:36px}
+.stat{background:linear-gradient(160deg,rgba(255,255,255,.08),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.12);border-radius:var(--r);padding:24px;position:relative;overflow:hidden}
+.stat .n{font-family:var(--h);font-weight:800;font-size:clamp(2.4rem,5vw,3.4rem);color:var(--yellow);font-variant-numeric:tabular-nums;line-height:1}
+.stat .n small{font-size:.45em;margin-left:4px;color:#fff}
+.stat p{margin-top:10px;font-size:.95rem;opacity:.85}
+.stat .src{font-size:.72rem;opacity:.5;margin-top:10px}
+.stat.red .n{color:#ff6b7c}
+.gauge{margin-top:46px;background:rgba(255,255,255,.06);border-radius:var(--r);padding:26px;border:1px solid rgba(255,255,255,.1)}
+.gauge h3{font-size:1.4rem;margin-bottom:6px}
+.bar{position:relative;height:30px;background:rgba(255,255,255,.1);border-radius:99px;margin:30px 0 40px;overflow:visible}
+.bar .fill{height:100%;width:0;border-radius:99px;background:linear-gradient(90deg,var(--blue),var(--yellow));transition:width 2.2s cubic-bezier(.2,.8,.2,1)}
+.bar .mk{position:absolute;top:-10px;bottom:-10px;width:3px;background:#fff;border-radius:2px}
+.bar .mk span{position:absolute;top:44px;left:50%;transform:translateX(-50%);white-space:nowrap;font-size:.75rem;font-weight:600}
+.bar .mk.up span{top:-26px}
+.bar .mk.r{background:var(--red)}
+.bar{margin:26px 0 18px}
+.legend{display:flex;flex-wrap:wrap;gap:10px 22px;font-size:.85rem}
+.legend span{display:flex;align-items:center;gap:8px}
+.legend i{width:16px;height:6px;border-radius:3px;background:#fff;display:inline-block}
+.legend b{font-family:var(--h);color:var(--yellow);font-size:1.05rem}
+.legend em{font-style:normal;opacity:.8}
+
+/* promesa vs realidad */
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:0;border-radius:28px;overflow:hidden;margin-top:36px;box-shadow:0 30px 60px -30px rgba(10,26,51,.5)}
+.vs>div{padding:34px}
+.vs .a{background:var(--blue);color:#fff}
+.vs .b{background:#fff}
+.vs h3{font-size:1.6rem;margin-bottom:18px}
+.vs ul{list-style:none;display:grid;gap:16px}
+.vs li{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:start}
+.vs li strong{font-family:var(--h);font-size:1.9rem;line-height:1;min-width:3.6ch}
+.vs .b strong{color:var(--red)}
+.vs .a strong{color:var(--yellow)}
+@media(max-width:760px){.vs{grid-template-columns:1fr}}
+.photoband{margin-top:40px;display:grid;grid-template-columns:2fr 1fr;gap:16px}
+.photoband figure{border-radius:var(--r);overflow:hidden;position:relative;min-height:260px;background:var(--navy2)}
+.photoband img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}
+.photoband figcaption{position:absolute;left:0;right:0;bottom:0;padding:40px 18px 14px;color:#fff;background:linear-gradient(transparent,rgba(10,26,51,.85));font-size:.88rem}
+@media(max-width:760px){.photoband{grid-template-columns:1fr}}
+
+/* lupa */
+#lupa{background:#fff}
+.lupa{display:grid;grid-template-columns:1.1fr 1fr;gap:30px;align-items:center;margin-top:30px}
+@media(max-width:860px){.lupa{grid-template-columns:1fr}}
+.big39{font-family:var(--h);font-weight:800;font-size:clamp(3.4rem,10vw,7rem);line-height:.9;color:var(--red);letter-spacing:-.04em}
+.big39 small{display:block;font-size:.22em;color:var(--ink);letter-spacing:0;margin-top:10px;font-weight:700}
+.funnel{display:grid;gap:10px}
+.fl{display:flex;align-items:center;gap:14px;background:var(--paper);border-radius:16px;padding:14px 18px;transform:translateX(-20px);opacity:0;transition:.6s}
+.fl.in{transform:none;opacity:1}
+.fl b{font-family:var(--h);font-size:1.9rem;min-width:2.6ch;color:var(--navy)}
+.fl.hot{background:var(--red);color:#fff}.fl.hot b{color:#fff}
+.alert13{margin-top:28px;background:var(--navy);color:#fff;border-radius:var(--r);padding:24px;display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+.alert13 .n{font-family:var(--h);font-size:3rem;font-weight:800;color:var(--yellow);line-height:1}
+
+/* mapa barras */
+#mapa{background:var(--paper)}
+.hbars{margin-top:30px;display:grid;gap:12px}
+.hb{display:grid;grid-template-columns:150px 1fr 90px;gap:14px;align-items:center}
+.hb .lbl{font-weight:700}
+.hb .tr{height:22px;background:rgba(10,26,51,.08);border-radius:99px;overflow:hidden}
+.hb .tr i{display:block;height:100%;width:0;border-radius:99px;background:linear-gradient(90deg,var(--red),#ff7a3d);transition:width 1.6s cubic-bezier(.2,.8,.2,1)}
+.hb .v{font-variant-numeric:tabular-nums;font-weight:700;text-align:right}
+.hb.ant .tr i{background:linear-gradient(90deg,var(--yellow),#ffa800)}
+@media(max-width:560px){.hb{grid-template-columns:100px 1fr 70px;font-size:.88rem}}
+.note{font-size:.82rem;color:var(--muted);margin-top:18px}
+
+/* antioquia */
+#antioquia{background:var(--yellow);position:relative;overflow:hidden}
+#antioquia .eyebrow{color:var(--navy)}
+#antioquia .sub{color:rgba(10,26,51,.8)}
+.ant{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;margin-top:30px}
+.ant .c{background:var(--navy);color:#fff;border-radius:var(--r);padding:24px;transition:transform .25s}
+.ant .c:hover{transform:rotate(-1deg) translateY(-4px)}
+.ant .c .n{font-family:var(--h);font-size:2.6rem;font-weight:800;color:var(--yellow);line-height:1}
+.ant .c p{margin-top:10px;opacity:.88}
+.ant .c.w{background:#fff;color:var(--ink)}.ant .c.w .n{color:var(--red)}
+.caucasia{margin-top:22px;background:#fff;border-radius:var(--r);padding:26px;border-left:8px solid var(--red)}
+.caucasia h3{font-size:1.5rem;margin-bottom:8px}
+
+/* tiempo */
+#tiempo{background:#fff}
+.tl{position:relative;margin-top:36px;padding-left:30px}
+.tl::before{content:"";position:absolute;left:8px;top:6px;bottom:6px;width:3px;background:linear-gradient(var(--yellow),var(--blue),var(--red));border-radius:3px}
+.ev{position:relative;padding:0 0 28px;opacity:0;transform:translateY(16px);transition:.6s}
+.ev.in{opacity:1;transform:none}
+.ev::before{content:"";position:absolute;left:-28px;top:4px;width:15px;height:15px;border-radius:50%;background:#fff;border:4px solid var(--navy)}
+.ev.bad::before{border-color:var(--red)}
+.ev.good::before{border-color:var(--green)}
+.ev time{font-weight:700;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.ev h3{font-family:var(--b);font-size:1.08rem;font-weight:700;margin:4px 0;letter-spacing:0;line-height:1.35}
+.ev p{color:var(--muted);font-size:.95rem}
+
+/* videos */
+#videos{background:var(--navy);color:#fff}
+#videos .eyebrow{color:var(--yellow)}#videos .sub{color:rgba(255,255,255,.7)}
+.vids{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px;margin-top:30px}
+.vid{border-radius:var(--r);overflow:hidden;background:#000;position:relative;aspect-ratio:16/9;cursor:pointer}
+.vid img{width:100%;height:100%;object-fit:cover;opacity:.82;transition:.4s}
+.vid:hover img{opacity:1;transform:scale(1.04)}
+.vid .lab{position:absolute;left:0;right:0;bottom:0;padding:40px 16px 14px;background:linear-gradient(transparent,rgba(0,0,0,.85));font-weight:600;font-size:.92rem}
+.vid .play{position:absolute;top:14px;left:14px;background:var(--red);color:#fff;font-weight:700;font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;padding:6px 10px;border-radius:8px}
+.vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+
+/* actua */
+#actua{background:var(--cream)}
+.act{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:30px}
+@media(max-width:860px){.act{grid-template-columns:1fr}}
+.panel{background:#fff;border-radius:var(--r);padding:26px;box-shadow:0 10px 30px -20px rgba(10,26,51,.4)}
+.panel h3{font-size:1.45rem;margin-bottom:6px}
+.panel p.s{color:var(--muted);font-size:.93rem;margin-bottom:16px}
+label{display:block;font-weight:600;font-size:.85rem;margin:12px 0 6px}
+input,select,textarea{width:100%;font:inherit;padding:12px 14px;border-radius:12px;border:1.5px solid var(--line);background:var(--paper)}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--blue);background:#fff}
+textarea{min-height:90px;resize:vertical}
+.seg{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.seg button{padding:12px;border-radius:12px;background:var(--paper);font-weight:700;border:1.5px solid var(--line);transition:.2s}
+.seg button.on[data-v="si"]{background:var(--green);color:#fff;border-color:var(--green)}
+.seg button.on[data-v="no"]{background:var(--red);color:#fff;border-color:var(--red)}
+.seg button.on[data-v="inc"]{background:var(--yellow);border-color:var(--yellow)}
+.row2{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.act .btn{border:0}
+.act .btn.n{background:var(--navy);color:#fff}
+.act .btn.w{background:#25d366;color:#06301a}
+.act .btn.o{background:var(--paper);color:var(--navy);border:1.5px solid var(--line)}
+.hist{margin-top:16px;display:flex;gap:6px;flex-wrap:wrap}
+.hist span{width:22px;height:22px;border-radius:6px;display:inline-block}
+.hist .si{background:var(--green)}.hist .no{background:var(--red)}.hist .inc{background:var(--yellow)}
+.calcout{margin-top:18px;background:var(--navy);color:#fff;border-radius:16px;padding:18px}
+.calcout .n{font-family:var(--h);font-size:2.2rem;font-weight:800;color:var(--yellow)}
+.letter{white-space:pre-wrap;background:var(--paper);border-radius:14px;padding:16px;font-size:.86rem;max-height:280px;overflow:auto;margin-top:14px;border:1px dashed var(--line)}
+.ruta{display:grid;gap:10px;margin-top:8px}
+.ruta a,.ruta div{display:grid;grid-template-columns:38px 1fr;gap:12px;align-items:start;padding:14px;border-radius:14px;background:var(--paper);text-decoration:none;transition:.2s}
+.ruta a:hover{background:#eef3ff}
+.ruta b.k{font-family:var(--h);font-size:1.5rem;color:var(--red);line-height:1}
+.ruta strong{display:block}
+.ruta span{font-size:.88rem;color:var(--muted)}
+
+/* fuentes */
+#fuentes{background:#fff;padding:60px 0}
+.src{columns:2 320px;column-gap:30px;margin-top:20px;font-size:.9rem}
+.src a{display:block;break-inside:avoid;padding:8px 0;border-bottom:1px solid var(--line);text-decoration:none}
+.src a:hover{color:var(--blue)}
+footer{background:var(--ink);color:rgba(255,255,255,.75);padding:40px 0 30px;font-size:.88rem}
+footer .brand{color:#fff;font-size:1.5rem}
+footer p{margin-top:10px;max-width:70ch}
+footer a{color:var(--yellow)}
+
+/* bottom nav */
+nav.bn{position:fixed;left:0;right:0;bottom:0;z-index:60;background:rgba(10,26,51,.96);backdrop-filter:blur(10px);display:flex;justify-content:space-around;padding:6px 6px calc(6px + env(safe-area-inset-bottom))}
+nav.bn a{color:rgba(255,255,255,.7);text-decoration:none;font-weight:700;font-size:.78rem;padding:10px 8px;border-radius:12px;flex:1;text-align:center;letter-spacing:.02em}
+nav.bn a.on{color:var(--navy);background:var(--yellow)}
+
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .8s,transform .8s}
+.reveal.in{opacity:1;transform:none}
+.toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%) translateY(20px);background:var(--navy);color:#fff;padding:12px 20px;border-radius:99px;font-weight:600;opacity:0;transition:.3s;z-index:90;pointer-events:none}
+.toast.on{opacity:1;transform:translateX(-50%)}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="tri"></div>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#">PAE <b>al Día</b> <small>VIBRAS POSITIVAS HM</small></a>
+    <span class="sp"></span>
+    <span class="clock" id="clock"></span>
+    <button class="pill" id="lang" aria-label="Cambiar idioma">EN</button>
+    <button class="pill y" id="refresh" data-en="Update">Actualizar</button>
+  </div>
+</header>
+
+<section class="hero" id="top" style="padding:0">
+  <div class="slides" id="slides">
+    <img src="https://www.mineducacion.gov.co/1780/articles-427971_foto_g.jpg" alt="Niña sonriente en un comedor escolar del PAE" class="on">
+    <img src="https://www.mineducacion.gov.co/1780/articles-428487_foto_g.jpg" alt="Niño de Montería beneficiado con el PAE">
+    <img src="https://www.mineducacion.gov.co/1780/articles-427622_foto_g.jpg" alt="Manipuladora de alimentos del PAE">
+  </div>
+  <div class="wrap">
+    <span class="kicker"><span class="live"></span><span data-en="Citizen tracker · updated every 30 min">Seguimiento ciudadano · cada 30 min</span></span>
+    <h1 data-en="The meal that keeps kids <em>in school</em>">La comida que mantiene a los niños <em>en el colegio</em></h1>
+    <p class="lead" data-en="Colombia's School Feeding Program (PAE) reaches about 87% of public-school students. Around one million still don't get it, and the Comptroller keeps finding cost overruns. Here you follow it day by day — and learn how to demand it.">El Programa de Alimentación Escolar (PAE) llega a cerca del 87% de los estudiantes de colegios oficiales. Todavía cerca de un millón no lo recibe, y la Contraloría sigue encontrando sobrecostos. Aquí lo sigues día a día y aprendes a exigirlo.</p>
+    <div class="cta">
+      <a class="btn y" href="#hoy" data-en="What happened today">Lo de hoy</a>
+      <a class="btn g" href="#actua" data-en="Report my school">Reportar mi colegio</a>
+    </div>
+  </div>
+  <span class="credit" data-en="Photos: Ministry of Education of Colombia">Fotos: Ministerio de Educación Nacional</span>
+</section>
+
+<div class="ticker" aria-label="Titulares"><div class="row" id="ticker"></div></div>
+
+<!-- HOY -->
+<section id="hoy">
+  <div class="wrap">
+    <div class="hoyhead">
+      <div>
+        <span class="eyebrow" data-en="Today">Hoy</span>
+        <div class="today" id="today"></div>
+        <div class="status" id="status">Buscando noticias en vivo…</div>
+      </div>
+    </div>
+    <div class="chips" id="chips">
+      <button class="chip on" data-f="todo" data-en="All">Todo</button>
+      <button class="chip" data-f="hoy" data-en="Last 48 h">Últimas 48 h</button>
+      <button class="chip" data-f="antioquia">Antioquia</button>
+      <button class="chip" data-f="control" data-en="Watchdogs">Control fiscal</button>
+      <button class="chip" data-f="suspension" data-en="Suspensions">Suspensiones</button>
+    </div>
+    <div class="rail" id="rail"></div>
+  </div>
+</section>
+
+<!-- CIFRAS -->
+<section id="cifras">
+  <div class="wrap reveal">
+    <span class="eyebrow" data-en="The numbers">Las cifras</span>
+    <h2 data-en="More money than ever. Is it reaching the plate?">Más plata que nunca. ¿Está llegando al plato?</h2>
+    <p class="sub" data-en="Official 2026 figures, side by side with what independent watchdogs found.">Las cifras oficiales de 2026, al lado de lo que encontraron los organismos de control y los investigadores independientes.</p>
+    <div class="stats">
+      <div class="stat"><div class="n"><span data-count="7.24" data-dec="2">0</span><small data-en="trillion">billones</small></div><p data-en="Total PAE budget 2026, all sources (nation, royalties, governors, mayors). In 2022 it was 4.33.">Presupuesto total del PAE en 2026 sumando todas las fuentes (Nación, regalías, gobernaciones y alcaldías). En 2022 era de 4,33.</p><div class="src">MinEducación / UApA</div></div>
+      <div class="stat"><div class="n"><span data-count="3" data-dec="0">0</span><small data-en="trillion">billones</small></div><p data-en="National government contribution in 2026. It was 1.5 trillion in 2022.">Aporte del Gobierno nacional en 2026. En 2022 era de 1,5 billones.</p><div class="src">UApA, marzo 2026</div></div>
+      <div class="stat"><div class="n"><span data-count="87" data-dec="0">0</span><small>%</small></div><p data-en="Official coverage reported for 2026. The goal was 90.8%.">Cobertura oficial reportada para 2026. La meta era 90,8%.</p><div class="src">Contraloría, sep. 2026</div></div>
+      <div class="stat red"><div class="n">~<span data-count="1" data-dec="0">0</span><small data-en="million">millón</small></div><p data-en="Public-school students who still don't receive school meals.">Estudiantes de colegios oficiales que todavía no reciben alimentación escolar.</p><div class="src">Contraloría, sep. 2026</div></div>
+      <div class="stat red"><div class="n">-<span data-count="253360" data-dec="0">0</span></div><p data-en="Fewer beneficiaries in 2025 than in 2022, even as budget grew. Coverage rose partly because enrollment fell faster.">Beneficiarios menos en 2025 que en 2022, aunque el presupuesto creció. La cobertura subió en parte porque la matrícula cayó más rápido.</p><div class="src">LEE Javeriana, ago. 2026</div></div>
+      <div class="stat"><div class="n"><span data-count="3.1" data-dec="1">0</span><small data-en="trillion">billones</small></div><p data-en="Projected budget for 2027, with a coverage goal of 88%.">Presupuesto proyectado para 2027, con una meta de cobertura del 88%.</p><div class="src">MinEducación, oct. 2026</div></div>
+    </div>
+
+    <div class="gauge">
+      <h3 data-en="Coverage: promise vs. reality">Cobertura: la promesa contra la realidad</h3>
+      <p class="sub" data-en="The bar fills to the coverage reported in 2026. The lines mark July 2026 and the goals the government set.">La barra se llena hasta la cobertura reportada en 2026. Las líneas marcan julio de 2026 y las metas que se puso el Gobierno.</p>
+      <div class="bar" id="gbar">
+        <div class="fill" data-w="87"></div>
+        <div class="mk" style="left:85%"></div>
+        <div class="mk" style="left:88%"></div>
+        <div class="mk r" style="left:95%"></div>
+      </div>
+      <div class="legend">
+        <span><i style="background:linear-gradient(90deg,var(--blue),var(--yellow))"></i><b>87%</b> <em data-en="reported 2026 (Comptroller)">reportado 2026 (Contraloría)</em></span>
+        <span><i></i><b>85%</b> <em data-en="July 2026 (UApA)">julio 2026 (UApA)</em></span>
+        <span><i></i><b>88%</b> <em data-en="2027 goal">meta 2027</em></span>
+        <span><i style="background:var(--red)"></i><b>95%</b> <em data-en="2026 goal in the Development Plan">meta 2026 del Plan de Desarrollo</em></span>
+      </div>
+</div>
+    </div>
+  </div>
+</section>
+
+<!-- PROMESA VS REALIDAD -->
+<section id="promesa">
+  <div class="wrap reveal">
+    <span class="eyebrow" data-en="Two sides">Las dos caras</span>
+    <h2 data-en="What was announced, what was found">Lo que se anunció y lo que se encontró</h2>
+    <div class="vs">
+      <div class="a">
+        <h3 data-en="Announced (March 2026)">Lo anunciado (marzo 2026)</h3>
+        <ul>
+          <li><strong>6,2</strong><span data-en="million students to be fed in 2026, a historic record.">millones de estudiantes atendidos en 2026, récord histórico.</span></li>
+          <li><strong>54</strong><span data-en="governorships and mayoralties reaching universal coverage.">gobernaciones y alcaldías llegando a la universalidad.</span></li>
+          <li><strong>722k</strong><span data-en="food baskets during school breaks in 128 municipalities (about COP 83.7 billion).">canastas para el receso escolar en 128 municipios (cerca de $83.700 millones).</span></li>
+        </ul>
+      </div>
+      <div class="b">
+        <h3 data-en="Found by watchdogs">Lo que encontraron los controles</h3>
+        <ul>
+          <li><strong>13</strong><span data-en="certified territories with no contracts or funds secured to keep the service running (about 600,000 students).">entidades territoriales sin contratos ni recursos asegurados para seguir el servicio (cerca de 600.000 estudiantes).</span></li>
+          <li><strong>25</strong><span data-en="of 97 territories had documented interruptions in 2025, up from 17 in 2022.">de 97 entidades territoriales tuvieron alertas de interrupción en 2025; en 2022 fueron 17.</span></li>
+          <li><strong>51</strong><span data-en="percentage-point gap between Chocó (99.2%) and Casanare (48.2%).">puntos de diferencia entre Chocó (99,2%) y Casanare (48,2%) en cobertura.</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="photoband">
+      <figure><img src="https://www.mineducacion.gov.co/1780/articles-427622_foto_g.jpg" alt="Manipuladora de alimentos del PAE" loading="lazy"><figcaption data-en="Behind every tray there's a cook. In Nariño, 2,369 of them got formal contracts in July 2026 — a first in the country.">Detrás de cada bandeja hay una manipuladora. En Nariño, 2.369 quedaron con contrato formal en julio de 2026, la primera vez en el país.</figcaption></figure>
+      <figure><img src="https://www.mineducacion.gov.co/1780/articles-428487_foto_g.jpg" alt="Niño de Montería beneficiado con el PAE" loading="lazy"><figcaption data-en="As a climate-emergency response, Montería is set to go from 53% coverage (2025) to 100% in 2026.">Como respuesta a la emergencia climática, Montería va del 53% de cobertura (2025) al 100% en 2026.</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- LUPA CONTRALORIA -->
+<section id="lupa">
+  <div class="wrap reveal">
+    <span class="eyebrow" data-en="Under the magnifying glass">Bajo la lupa</span>
+    <h2 data-en="What the Comptroller found">Lo que encontró la Contraloría</h2>
+    <p class="sub" data-en="32 audits in 2026 of PAE money spent in 2025. Most failures: planning, information, supervision and contract control.">32 auditorías hechas en 2026 a la plata del PAE ejecutada en 2025. La mayoría de fallas: planeación, manejo de información, supervisión y control de los contratos.</p>
+    <div class="lupa">
+      <div>
+        <div class="big39">$39.139<small data-en="million pesos in fiscal findings (41 cases)">millones en hallazgos fiscales (41 casos)</small></div>
+        <p class="sub" style="margin-top:16px" data-en="The Comptroller lamented &quot;repeated&quot; cost overruns, deficiencies and breaches in a program that still hasn't reached every child.">La Contraloría lamentó que las situaciones de sobrecostos, deficiencias e incumplimientos sean reiteradas en un programa que aún no llega a todos los niños.</p>
+      </div>
+      <div class="funnel" id="funnel">
+        <div class="fl"><b>84</b><span data-en="administrative findings">hallazgos administrativos</span></div>
+        <div class="fl"><b>71</b><span data-en="with possible disciplinary consequences">con presunta incidencia disciplinaria</span></div>
+        <div class="fl"><b>41</b><span data-en="with fiscal consequences">con incidencia fiscal</span></div>
+        <div class="fl"><b>5</b><span data-en="sent to preliminary inquiry">a indagación preliminar</span></div>
+        <div class="fl hot"><b>1</b><span data-en="with possible criminal consequences">con presunta incidencia penal</span></div>
+      </div>
+    </div>
+    <div class="alert13">
+      <div class="n">600.000</div>
+      <div style="flex:1;min-width:220px" data-en="students in 13 territories could be left without meals when current contracts end, because no new processes or funds were in sight (Comptroller alert, Sep 29, 2026).">estudiantes en 13 territorios podrían quedar sin comida cuando terminen los contratos vigentes, porque no se veían nuevos procesos ni recursos (alerta de la Contraloría, 29 de septiembre de 2026).</div>
+    </div>
+  </div>
+</section>
+
+<!-- MAPA DE SUSPENSIONES -->
+<section id="mapa">
+  <div class="wrap reveal">
+    <span class="eyebrow" data-en="Where the tray came back empty">Donde la bandeja llegó vacía</span>
+    <h2 data-en="Students hit by suspensions, 2025">Estudiantes afectados por suspensiones en 2025</h2>
+    <p class="sub" data-en="Largest documented suspension per territory, according to the Javeriana University Education Economics Lab. Córdoba, Cesar, Magdalena, Cauca, Antioquia and Buenaventura had alerts in at least 3 of the last 4 years.">El mayor corte documentado en cada territorio, según el Laboratorio de Economía de la Educación de la Javeriana. Córdoba, Cesar, Magdalena, Cauca, Antioquia y Buenaventura tuvieron alertas en al menos 3 de los últimos 4 años.</p>
+    <div class="hbars" id="hbars"></div>
+    <p class="note" data-en="Source: LEE Report 145, Pontificia Universidad Javeriana (Aug 2026). Antioquia: rotating suspensions by municipality.">Fuente: Informe LEE 145, Pontificia Universidad Javeriana (agosto 2026). Antioquia: suspensiones rotativas por municipio.</p>
+  </div>
+</section>
+
+<!-- ANTIOQUIA -->
+<section id="antioquia">
+  <div class="wrap reveal">
+    <span class="eyebrow" data-en="Close to home">Aquí en la tierrita</span>
+    <h2 data-en="Antioquia and the Bajo Cauca">Antioquia y el Bajo Cauca</h2>
+    <p class="sub" data-en="In the 116 non-certified municipalities — Caucasia among them — the PAE is run by the Antioquia Governorship, not the mayor's office.">En los 116 municipios no certificados de Antioquia, entre ellos Caucasia, el PAE lo maneja la Gobernación de Antioquia, no la alcaldía.</p>
+    <div class="ant">
+      <div class="c"><div class="n">327 mil</div><p data-en="students the Governorship aims to cover by the end of 2026 in non-certified municipalities.">estudiantes que la Gobernación busca atender al cierre de 2026 en los municipios no certificados.</p></div>
+      <div class="c"><div class="n">$45.900 M</div><p data-en="added to keep the PAE running through the end of 2026, paid with vehicle-tax revenue.">para garantizar el PAE hasta terminar 2026, sacados del recaudo del impuesto vehicular.</p></div>
+      <div class="c"><div class="n">+$500 mil M</div><p data-en="invested by the department in the PAE between 2024 and 2026, the largest amount in its history according to the Governorship.">invertidos por el departamento en el PAE entre 2024 y 2026, la mayor inversión de su historia según la Gobernación.</p></div>
+      <div class="c w"><div class="n">19 ene</div><p data-en="Several Antioquia municipalities started the 2026 school year without school meals.">Varios municipios de Antioquia empezaron el año escolar 2026 sin PAE.</p></div>
+    </div>
+    <div class="caucasia">
+      <h3 data-en="What it means for Caucasia">Qué significa para Caucasia</h3>
+      <p data-en="If your child's school in Caucasia has no PAE, the complaint goes to the Antioquia Education Secretariat (SEDUCA), with a copy to the school's Feeding Committee (CAE) and the municipal Personería. Caucasia is also part of the Indigenous PAE for the Senú community, together with Cáceres, El Bagre and Zaragoza.">Si en el colegio de tu hijo en Caucasia no llegó el PAE, el reclamo va a la Secretaría de Educación de Antioquia (SEDUCA), con copia al Comité de Alimentación Escolar (CAE) del colegio y a la Personería municipal. Caucasia también hace parte del PAE Indígena para la comunidad Senú, junto con Cáceres, El Bagre y Zaragoza.</p>
+    </div>
+  </div>
+</section>
+
+<!-- LINEA DE TIEMPO -->
+<section id="tiempo">
+  <div class="wrap">
+    <span class="eyebrow" data-en="Timeline">Línea de tiempo</span>
+    <h2 data-en="The PAE year, month by month">El año del PAE, mes a mes</h2>
+    <div class="tl" id="tl"></div>
+  </div>
+</section>
+
+<!-- VIDEOS -->
+<section id="videos">
+  <div class="wrap">
+    <span class="eyebrow" data-en="Watch">Míralo</span>
+    <h2 data-en="Videos from Alimentos para Aprender">Videos de Alimentos para Aprender</h2>
+    <p class="sub" data-en="The robot brings the latest videos from the official YouTube channel of the national school-feeding unit.">El robot trae los videos más nuevos del canal oficial de YouTube de la Unidad Alimentos para Aprender.</p>
+    <div class="vids" id="vids"></div>
+  </div>
+</section>
+
+<!-- ACTUA -->
+<section id="actua">
+  <div class="wrap">
+    <span class="eyebrow" data-en="Your turn">Tu turno</span>
+    <h2 data-en="Citizen oversight starts at the school gate">El control social empieza en la puerta del colegio</h2>
+    <p class="sub" data-en="Log every day whether the meal arrived, estimate what each missed day is worth, and send a formal petition in two minutes.">Anota cada día si llegó la comida, calcula cuánto vale un día perdido y manda un derecho de petición en dos minutos.</p>
+
+    <div class="act">
+      <div class="panel">
+        <h3 data-en="Did the PAE arrive today?">¿Llegó hoy el PAE?</h3>
+        <p class="s" data-en="Saved only on your phone. Share it with the parents' group.">Se guarda solo en tu celular. Compártelo con el grupo de padres.</p>
+        <label data-en="School">Colegio</label>
+        <input id="rCol" placeholder="I. E. …">
+        <label data-en="Municipality">Municipio</label>
+        <input id="rMun" value="Caucasia">
+        <label data-en="Today the meal…">Hoy la comida…</label>
+        <div class="seg" id="rSeg">
+          <button data-v="si" data-en="Arrived">Llegó</button>
+          <button data-v="no" data-en="Didn't">No llegó</button>
+          <button data-v="inc" data-en="Incomplete">Incompleta</button>
+        </div>
+        <label data-en="What happened? (optional)">¿Qué pasó? (opcional)</label>
+        <textarea id="rNota" placeholder="Ej.: llegó solo el jugo, la porción fue muy pequeña…" data-en-ph="E.g.: only juice arrived, the portion was very small…"></textarea>
+        <div class="row2">
+          <button class="btn n" id="rSave" data-en="Save today">Guardar hoy</button>
+          <button class="btn w" id="rWa" data-en="Send by WhatsApp">Enviar por WhatsApp</button>
+        </div>
+        <div class="hist" id="rHist"></div>
+        <p class="note" id="rSum"></p>
+      </div>
+
+      <div class="panel">
+        <h3 data-en="What is a day without PAE worth?">¿Cuánto vale un día sin PAE?</h3>
+        <p class="s" data-en="Rough estimate: 2026 total budget (COP 7.24 trillion) ÷ 6.2 million students ÷ 180 school days ≈ COP 6,500 per student per day.">Cálculo aproximado: presupuesto total 2026 ($7,24 billones) ÷ 6,2 millones de estudiantes ÷ 180 días de clase ≈ $6.500 por estudiante al día.</p>
+        <label data-en="Students without meals">Estudiantes sin comida</label>
+        <input id="cEst" type="number" min="0" value="800">
+        <label data-en="Days without service">Días sin servicio</label>
+        <input id="cDias" type="number" min="0" value="10">
+        <div class="calcout">
+          <div class="n" id="cOut">$0</div>
+          <div id="cTxt"></div>
+        </div>
+        <p class="note" data-en="Estimate by Vibras Positivas HM using official figures. The real cost per meal varies by territory and contract.">Estimación de Vibras Positivas HM con cifras oficiales. El costo real por ración varía según el territorio y el contrato.</p>
+      </div>
+
+      <div class="panel">
+        <h3 data-en="Petition in two minutes">Derecho de petición en dos minutos</h3>
+        <p class="s" data-en="Asks the education secretariat for the contract, operator, menu and coverage of your school. They must answer within 15 business days.">Le pide a la Secretaría de Educación el contrato, el operador, la minuta y la cobertura de tu colegio. Deben responder en 15 días hábiles.</p>
+        <label data-en="Your full name">Tu nombre completo</label>
+        <input id="pNom" placeholder="Nombre y apellidos">
+        <label data-en="ID number">Cédula</label>
+        <input id="pCed" inputmode="numeric">
+        <label data-en="Addressed to">Dirigido a</label>
+        <select id="pDest">
+          <option value="Secretaría de Educación de Antioquia (SEDUCA)">Secretaría de Educación de Antioquia (SEDUCA)</option>
+          <option value="Secretaría de Educación Municipal">Secretaría de Educación Municipal (municipio certificado)</option>
+          <option value="Unidad Administrativa Especial de Alimentación Escolar – Alimentos para Aprender (UApA)">Unidad Alimentos para Aprender (UApA)</option>
+        </select>
+        <div class="row2">
+          <button class="btn n" id="pGen" data-en="Build the letter">Armar la carta</button>
+          <button class="btn o" id="pCopy" data-en="Copy">Copiar</button>
+          <button class="btn w" id="pWa">WhatsApp</button>
+        </div>
+        <div class="letter" id="pOut" hidden></div>
+      </div>
+
+      <div class="panel">
+        <h3 data-en="Where to complain, in order">Dónde reclamar, en orden</h3>
+        <p class="s" data-en="Start close to the school and go up only if there is no answer.">Empieza cerca del colegio y sube solo si no te responden.</p>
+        <div class="ruta">
+          <div><b class="k">1</b><p><strong data-en="School Feeding Committee (CAE)">Comité de Alimentación Escolar (CAE)</strong><span data-en="Every school has one, with parents and students. Ask the principal who sits on it.">Cada colegio tiene uno, con padres y estudiantes. Pregúntale al rector quién lo integra.</span></p></div>
+          <div><b class="k">2</b><p><strong data-en="Education Secretariat">Secretaría de Educación</strong><span data-en="In Caucasia and the other non-certified towns: Antioquia Governorship (SEDUCA).">En Caucasia y demás municipios no certificados: Gobernación de Antioquia (SEDUCA).</span></p></div>
+          <a href="https://www.alimentosparaaprender.gov.co/" target="_blank" rel="noopener"><b class="k">3</b><p><strong data-en="Alimentos para Aprender (UApA)">Alimentos para Aprender (UApA)</strong><span data-en="National unit. Petitions, complaints and claims on its website.">La unidad nacional. Peticiones, quejas y reclamos en su página.</span></p></a>
+          <a href="https://www.contraloria.gov.co/" target="_blank" rel="noopener"><b class="k">4</b><p><strong data-en="Comptroller General">Contraloría General de la República</strong><span data-en="If you suspect cost overruns or misused money.">Si sospechas sobrecostos o mal uso de la plata.</span></p></a>
+          <a href="https://www.procuraduria.gov.co/" target="_blank" rel="noopener"><b class="k">5</b><p><strong data-en="Inspector General / Personería">Procuraduría / Personería</strong><span data-en="If an official fails to act. The local Personería helps you file for free.">Si un funcionario no actúa. La Personería municipal te ayuda a radicar gratis.</span></p></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="fuentes">
+  <div class="wrap">
+    <span class="eyebrow" data-en="Sources">Fuentes</span>
+    <h2 style="font-size:2rem" data-en="Check it yourself">Verifícalo tú mismo</h2>
+    <div class="src">
+      <a href="https://www.alimentosparaaprender.gov.co/" target="_blank" rel="noopener">Unidad Alimentos para Aprender (UApA)</a>
+      <a href="https://www.mineducacion.gov.co/portal/micrositios-preescolar-basica-y-media/Programa-de-Alimentacion-Escolar-PAE/" target="_blank" rel="noopener">MinEducación — micrositio PAE</a>
+      <a href="https://www.presidencia.gov.co/prensa/Paginas/Gobierno-aumenta-recursos-para-alimentacion-escolar-y-proyecta-beneficiar-a-62-millones-de-estudiantes-260320.aspx" target="_blank" rel="noopener">Presidencia — 6,2 millones de estudiantes en 2026 (20 mar 2026)</a>
+      <a href="https://www.elcolombiano.com/colombia/contraloria-halla-irregularidades-pae-recursos-alimentacion-escolar-NK41699150" target="_blank" rel="noopener">El Colombiano — Contraloría, hallazgos por $39.139 millones</a>
+      <a href="https://elfrente.com.co/contraloria-advierte-riesgos-en-operacion-y-continuidad-del-pae-en-2026-hallan-millonarias-irregularidades/" target="_blank" rel="noopener">El Frente — 84 hallazgos, 71 disciplinarios, 1 penal</a>
+      <a href="https://www.javeriana.edu.co/recursosdb/d/lee/inf-145-programa-de-alimentacion-escolar-pae-lee-2026" target="_blank" rel="noopener">LEE Javeriana — Informe 145 (ago 2026)</a>
+      <a href="https://ifmnoticias.com/educacion/pae-2027-gobierno-proyecta-3-1-billones-y-apunta-a-alimentar-al-88-de-los-estudi/" target="_blank" rel="noopener">IFM Noticias — PAE 2027: $3,1 billones y meta de 88%</a>
+      <a href="https://www.minuto30.com/?p=1716402" target="_blank" rel="noopener">Minuto30 — Antioquia: 327 mil estudiantes y $45.900 millones</a>
+      <a href="https://telemedellin.tv/?p=161726" target="_blank" rel="noopener">Telemedellín — Municipios de Antioquia iniciaron sin PAE</a>
+      <a href="https://www.diariodelsur.com.co/narino-pae-sin-clases-4-dias-62-000-ninos-sin-almuerzo-pero-2-369-mujeres-quedaron-formalizadas/" target="_blank" rel="noopener">Diario del Sur — Nariño formaliza 2.369 manipuladoras</a>
+      <a href="https://www.alimentosparaaprender.gov.co/sites/default/files/2026-01/RSN%200003%20Lineamientos%20Te%CC%81cnicos.pdf" target="_blank" rel="noopener">Resolución 0003 de 2026 — Lineamientos técnicos del PAE</a>
+      <a href="https://antioquia.gov.co/oculto-secretaria-educacion/gobernacion-de-antioquia-pone-en-marcha-el-pae-indigena-y-entrego-junto-con-epm-cinco-escuelas-indigenas-en-uraba" target="_blank" rel="noopener">Gobernación de Antioquia — PAE Indígena</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="brand">PAE <b>al Día</b></div>
+    <p data-en="Independent citizen app by Vibras Positivas HM, Caucasia, Antioquia. It is not a government app. News is gathered automatically from public media and belongs to its authors.">App ciudadana independiente de Vibras Positivas HM, Caucasia, Antioquia. No es una app del Gobierno. Las noticias se recogen de forma automática de medios públicos y pertenecen a sus autores.</p>
+    <p><a href="https://vibraspositivashm.com" target="_blank" rel="noopener">vibraspositivashm.com</a> · <a href="https://wa.me/573117700431" target="_blank" rel="noopener">WhatsApp 311 770 0431</a></p>
+    <p id="upd" style="opacity:.6;font-size:.8rem"></p>
+  </div>
+</footer>
+
+<nav class="bn" id="bn">
+  <a href="#hoy" data-en="Today">Hoy</a>
+  <a href="#cifras" data-en="Numbers">Cifras</a>
+  <a href="#lupa" data-en="Watchdog">Lupa</a>
+  <a href="#antioquia">Antioquia</a>
+  <a href="#actua" data-en="Act">Actúa</a>
+</nav>
+<div class="toast" id="toast"></div>
+
+<script>
+(() => {
+const TZ = 'America/Bogota';
+let LANG = localStorage.getItem('pae-lang') || 'es';
+let DATA = { items: [], videos: [], fijos: [] };
+let LIVE = [];
+let FILTRO = 'todo';
+const $ = s => document.querySelector(s);
+const $$ = s => [...document.querySelectorAll(s)];
+const FOTOS = [
+  'https://www.mineducacion.gov.co/1780/articles-427971_foto_g.jpg',
+  'https://www.mineducacion.gov.co/1780/articles-428487_foto_g.jpg',
+  'https://www.mineducacion.gov.co/1780/articles-427622_foto_g.jpg'
+];
+const t = (es, en) => LANG === 'en' ? en : es;
+const esc = s => String(s || '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const toast = m => { const el = $('#toast'); el.textContent = m; el.classList.add('on'); setTimeout(() => el.classList.remove('on'), 2200); };
+
+/* ---------- idioma ---------- */
+function aplicarIdioma() {
+  document.documentElement.lang = LANG;
+  $$('[data-en]').forEach(el => {
+    if (el.dataset.es === undefined) el.dataset.es = el.innerHTML;
+    el.innerHTML = LANG === 'en' ? el.dataset.en : el.dataset.es;
+  });
+  $$('[data-en-ph]').forEach(el => {
+    if (el.dataset.esPh === undefined) el.dataset.esPh = el.placeholder;
+    el.placeholder = LANG === 'en' ? el.dataset.enPh : el.dataset.esPh;
+  });
+  $('#lang').textContent = LANG === 'en' ? 'ES' : 'EN';
+  $$('[data-count][data-done]').forEach(el => el.textContent = parseFloat(el.dataset.count).toLocaleString(LANG === 'en' ? 'en-US' : 'es-CO', { minimumFractionDigits: +el.dataset.dec, maximumFractionDigits: +el.dataset.dec }));
+  reloj(); pintarNoticias(); pintarTicker(); pintarTimeline(); pintarBarras(); pintarVideos(); calc(); historial();
+  if (!$('#pOut').hidden) carta();
+}
+$('#lang').onclick = () => { LANG = LANG === 'es' ? 'en' : 'es'; localStorage.setItem('pae-lang', LANG); aplicarIdioma(); };
+
+/* ---------- reloj y fecha Colombia ---------- */
+function reloj() {
+  const now = new Date();
+  const loc = LANG === 'en' ? 'en-US' : 'es-CO';
+  $('#clock').textContent = now.toLocaleTimeString(loc, { timeZone: TZ, hour: '2-digit', minute: '2-digit' }) + t(' hora Colombia', ' Colombia time');
+  const f = now.toLocaleDateString(loc, { timeZone: TZ, weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+  $('#today').textContent = f.charAt(0).toUpperCase() + f.slice(1);
+}
+setInterval(reloj, 20000);
+
+/* ---------- carrusel del hero ---------- */
+let si = 0;
+setInterval(() => {
+  const imgs = $$('#slides img'); if (imgs.length < 2) return;
+  imgs[si].classList.remove('on'); si = (si + 1) % imgs.length; imgs[si].classList.add('on');
+}, 7000);
+function sumarFotosHero() {
+  const nuevas = todas().filter(n => n.imagen && !n.imagen.includes('mineducacion')).slice(0, 3);
+  nuevas.forEach(n => {
+    if ($$('#slides img').some(i => i.src === n.imagen)) return;
+    const im = new Image(); im.alt = n.titulo; im.referrerPolicy = 'no-referrer';
+    im.onload = () => $('#slides').appendChild(im); im.src = n.imagen;
+  });
+}
+
+/* ---------- noticias ---------- */
+const clave = s => (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9 ]/g, '').split(' ').filter(w => w.length > 3).slice(0, 8).join(' ');
+function todas() {
+  const m = new Map();
+  [...LIVE, ...(DATA.items || []), ...(DATA.fijos || [])].forEach(n => {
+    if (!n || !n.titulo) return;
+    const k = clave(n.titulo);
+    const ya = m.get(k);
+    if (!ya) m.set(k, { ...n }); else { if (!ya.imagen && n.imagen) ya.imagen = n.imagen; if (!ya.titulo_en && n.titulo_en) ya.titulo_en = n.titulo_en; }
+  });
+  return [...m.values()].sort((a, b) => new Date(b.fecha) - new Date(a.fecha));
+}
+function tipo(n) {
+  const s = (n.titulo + ' ' + (n.fuente || '')).toLowerCase();
+  return {
+    antioquia: /antioquia|medell|caucasia|bajo cauca|urab|seduca|telemedell|minuto30/.test(s),
+    control: /contralor|procurad|fiscal|hallazg|sobrecost|irregular|veedur|denunc|corrup/.test(s),
+    suspension: /suspend|suspensi|sin pae|sin alimentaci|sin almuerzo|sin comida|interrump/.test(s)
+  };
+}
+function haceCuanto(f) {
+  const d = (Date.now() - new Date(f)) / 36e5;
+  if (isNaN(d)) return '';
+  if (d < 1) return t('hace minutos', 'minutes ago');
+  if (d < 24) return t(`hace ${Math.round(d)} h`, `${Math.round(d)} h ago`);
+  return new Date(f).toLocaleDateString(LANG === 'en' ? 'en-US' : 'es-CO', { timeZone: TZ, day: 'numeric', month: 'short', year: 'numeric' });
+}
+function pintarNoticias() {
+  let lista = todas();
+  if (FILTRO === 'hoy') lista = lista.filter(n => Date.now() - new Date(n.fecha) < 48 * 36e5);
+  else if (FILTRO !== 'todo') lista = lista.filter(n => tipo(n)[FILTRO]);
+  lista = lista.slice(0, 24);
+  if (!lista.length) { $('#rail').innerHTML = `<div class="empty">${t('No hay noticias en este filtro por ahora. Toca Actualizar o vuelve más tarde: el robot revisa cada 30 minutos.', 'No news in this filter yet. Tap Update or come back later: the robot checks every 30 minutes.')}</div>`; return; }
+  $('#rail').innerHTML = lista.map((n, i) => {
+    const nuevo = Date.now() - new Date(n.fecha) < 24 * 36e5;
+    const tp = tipo(n);
+    const tag = nuevo ? `<span class="tag n">${t('Nuevo', 'New')}</span>` : tp.suspension ? `<span class="tag">${t('Suspensión', 'Suspension')}</span>` : tp.control ? `<span class="tag">${t('Control', 'Watchdog')}</span>` : '';
+    const img = n.imagen || FOTOS[i % FOTOS.length];
+    const tit = LANG === 'en' && n.titulo_en ? n.titulo_en : n.titulo;
+    return `<a class="card" href="${esc(n.url)}" target="_blank" rel="noopener">
+      <div class="ph"><img src="${esc(img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="if(this.dataset.f){this.style.visibility='hidden'}else{this.dataset.f=1;this.src='${FOTOS[i % FOTOS.length]}'}">${tag}</div>
+      <div class="bd"><h3>${esc(tit)}</h3><div class="meta"><span>${esc(n.fuente || '')}</span><span>${haceCuanto(n.fecha)}</span></div></div></a>`;
+  }).join('');
+}
+function pintarTicker() {
+  const l = todas().slice(0, 10);
+  const html = l.map(n => `<a href="${esc(n.url)}" target="_blank" rel="noopener"><span class="dot"></span>${esc(LANG === 'en' && n.titulo_en ? n.titulo_en : n.titulo)}</a>`).join('');
+  $('#ticker').innerHTML = html + html;
+}
+$('#chips').onclick = e => {
+  const b = e.target.closest('.chip'); if (!b) return;
+  $$('.chip').forEach(c => c.classList.toggle('on', c === b)); FILTRO = b.dataset.f; pintarNoticias();
+};
+
+async function cargarRobot() {
+  try {
+    const r = await fetch('data/noticias.json?v=' + Date.now(), { cache: 'no-store' });
+    DATA = await r.json();
+    $('#upd').textContent = t('Último cambio guardado por el robot: ', 'Last robot update: ') + new Date(DATA.actualizado).toLocaleString(LANG === 'en' ? 'en-US' : 'es-CO', { timeZone: TZ }) + t(' (hora Colombia)', ' (Colombia time)');
+  } catch { }
+}
+const PROXIES = [u => 'https://api.allorigins.win/raw?url=' + encodeURIComponent(u), u => 'https://corsproxy.io/?url=' + encodeURIComponent(u)];
+async function buscarEnVivo() {
+  const q = encodeURIComponent('PAE "alimentación escolar" OR "Alimentos para Aprender" when:7d');
+  const url = `https://news.google.com/rss/search?q=${q}&hl=es-419&gl=CO&ceid=CO:es-419`;
+  for (const p of PROXIES) {
+    try {
+      const ctrl = new AbortController(); setTimeout(() => ctrl.abort(), 9000);
+      const xml = await (await fetch(p(url), { signal: ctrl.signal })).text();
+      const doc = new DOMParser().parseFromString(xml, 'text/xml');
+      const its = [...doc.querySelectorAll('item')].map(it => {
+        const fuente = it.querySelector('source')?.textContent || '';
+        let titulo = it.querySelector('title')?.textContent || '';
+        if (fuente && titulo.endsWith(' - ' + fuente)) titulo = titulo.slice(0, -(fuente.length + 3));
+        return { titulo, fuente, url: it.querySelector('link')?.textContent, fecha: new Date(it.querySelector('pubDate')?.textContent).toISOString(), imagen: '' };
+      }).filter(n => /pae|alimentaci[oó]n escolar|alimentos para aprender|restaurante escolar/i.test(n.titulo) && !/per[uú]|midis/i.test(n.titulo));
+      if (its.length) return its;
+    } catch { }
+  }
+  return [];
+}
+async function actualizar(manual) {
+  const b = $('#refresh'); b.classList.add('busy');
+  $('#status').textContent = t('Buscando noticias en vivo…', 'Searching live news…');
+  await cargarRobot(); pintarNoticias(); pintarTicker(); pintarVideos();
+  LIVE = await buscarEnVivo();
+  const h = new Date().toLocaleTimeString(LANG === 'en' ? 'en-US' : 'es-CO', { timeZone: TZ, hour: '2-digit', minute: '2-digit' });
+  const n48 = todas().filter(n => Date.now() - new Date(n.fecha) < 48 * 36e5).length;
+  $('#status').innerHTML = LIVE.length
+    ? t(`<b>En vivo</b> · ${LIVE.length} titulares de la última semana · ${n48} en las últimas 48 h · revisado a las ${h}`, `<b>Live</b> · ${LIVE.length} headlines this week · ${n48} in the last 48 h · checked at ${h}`)
+    : t(`Mostrando lo que guardó el robot · revisado a las ${h}`, `Showing the robot's saved news · checked at ${h}`);
+  pintarNoticias(); pintarTicker(); sumarFotosHero();
+  b.classList.remove('busy');
+  if (manual) toast(t('Listo, al día', 'Up to date'));
+}
+$('#refresh').onclick = () => actualizar(true);
+
+/* ---------- videos ---------- */
+function pintarVideos() {
+  const v = (DATA.videos || []).slice(0, 6);
+  if (!v.length) { $('#vids').innerHTML = ''; return; }
+  $('#vids').innerHTML = v.map(x => `<div class="vid" data-id="${esc(x.id)}"><img src="https://i.ytimg.com/vi/${esc(x.id)}/hqdefault.jpg" alt="" loading="lazy"><span class="play">${t('Ver video', 'Play')}</span><div class="lab">${esc(x.titulo)}</div></div>`).join('');
+}
+$('#vids').onclick = e => {
+  const v = e.target.closest('.vid'); if (!v || v.querySelector('iframe')) return;
+  v.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${v.dataset.id}?autoplay=1" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
+};
+
+/* ---------- barras de suspensiones ---------- */
+const SUSP = [['Magdalena', 133000], ['Cauca', 97658], ['Cesar', 74452], ['Chocó', 55151], ['Atlántico', 47881], ['Buenaventura', 42356], ['Sucre', 31485], ['Antioquia', 12164]];
+function pintarBarras() {
+  const max = SUSP[0][1];
+  $('#hbars').innerHTML = SUSP.map(([d, v]) => `<div class="hb ${d === 'Antioquia' ? 'ant' : ''}"><span class="lbl">${d}</span><div class="tr"><i data-w="${(v / max * 100).toFixed(1)}"></i></div><span class="v">${v.toLocaleString(LANG === 'en' ? 'en-US' : 'es-CO')}</span></div>`).join('');
+  obs($$('#hbars i'));
+}
+
+/* ---------- línea de tiempo ---------- */
+const TL = [
+  ['7 ene 2026', '7 Jan 2026', '', 'Nuevas reglas del PAE', 'New PAE rules', 'La UApA expide la Resolución 0003 con los lineamientos técnicos, estándares y condiciones mínimas del programa.', 'The national unit issues Resolution 0003 with the program\'s technical guidelines and minimum standards.'],
+  ['19 ene 2026', '19 Jan 2026', 'bad', 'Antioquia arranca sin comida', 'Antioquia starts without meals', 'Varios municipios de Antioquia inician clases sin atención del PAE.', 'Several Antioquia towns start classes without school meals.'],
+  ['20 mar 2026', '20 Mar 2026', 'good', 'Récord de plata para el PAE', 'Record funding', 'Se reparten los recursos 2026: cerca de $3 billones de la Nación, meta de 6,2 millones de estudiantes y 90,8% de cobertura, y 722.000 canastas para vacaciones.', '2026 funds are distributed: about COP 3 trillion from the nation, a goal of 6.2 million students and 90.8% coverage, plus 722,000 holiday food baskets.'],
+  ['Jul 2026', 'Jul 2026', '', 'Cobertura en 85%', 'Coverage at 85%', 'La UApA reporta 85% de cobertura, por debajo de la meta del año.', 'The unit reports 85% coverage, below the year\'s goal.'],
+  ['21–24 jul 2026', '21–24 Jul 2026', 'bad', 'Nariño: 4 días sin almuerzo', 'Nariño: 4 days without lunch', 'Cerca de 62.000 estudiantes sin PAE por ajustes al contrato; a la vez, 2.369 manipuladoras quedan con contrato formal.', 'About 62,000 students go without meals due to contract changes; meanwhile 2,369 cooks get formal contracts.'],
+  ['7 ago 2026', '7 Aug 2026', '', 'Cambio de gobierno', 'New government', 'Se posesiona el nuevo Gobierno nacional. Hoy la cartera de Educación la lidera la ministra Ilva Myriam Hoyos.', 'The new national government takes office. The Education Ministry is now led by Minister Ilva Myriam Hoyos.'],
+  ['12 ago 2026', '12 Aug 2026', 'bad', 'La Javeriana prende las alarmas', 'Javeriana raises the alarm', 'El Informe LEE 145 muestra que los beneficiarios cayeron en 253.360 entre 2022 y 2025 y que las interrupciones van en aumento.', 'LEE Report 145 shows beneficiaries fell by 253,360 between 2022 and 2025 and interruptions are rising.'],
+  ['Sep 2026', 'Sep 2026', 'good', 'Arauca llega al 100%', 'Arauca hits 100%', 'Arauca reporta cobertura total en sus siete municipios, más de 54.000 estudiantes.', 'Arauca reports full coverage in its seven municipalities, over 54,000 students.'],
+  ['14 sep 2026', '14 Sep 2026', 'bad', 'Popayán: restaurante cerrado', 'Popayán: canteen closed', 'Un colegio público suspende el restaurante escolar hasta nueva orden y pide mandar comida desde la casa.', 'A public school suspends its canteen until further notice and asks families to send food from home.'],
+  ['29 sep 2026', '29 Sep 2026', 'bad', 'Contraloría: $39.139 millones', 'Comptroller: COP 39,139 million', '84 hallazgos, 41 fiscales y alerta por 13 territorios sin contratos asegurados (cerca de 600.000 estudiantes).', '84 findings, 41 fiscal, and an alert for 13 territories without secured contracts (about 600,000 students).'],
+  ['29–30 oct 2026', '29–30 Oct 2026', '', 'Así viene el PAE 2027', 'What comes in 2027', 'MinEducación y los departamentos revisan la financiación: $3,1 billones proyectados y meta de 88% de cobertura.', 'The ministry and departments review funding: COP 3.1 trillion projected and an 88% coverage goal.']
+];
+function pintarTimeline() {
+  $('#tl').innerHTML = TL.map(e => `<div class="ev ${e[2]}"><time>${t(e[0], e[1])}</time><h3>${t(e[3], e[4])}</h3><p>${t(e[5], e[6])}</p></div>`).join('');
+  obs($$('.ev'));
+}
+
+/* ---------- animaciones al hacer scroll ---------- */
+const io = new IntersectionObserver(es => es.forEach(e => {
+  if (!e.isIntersecting) return;
+  const el = e.target;
+  el.classList.add('in');
+  if (el.dataset.w) el.style.width = el.dataset.w + '%';
+  if (el.dataset.count !== undefined && !el.dataset.done) contar(el);
+  io.unobserve(el);
+}), { threshold: .25 });
+function obs(list) { list.forEach(x => io.observe(x)); }
+function contar(el) {
+  el.dataset.done = 1;
+  const fin = parseFloat(el.dataset.count), dec = +el.dataset.dec, t0 = performance.now(), dur = 1800;
+  const loc = LANG === 'en' ? 'en-US' : 'es-CO';
+  (function paso(now) {
+    const p = Math.min(1, (now - t0) / dur), v = fin * (1 - Math.pow(1 - p, 3));
+    el.textContent = v.toLocaleString(loc, { minimumFractionDigits: dec, maximumFractionDigits: dec });
+    if (p < 1) requestAnimationFrame(paso);
+  })(t0);
+}
+obs($$('.reveal')); obs($$('[data-count]')); obs($$('.bar .fill')); obs($$('.fl'));
+$$('.fl').forEach((f, i) => f.style.transitionDelay = (i * 0.12) + 's');
+
+/* nav activo */
+const secs = ['hoy', 'cifras', 'lupa', 'antioquia', 'actua'].map(id => document.getElementById(id));
+addEventListener('scroll', () => {
+  let act = ''; secs.forEach(s => { if (s.getBoundingClientRect().top < innerHeight * .4) act = s.id; });
+  $$('#bn a').forEach(a => a.classList.toggle('on', a.getAttribute('href') === '#' + act));
+}, { passive: true });
+
+/* ---------- reporte diario ---------- */
+let rVal = '';
+const hoyKey = () => new Date().toLocaleDateString('en-CA', { timeZone: TZ });
+const rep = () => JSON.parse(localStorage.getItem('pae-rep') || '{}');
+$('#rCol').value = localStorage.getItem('pae-col') || '';
+$('#rSeg').onclick = e => { const b = e.target.closest('button'); if (!b) return; rVal = b.dataset.v; $$('#rSeg button').forEach(x => x.classList.toggle('on', x === b)); };
+$('#rSave').onclick = () => {
+  if (!rVal) return toast(t('Escoge si llegó o no', 'Choose whether it arrived'));
+  const r = rep(); r[hoyKey()] = { v: rVal, nota: $('#rNota').value.trim() };
+  localStorage.setItem('pae-rep', JSON.stringify(r)); localStorage.setItem('pae-col', $('#rCol').value.trim());
+  historial(); toast(t('Guardado', 'Saved'));
+};
+function historial() {
+  const r = rep(), dias = Object.keys(r).sort();
+  $('#rHist').innerHTML = dias.slice(-40).map(d => `<span class="${r[d].v}" title="${d}"></span>`).join('');
+  const no = dias.filter(d => r[d].v === 'no').length, inc = dias.filter(d => r[d].v === 'inc').length;
+  $('#rSum').textContent = dias.length ? t(`${dias.length} días anotados · ${no} sin PAE · ${inc} incompletos`, `${dias.length} days logged · ${no} without meals · ${inc} incomplete`) : '';
+  const hoy = r[hoyKey()]; if (hoy) { rVal = hoy.v; $$('#rSeg button').forEach(x => x.classList.toggle('on', x.dataset.v === hoy.v)); }
+}
+$('#rWa').onclick = () => {
+  const est = { si: t('SÍ llegó', 'ARRIVED'), no: t('NO llegó', 'did NOT arrive'), inc: t('llegó INCOMPLETO', 'arrived INCOMPLETE') }[rVal] || t('(sin marcar)', '(not marked)');
+  const fecha = new Date().toLocaleDateString(LANG === 'en' ? 'en-US' : 'es-CO', { timeZone: TZ, weekday: 'long', day: 'numeric', month: 'long' });
+  const nota = $('#rNota').value.trim();
+  const msg = t(`Reporte PAE — ${fecha}\nColegio: ${$('#rCol').value || '—'} (${$('#rMun').value})\nHoy el PAE ${est}.${nota ? '\nDetalle: ' + nota : ''}\n\nSigue el PAE día a día en PAE al Día: ${location.origin + location.pathname}`,
+    `School meals report — ${fecha}\nSchool: ${$('#rCol').value || '—'} (${$('#rMun').value})\nToday the PAE ${est}.${nota ? '\nDetails: ' + nota : ''}\n\nFollow it on PAE al Día: ${location.origin + location.pathname}`);
+  open('https://wa.me/?text=' + encodeURIComponent(msg), '_blank');
+};
+
+/* ---------- calculadora ---------- */
+const COSTO = 7.24e12 / 6.2e6 / 180;
+function calc() {
+  const e = Math.max(0, +$('#cEst').value || 0), d = Math.max(0, +$('#cDias').value || 0), v = e * d * COSTO;
+  $('#cOut').textContent = '$' + Math.round(v).toLocaleString('es-CO');
+  $('#cTxt').textContent = t(`son ${(e * d).toLocaleString('es-CO')} raciones que no se sirvieron.`, `that's ${(e * d).toLocaleString('en-US')} meals that were never served.`);
+}
+$('#cEst').oninput = calc; $('#cDias').oninput = calc;
+
+/* ---------- derecho de petición ---------- */
+function carta() {
+  const fecha = new Date().toLocaleDateString('es-CO', { timeZone: TZ, day: 'numeric', month: 'long', year: 'numeric' });
+  const nom = $('#pNom').value.trim() || '[NOMBRE COMPLETO]', ced = $('#pCed').value.trim() || '[CÉDULA]';
+  const col = $('#rCol').value.trim() || '[NOMBRE DEL COLEGIO]', mun = $('#rMun').value.trim() || '[MUNICIPIO]';
+  const txt = `${mun}, ${fecha}
+
+Señores
+${$('#pDest').value}
+E. S. D.
+
+Asunto: Derecho de petición — información del Programa de Alimentación Escolar (PAE)
+
+Yo, ${nom}, identificado(a) con cédula de ciudadanía No. ${ced}, en ejercicio del derecho fundamental de petición consagrado en el artículo 23 de la Constitución Política y regulado por la Ley 1755 de 2015, respetuosamente solicito la siguiente información sobre el PAE en la institución educativa ${col}, del municipio de ${mun}, para la vigencia 2026:
+
+1. Número del contrato o convenio con el que se presta el PAE, nombre y NIT del operador, valor total y plazo de ejecución.
+2. Número de estudiantes priorizados y efectivamente atendidos en la institución, por modalidad (ración preparada en sitio, industrializada, jornada única).
+3. Fechas en las que el servicio no se prestó o se prestó de forma incompleta durante 2026, con las causas y las medidas tomadas.
+4. Minuta o ciclo de menús aprobado y el valor por ración que se paga al operador.
+5. Garantía de que el servicio se prestará hasta el último día del calendario escolar 2026 y el estado del proceso de contratación para el inicio del calendario 2027.
+6. Integrantes del Comité de Alimentación Escolar (CAE) de la institución y fechas de la próxima Mesa Pública del PAE.
+
+Recibiré respuesta dentro de los quince (15) días hábiles que establece la ley.
+
+Atentamente,
+
+${nom}
+C.C. ${ced}
+Correo / teléfono: ______________________`;
+  $('#pOut').textContent = txt; $('#pOut').hidden = false; return txt;
+}
+$('#pGen').onclick = () => { carta(); toast(t('Carta lista', 'Letter ready')); };
+$('#pCopy').onclick = async () => { const x = carta(); try { await navigator.clipboard.writeText(x); toast(t('Copiada', 'Copied')); } catch { toast(t('Selecciónala y cópiala', 'Select and copy it')); } };
+$('#pWa').onclick = () => open('https://wa.me/?text=' + encodeURIComponent(carta()), '_blank');
+
+/* ---------- arranque ---------- */
+aplicarIdioma();
+actualizar(false);
+document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') { reloj(); actualizar(false); } });
+if ('serviceWorker' in navigator) addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+})();
+</script>
+</body>
+</html>

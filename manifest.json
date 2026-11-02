@@ -1,0 +1,15 @@
+{
+  "name": "PAE al Día — Vibras Positivas HM",
+  "short_name": "PAE al Día",
+  "description": "Seguimiento ciudadano al Programa de Alimentación Escolar (PAE) de Colombia.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0a1a33",
+  "theme_color": "#0a1a33",
+  "lang": "es-CO",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

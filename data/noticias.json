@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-02T20:39:34.603Z",
+  "actualizado": "2026-11-03T02:47:35.321Z",
   "items": [
     {
       "titulo": "​​​​​​​Asamblea del Cesar autorizó recursos para el PAE 2027, pero plantea ampliar la financiación",
@@ -7,6 +7,13 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNmxKOV9pdjRpUWUyNVNkN1ExN0sxVmgxQzFmNUdwN3pnQk1CcmNBQXVQM1Q5aVV2Wm51T3UySV96R2RrQ0xBYTl3OFZtYTVxM3FLRGkxNUE2Q2xCR0pIT3VPRnlheXNHelpRSkptUTZPUlk2ZEhCaTB5YWdPQTV4UHRVb2V4dzFX?oc=5",
       "fecha": "2026-11-02T17:30:07.000Z",
       "imagen": ""
+    },
+    {
+      "titulo": "El Guaviare contará con 74 nuevos docentes de planta y cerca de $24.000 millones para el PAE en 2027",
+      "fuente": "ELHERALDO.CO",
+      "url": "https://www.elheraldo.co/colombia/2026/11/01/el-guaviare-contara-con-74-nuevos-docentes-de-planta-y-cerca-de-24000-millones-para-el-pae-en-2027/",
+      "fecha": "2026-11-01T21:30:40.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.Bxf1QTKomgwDgsJZfqeXSQ&pid=News&w=640&h=360&c=7"
     },
     {
       "titulo": "PAE ofrece menú festivo en Zipaquirá con motivo del Día del Niño",
@@ -21,13 +28,6 @@
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQOVZHbXp6cUpXQi1ETWJDNHhkX0tveHpvZ2htR0JaSGlLdzdZOTF1SGVBMTI1a0ZwQ0JablE1clRaNXRtT2V0ampzTzFreV96YmFobTZaUUhGb3I3djJ0SjEtdkdVVG1xR1RPOXJieFFYMTFfVlNUSXlMSkJWNXBWUmVEdTVodEJZdERXT3dSbEsxN1Rzbi1OaGJlMlNHbHQ1bTZyOTNkOEc5NWtreXM4S2M1Wm53MjMyWVJFVDkwdTJFTFRJZWQ5RkFobDhsMWdIazYwa29TTHZUbDllc2pxdW1JNVE?oc=5",
       "fecha": "2026-11-01T17:29:54.000Z",
       "imagen": ""
-    },
-    {
-      "titulo": "El Guaviare contará con 74 nuevos docentes de planta y cerca de $24.000 millones para el PAE en 2027",
-      "fuente": "El Heraldo",
-      "url": "https://www.elheraldo.co/colombia/2026/11/01/el-guaviare-contara-con-74-nuevos-docentes-de-planta-y-cerca-de-24000-millones-para-el-pae-en-2027/",
-      "fecha": "2026-11-01T13:30:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.Bxf1QTKomgwDgsJZfqeXSQ&pid=News&w=640&h=360&c=7"
     },
     {
       "titulo": "PAE tendrá $3,1 billones y una meta de cobertura del 88 % en 2027",
@@ -275,16 +275,16 @@
       "imagen": ""
     },
     {
-      "titulo": "Dosquebradas pondrá en el centro la voz de la comunidad educativa a través de Segunda Mesa Pública de Alimentación Escolar",
-      "fuente": "Dosquebradas",
-      "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxORlhzMHNGbWtwM09mUmNoREpJVDlzbU5GMWFKSk1RbndITjR0QzFaNGRQZlA5MnlBcE8yVHdrRm5xemFTUHVPSTkxWC10YWhTOEZCYU9EajY3R2FybWJjWWZIVVczU2NVWFFnQm5jRW9icEtwdUd4ZzlYZURlZmhTSDEzbmc4RWxQT0dnQllkTUxlazJyOWRUYXF2YTVaSWI4N2VRUGdhVzYzSzZDZW80SWdGNXpjakNyeGVmbmp4NzB3cTNmNUg0bF82aGg2MDFXQXU1cEJlQ0ZUNDNELUVVMEFycWdoV3Z2UUhHeXd6R056WkxwZTVDRHFlWDkwT0N2b3RNOUwzV0xDd3BucGRMWThKckdFMEJkcEVZWThIYkxIQzVpeTRoSTJXOFQtUnZ3Q2lib2twTzNNS3NVeEN2SVItczE1TDdEYUE?oc=5",
+      "titulo": "Delcy Rodríguez deja en evidencia diferencias en los números del Programa de Alimentación Escolar",
+      "fuente": "Infobae",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdVQycDg1MEtiWHJ2UXI5cGx5RVEtN2YtcUlxbVBOUkprbXg2RTJOa2pIUkluczVNOEFCbldpTjVVNkp0b0ZaeE5uTXB6Q3JwYWM0VWZJdkJWR0E4OWxYMG4tRDFuVEpHM05Jall3WXZSY3QxSXFmUmhFM2RzMkpjQkdNc0VJZ0kzNXRVZGZxdjVSeXphRE9jZkFsdEMxUWZYMndYcGtkNG1KcmFHXzZqQWt0aHk2SlZYM3RfWWhuLVZ5TGN2UDg0OTFiN3F2MmdMVlJEMXVpR2NRNm_SAfYBQVVfeXFMT2hsejhuTWlsZEZzS0hUMzlSUnZ0T1A1bWZ2UnBkWDYxS181cFAtRjM5elE0WXM2SUxxY09iNEZpdFpmN1FROWFaRFpZUG5MLUtZX0JkbFhhRGJMMkhUckg3RDdaSHBwTmI1cFBjT0I0X0NXUldfdlAwbk9QVWJWSG05dkQzcXplemdwNzlOVEpsSXFGWG9lb1VfSzJxZTd3bGQwaW1mdlRkYU9HM1hUYnpyZ2xPZjlhWjMyUktjeVhYMmN5SUdnYld6YktqRzNtLTV1TDVrV0M1WTVTbHNsUmJaUFhDcWo1enlDOHVSUnZLazkwcmlR?oc=5",
       "fecha": "2026-10-13T07:00:00.000Z",
       "imagen": ""
     },
     {
-      "titulo": "Delcy Rodríguez deja en evidencia diferencias en los números del Programa de Alimentación Escolar",
-      "fuente": "Infobae",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdVQycDg1MEtiWHJ2UXI5cGx5RVEtN2YtcUlxbVBOUkprbXg2RTJOa2pIUkluczVNOEFCbldpTjVVNkp0b0ZaeE5uTXB6Q3JwYWM0VWZJdkJWR0E4OWxYMG4tRDFuVEpHM05Jall3WXZSY3QxSXFmUmhFM2RzMkpjQkdNc0VJZ0kzNXRVZGZxdjVSeXphRE9jZkFsdEMxUWZYMndYcGtkNG1KcmFHXzZqQWt0aHk2SlZYM3RfWWhuLVZ5TGN2UDg0OTFiN3F2MmdMVlJEMXVpR2NRNm_SAfYBQVVfeXFMT2hsejhuTWlsZEZzS0hUMzlSUnZ0T1A1bWZ2UnBkWDYxS181cFAtRjM5elE0WXM2SUxxY09iNEZpdFpmN1FROWFaRFpZUG5MLUtZX0JkbFhhRGJMMkhUckg3RDdaSHBwTmI1cFBjT0I0X0NXUldfdlAwbk9QVWJWSG05dkQzcXplemdwNzlOVEpsSXFGWG9lb1VfSzJxZTd3bGQwaW1mdlRkYU9HM1hUYnpyZ2xPZjlhWjMyUktjeVhYMmN5SUdnYld6YktqRzNtLTV1TDVrV0M1WTVTbHNsUmJaUFhDcWo1enlDOHVSUnZLazkwcmlR?oc=5",
+      "titulo": "Dosquebradas pondrá en el centro la voz de la comunidad educativa a través de Segunda Mesa Pública de Alimentación Escolar",
+      "fuente": "Dosquebradas",
+      "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxORlhzMHNGbWtwM09mUmNoREpJVDlzbU5GMWFKSk1RbndITjR0QzFaNGRQZlA5MnlBcE8yVHdrRm5xemFTUHVPSTkxWC10YWhTOEZCYU9EajY3R2FybWJjWWZIVVczU2NVWFFnQm5jRW9icEtwdUd4ZzlYZURlZmhTSDEzbmc4RWxQT0dnQllkTUxlazJyOWRUYXF2YTVaSWI4N2VRUGdhVzYzSzZDZW80SWdGNXpjakNyeGVmbmp4NzB3cTNmNUg0bF82aGg2MDFXQXU1cEJlQ0ZUNDNELUVVMEFycWdoV3Z2UUhHeXd6R056WkxwZTVDRHFlWDkwT0N2b3RNOUwzV0xDd3BucGRMWThKckdFMEJkcEVZWThIYkxIQzVpeTRoSTJXOFQtUnZ3Q2lib2twTzNNS3NVeEN2SVItczE1TDdEYUE?oc=5",
       "fecha": "2026-10-13T07:00:00.000Z",
       "imagen": ""
     },

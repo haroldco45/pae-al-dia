@@ -6,9 +6,15 @@
 <title>PAE al Día — La comida que mantiene a los niños en el colegio</title>
 <meta name="description" content="App ciudadana de seguimiento al Programa de Alimentación Escolar (PAE) en Colombia: noticias en vivo, cifras, alertas de la Contraloría, Antioquia y Bajo Cauca, y cómo hacer control social. Vibras Positivas HM.">
 <meta name="theme-color" content="#0a1a33">
-<meta property="og:title" content="PAE al Día — ¿Le llegó hoy la comida a tu colegio?">
-<meta property="og:description" content="Seguimiento ciudadano al PAE: noticias cada 30 minutos, cifras reales y cómo reclamar.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://pae-al-dia.netlify.app/">
+<meta property="og:title" content="PAE al Día — La plata del PAE se cuida entre todos">
+<meta property="og:description" content="Seguimiento ciudadano al PAE en todo Colombia: casos como los $36.324 millones de Sincelejo, noticias cada 30 minutos y un derecho de petición que envías a todos los entes de una vez.">
 <meta property="og:image" content="https://www.mineducacion.gov.co/1780/articles-427971_foto_g.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="PAE al Día — La plata del PAE se cuida entre todos">
+<meta name="twitter:description" content="Casos del PAE en todo Colombia, noticias cada 30 minutos y derecho de petición a todos los entes de una vez.">
+<meta name="twitter:image" content="https://www.mineducacion.gov.co/1780/articles-427971_foto_g.jpg">
 <link rel="manifest" href="manifest.json">
 <link rel="icon" href="icon-192.png">
 <link rel="apple-touch-icon" href="icon-192.png">
@@ -52,7 +58,7 @@ header.top{position:sticky;top:0;z-index:50;background:rgba(10,26,51,.92);backdr
 @media(max-width:620px){.clock{display:none}.brand small{display:none}}
 
 /* hero */
-.hero{position:relative;min-height:88vh;color:#fff;overflow:hidden;display:flex;align-items:flex-end;background:var(--navy)}
+.hero{position:relative;min-height:calc(100svh - 130px);color:#fff;overflow:hidden;display:flex;align-items:flex-end;background:var(--navy)}
 .slides{position:absolute;inset:0}
 .slides img{position:absolute;color:transparent;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.12);transition:opacity 1.6s ease}
 .slides img.on{opacity:1;animation:kb 9s ease-out forwards}
@@ -267,6 +273,68 @@ nav.bn a.on{color:var(--navy);background:var(--yellow)}
 .reveal.in{opacity:1;transform:none}
 .toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%) translateY(20px);background:var(--navy);color:#fff;padding:12px 20px;border-radius:99px;font-weight:600;opacity:0;transition:.3s;z-index:90;pointer-events:none}
 .toast.on{opacity:1;transform:translateX(-50%)}
+
+/* casos */
+#casos{background:var(--navy);color:#fff;position:relative;overflow:hidden}
+#casos .eyebrow{color:var(--yellow)}
+#casos .sub{color:rgba(255,255,255,.72)}
+#casos h2 em{font-style:normal;color:var(--yellow)}
+.cfil{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0 6px}
+.cfil button{background:rgba(255,255,255,.08);color:#fff;border:1px solid rgba(255,255,255,.18);padding:9px 15px;border-radius:99px;font-weight:600;font-size:.86rem;transition:.2s}
+.cfil button.on{background:var(--yellow);color:var(--navy);border-color:var(--yellow)}
+.casos{display:grid;gap:22px;margin-top:22px}
+.caso{background:#fff;color:var(--ink);border-radius:var(--r);overflow:hidden;display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);box-shadow:0 30px 60px -30px rgba(0,0,0,.6);opacity:0;transform:translateY(24px);transition:opacity .6s,transform .6s}
+.caso.in{opacity:1;transform:none}
+@media(max-width:860px){.caso{grid-template-columns:1fr}}
+.caso .ph{position:relative;min-height:260px;background:var(--navy2);overflow:hidden}
+.caso .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;animation:kb2 14s ease-in-out infinite alternate}
+@keyframes kb2{from{transform:scale(1.02)}to{transform:scale(1.14) translateX(-2%)}}
+.caso .ph::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,26,51,.1),rgba(10,26,51,.85))}
+.caso .ph .over{position:absolute;left:20px;right:20px;bottom:18px;z-index:2;color:#fff}
+.caso .terr{display:inline-block;background:var(--red);color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:5px 10px;border-radius:7px}
+.caso .monto{font-family:var(--h);font-weight:800;font-size:clamp(2.4rem,6vw,3.6rem);line-height:1;margin-top:10px;color:var(--yellow)}
+.caso .monto small{display:block;font-family:var(--b);font-weight:500;font-size:.85rem;color:#fff;opacity:.85;margin-top:6px;line-height:1.35}
+.caso .bd{padding:24px 24px 22px;display:flex;flex-direction:column;gap:14px}
+.caso h3{font-size:1.55rem}
+.caso .est{display:flex;flex-wrap:wrap;gap:6px}
+.caso .est span{font-size:.74rem;font-weight:700;padding:5px 10px;border-radius:99px;background:var(--paper);border:1px solid var(--line)}
+.caso .est span.hot{background:#ffe3e6;border-color:#f6b3bb;color:#9b1020}
+.caso .res{color:var(--muted);font-size:.95rem}
+.caso details{border-top:1px solid var(--line);padding-top:10px}
+.caso summary{cursor:pointer;font-weight:700;font-size:.92rem;color:var(--blue);list-style:none}
+.caso summary::-webkit-details-marker{display:none}
+.caso summary::after{content:" +";}
+.caso details[open] summary::after{content:" –"}
+.cline{display:grid;gap:10px;margin-top:12px}
+.cline div{display:grid;grid-template-columns:92px 1fr;gap:10px;font-size:.9rem}
+.cline time{font-weight:700;color:var(--red);font-size:.8rem}
+.caso .voz{background:var(--paper);border-left:4px solid var(--blue);padding:10px 14px;border-radius:0 12px 12px 0;font-size:.88rem;margin-top:12px}
+.caso .ult{display:grid;gap:6px}
+.caso .ult a{font-size:.86rem;text-decoration:none;padding:9px 12px;background:var(--paper);border-radius:10px;display:flex;justify-content:space-between;gap:10px}
+.caso .ult a b{color:var(--muted);font-weight:500;white-space:nowrap;font-size:.76rem}
+.caso .src{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:.78rem;margin-top:10px}
+.caso .src a{color:var(--muted)}
+.caso .acts{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto}
+.caso .acts .btn{border:0;padding:12px 18px}
+.btn.n{background:var(--navy);color:#fff}
+.btn.w{background:#25d366;color:#06301a}
+.btn.r{background:var(--red);color:#fff}
+.btn.o{background:var(--paper);color:var(--navy);border:1.5px solid var(--line)}
+.reporta{margin-top:26px;background:rgba(255,255,255,.06);border:1px dashed rgba(255,255,255,.3);border-radius:var(--r);padding:22px;display:grid;grid-template-columns:1fr 1fr 2fr auto;gap:10px;align-items:end}
+.reporta h3{grid-column:1/-1;font-size:1.3rem}
+.reporta p{grid-column:1/-1;color:rgba(255,255,255,.7);font-size:.9rem;margin-top:-6px}
+.reporta input{background:rgba(255,255,255,.95)}
+@media(max-width:860px){.reporta{grid-template-columns:1fr}}
+/* petición a todos */
+.dest{display:grid;gap:8px;margin-top:4px}
+.dest .d{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:start;padding:10px 12px;border-radius:12px;background:var(--paper);border:1.5px solid transparent}
+.dest .d.on{border-color:var(--blue);background:#eef4ff}
+.dest .d input[type=checkbox]{width:18px;height:18px;margin-top:3px;accent-color:var(--blue)}
+.dest .d b{font-size:.9rem;display:block}
+.dest .d input[type=email]{margin-top:6px;padding:8px 10px;font-size:.84rem;background:#fff}
+.dest .d a{font-size:.78rem;color:var(--blue)}
+.cnt{font-size:.85rem;font-weight:700;color:var(--blue);margin-top:10px}
+.pet{grid-column:1/-1}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 </head>
@@ -294,7 +362,7 @@ nav.bn a.on{color:var(--navy);background:var(--yellow)}
     <p class="lead" data-en="Colombia's School Feeding Program (PAE) reaches about 87% of public-school students. Around one million still don't get it, and the Comptroller keeps finding cost overruns. Here you follow it day by day — and learn how to demand it.">El Programa de Alimentación Escolar (PAE) llega a cerca del 87% de los estudiantes de colegios oficiales. Todavía cerca de un millón no lo recibe, y la Contraloría sigue encontrando sobrecostos. Aquí lo sigues día a día y aprendes a exigirlo.</p>
     <div class="cta">
       <a class="btn y" href="#hoy" data-en="What happened today">Lo de hoy</a>
-      <a class="btn g" href="#actua" data-en="Report my school">Reportar mi colegio</a>
+      <a class="btn g" href="#casos" data-en="See the cases">Ver los casos</a>
     </div>
   </div>
   <span class="credit" data-en="Photos: Ministry of Education of Colombia">Fotos: Ministerio de Educación Nacional</span>
@@ -315,11 +383,31 @@ nav.bn a.on{color:var(--navy);background:var(--yellow)}
     <div class="chips" id="chips">
       <button class="chip on" data-f="todo" data-en="All">Todo</button>
       <button class="chip" data-f="hoy" data-en="Last 48 h">Últimas 48 h</button>
+      <button class="chip" data-f="casos" data-en="Cases">Casos</button>
       <button class="chip" data-f="antioquia">Antioquia</button>
       <button class="chip" data-f="control" data-en="Watchdogs">Control fiscal</button>
       <button class="chip" data-f="suspension" data-en="Suspensions">Suspensiones</button>
     </div>
     <div class="rail" id="rail"></div>
+  </div>
+</section>
+
+<!-- CASOS -->
+<section id="casos">
+  <div class="wrap">
+    <span class="eyebrow" data-en="Case by case, all over Colombia">Caso por caso, en todo Colombia</span>
+    <h2 data-en="School-meal money is <em>everyone's</em> to watch">La plata del PAE se cuida <em>entre todos</em></h2>
+    <p class="sub" data-en="Each case shows what the watchdogs found, what the accused say, what is still pending, and the latest news the robot finds. From each one you can demand answers from every agency involved at once.">Cada caso muestra lo que encontraron los entes de control, lo que dicen los señalados, lo que falta por aclarar y lo último que trae el robot. Desde cada uno puedes exigir respuesta a todos los entes involucrados de una sola vez.</p>
+    <div class="cfil" id="cfil"></div>
+    <div class="casos" id="casosList"></div>
+    <div class="reporta">
+      <h3 data-en="Is something wrong with the PAE in your town?">¿Algo raro con el PAE en tu municipio?</h3>
+      <p data-en="Send it with a link to the news or document. We check it and, if it holds up, it goes on the list.">Mándalo con el enlace de la noticia o del documento. Lo revisamos y, si tiene soporte, entra a la lista.</p>
+      <div><label data-en="Town">Municipio</label><input id="kMun" placeholder="Ej.: Montería"></div>
+      <div><label data-en="Department">Departamento</label><input id="kDep" placeholder="Ej.: Córdoba"></div>
+      <div><label data-en="What happened (and link)">Qué pasó (y enlace)</label><input id="kTxt" placeholder="Ej.: el operador no pagó a las manipuladoras…" data-en-ph="E.g.: the operator didn't pay the cooks…"></div>
+      <button class="btn y" id="kSend" style="border:0" data-en="Send case">Enviar caso</button>
+    </div>
   </div>
 </section>
 
@@ -508,21 +596,31 @@ nav.bn a.on{color:var(--navy);background:var(--yellow)}
         <p class="note" data-en="Estimate by Vibras Positivas HM using official figures. The real cost per meal varies by territory and contract.">Estimación de Vibras Positivas HM con cifras oficiales. El costo real por ración varía según el territorio y el contrato.</p>
       </div>
 
-      <div class="panel">
-        <h3 data-en="Petition in two minutes">Derecho de petición en dos minutos</h3>
-        <p class="s" data-en="Asks the education secretariat for the contract, operator, menu and coverage of your school. They must answer within 15 business days.">Le pide a la Secretaría de Educación el contrato, el operador, la minuta y la cobertura de tu colegio. Deben responder en 15 días hábiles.</p>
-        <label data-en="Your full name">Tu nombre completo</label>
-        <input id="pNom" placeholder="Nombre y apellidos">
-        <label data-en="ID number">Cédula</label>
-        <input id="pCed" inputmode="numeric">
-        <label data-en="Addressed to">Dirigido a</label>
-        <select id="pDest">
-          <option value="Secretaría de Educación de Antioquia (SEDUCA)">Secretaría de Educación de Antioquia (SEDUCA)</option>
-          <option value="Secretaría de Educación Municipal">Secretaría de Educación Municipal (municipio certificado)</option>
-          <option value="Unidad Administrativa Especial de Alimentación Escolar – Alimentos para Aprender (UApA)">Unidad Alimentos para Aprender (UApA)</option>
-        </select>
+      <div class="panel pet" id="peticion">
+        <h3 data-en="One petition to every agency, all at once">Derecho de petición a todos los entes, de una sola vez</h3>
+        <p class="s" data-en="Pick the case, fill in your name and ID, and send one letter to every agency involved. By law (Law 1755 of 2015) each one must answer within 15 business days, and forward what isn't theirs to whoever is responsible.">Escoge el caso, pon tu nombre y cédula, y manda una sola carta a todos los entes involucrados. Por ley (Ley 1755 de 2015) cada uno debe responder en 15 días hábiles y pasarle a quien corresponda lo que no sea suyo.</p>
+        <div class="act" style="margin-top:0">
+          <div>
+            <label data-en="Case">Caso</label>
+            <select id="pCaso"></select>
+            <label data-en="Your full name">Tu nombre completo</label>
+            <input id="pNom" placeholder="Nombre y apellidos">
+            <label data-en="ID number">Cédula</label>
+            <input id="pCed" inputmode="numeric">
+            <label data-en="Your email or phone (for the reply)">Tu correo o celular (para la respuesta)</label>
+            <input id="pMail" placeholder="correo@ejemplo.com · 300 000 0000">
+          </div>
+          <div>
+            <label data-en="Addressed to (all checked by default)">Dirigido a (todos marcados)</label>
+            <div class="dest" id="pDest"></div>
+            <p class="note" style="margin-top:8px" data-en="Check the emails before sending. Where there is no email, file it on the agency's web form with the copied letter.">Revisa los correos antes de enviar. Donde no hay correo, radica en el formulario web de la entidad con la carta copiada.</p>
+          </div>
+        </div>
+        <div class="cnt" id="pCnt"></div>
         <div class="row2">
-          <button class="btn n" id="pGen" data-en="Build the letter">Armar la carta</button>
+          <button class="btn r" id="pSend" data-en="Send to all at once">Enviar a todos de una vez</button>
+          <button class="btn n" id="pGmail" data-en="Open in Gmail">Abrir en Gmail</button>
+          <button class="btn o" id="pGen" data-en="See the letter">Ver la carta</button>
           <button class="btn o" id="pCopy" data-en="Copy">Copiar</button>
           <button class="btn w" id="pWa">WhatsApp</button>
         </div>
@@ -576,9 +674,9 @@ nav.bn a.on{color:var(--navy);background:var(--yellow)}
 
 <nav class="bn" id="bn">
   <a href="#hoy" data-en="Today">Hoy</a>
+  <a href="#casos" data-en="Cases">Casos</a>
   <a href="#cifras" data-en="Numbers">Cifras</a>
   <a href="#lupa" data-en="Watchdog">Lupa</a>
-  <a href="#antioquia">Antioquia</a>
   <a href="#actua" data-en="Act">Actúa</a>
 </nav>
 <div class="toast" id="toast"></div>
@@ -615,6 +713,8 @@ function aplicarIdioma() {
   $('#lang').textContent = LANG === 'en' ? 'ES' : 'EN';
   $$('[data-count][data-done]').forEach(el => el.textContent = parseFloat(el.dataset.count).toLocaleString(LANG === 'en' ? 'en-US' : 'es-CO', { minimumFractionDigits: +el.dataset.dec, maximumFractionDigits: +el.dataset.dec }));
   reloj(); pintarNoticias(); pintarTicker(); pintarTimeline(); pintarBarras(); pintarVideos(); calc(); historial();
+  ENT.sed.hint = t('Viene con el correo de la Gobernación de Antioquia (Caucasia y municipios no certificados). Cámbialo si eres de otro lado.', 'Pre-filled with the Antioquia Governorship email (Caucasia and non-certified towns). Change it if you live elsewhere.');
+  pintarCasos(); opcionesCaso(); pintarDest();
   if (!$('#pOut').hidden) carta();
 }
 $('#lang').onclick = () => { LANG = LANG === 'es' ? 'en' : 'es'; localStorage.setItem('pae-lang', LANG); aplicarIdioma(); };
@@ -661,7 +761,8 @@ function tipo(n) {
   return {
     antioquia: /antioquia|medell|caucasia|bajo cauca|urab|seduca|telemedell|minuto30/.test(s),
     control: /contralor|procurad|fiscal|hallazg|sobrecost|irregular|veedur|denunc|corrup/.test(s),
-    suspension: /suspend|suspensi|sin pae|sin alimentaci|sin almuerzo|sin comida|interrump/.test(s)
+    suspension: /suspend|suspensi|sin pae|sin alimentaci|sin almuerzo|sin comida|interrump/.test(s),
+    casos: /sincelejo|ungrd|acu[ñn]a|santa fe de antioquia|pliego de cargos|indagaci|reintegr|detrimento|corrup/.test(s)
   };
 }
 function haceCuanto(f) {
@@ -687,6 +788,7 @@ function pintarNoticias() {
       <div class="ph"><img src="${esc(img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="if(this.dataset.f){this.style.visibility='hidden'}else{this.dataset.f=1;this.src='${FOTOS[i % FOTOS.length]}'}">${tag}</div>
       <div class="bd"><h3>${esc(tit)}</h3><div class="meta"><span>${esc(n.fuente || '')}</span><span>${haceCuanto(n.fecha)}</span></div></div></a>`;
   }).join('');
+  if (typeof pintarUltimos === 'function' && $$('.ult[data-caso]').length) pintarUltimos();
 }
 function pintarTicker() {
   const l = todas().slice(0, 10);
@@ -707,7 +809,7 @@ async function cargarRobot() {
 }
 const PROXIES = [u => 'https://api.allorigins.win/raw?url=' + encodeURIComponent(u), u => 'https://corsproxy.io/?url=' + encodeURIComponent(u)];
 async function buscarEnVivo() {
-  const q = encodeURIComponent('PAE "alimentación escolar" OR "Alimentos para Aprender" when:7d');
+  const q = encodeURIComponent('PAE "alimentación escolar" OR "Alimentos para Aprender" OR "PAE Sincelejo" when:7d');
   const url = `https://news.google.com/rss/search?q=${q}&hl=es-419&gl=CO&ceid=CO:es-419`;
   for (const p of PROXIES) {
     try {
@@ -719,7 +821,7 @@ async function buscarEnVivo() {
         let titulo = it.querySelector('title')?.textContent || '';
         if (fuente && titulo.endsWith(' - ' + fuente)) titulo = titulo.slice(0, -(fuente.length + 3));
         return { titulo, fuente, url: it.querySelector('link')?.textContent, fecha: new Date(it.querySelector('pubDate')?.textContent).toISOString(), imagen: '' };
-      }).filter(n => /pae|alimentaci[oó]n escolar|alimentos para aprender|restaurante escolar/i.test(n.titulo) && !/per[uú]|midis/i.test(n.titulo));
+      }).filter(n => /pae|alimentaci[oó]n escolar|alimentos para aprender|restaurante escolar/i.test(n.titulo) && !/per[uú]|midis|junaeb|chile/i.test(n.titulo));
       if (its.length) return its;
     } catch { }
   }
@@ -803,7 +905,7 @@ obs($$('.reveal')); obs($$('[data-count]')); obs($$('.bar .fill')); obs($$('.fl'
 $$('.fl').forEach((f, i) => f.style.transitionDelay = (i * 0.12) + 's');
 
 /* nav activo */
-const secs = ['hoy', 'cifras', 'lupa', 'antioquia', 'actua'].map(id => document.getElementById(id));
+const secs = ['hoy', 'casos', 'cifras', 'lupa', 'actua'].map(id => document.getElementById(id));
 addEventListener('scroll', () => {
   let act = ''; secs.forEach(s => { if (s.getBoundingClientRect().top < innerHeight * .4) act = s.id; });
   $$('#bn a').forEach(a => a.classList.toggle('on', a.getAttribute('href') === '#' + act));
@@ -846,43 +948,267 @@ function calc() {
 }
 $('#cEst').oninput = calc; $('#cDias').oninput = calc;
 
-/* ---------- derecho de petición ---------- */
+/* ---------- casos en todo Colombia ---------- */
+const ENT = {
+  alc_sinc: { n: 'Alcaldía de Sincelejo — Despacho del Alcalde y Secretaría de Educación Municipal', m: 'contactenos@sincelejo.gov.co', w: 'https://www.sincelejo.gov.co/' },
+  conc_sinc: { n: 'Concejo Municipal de Sincelejo', m: '', w: '' },
+  pers_sinc: { n: 'Personería Municipal de Sincelejo', m: '', w: '' },
+  ungrd: { n: 'Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD)', m: 'correspondencia@gestiondelriesgo.gov.co', w: 'https://portal.gestiondelriesgo.gov.co/' },
+  uapa: { n: 'Unidad Administrativa Especial de Alimentación Escolar – Alimentos para Aprender (UApA)', m: '', w: 'https://www.alimentosparaaprender.gov.co/' },
+  cgr: { n: 'Contraloría General de la República', m: 'cgr@contraloria.gov.co', w: 'https://www.contraloria.gov.co/atencion-al-ciudadano/denuncias-y-otras-solicitudes-pqrd' },
+  pgn: { n: 'Procuraduría General de la Nación', m: 'quejas@procuraduria.gov.co', w: 'https://sedeelectronica.procuraduria.gov.co/PQRDSF/' },
+  fgn: { n: 'Fiscalía General de la Nación', m: '', w: 'https://www.fiscalia.gov.co/colombia/servicios-de-informacion-al-ciudadano/' },
+  gob_ant: { n: 'Gobernación de Antioquia — Secretaría de Educación (SEDUCA)', m: 'gobernaciondeantioquia@antioquia.gov.co', w: 'https://www.antioquia.gov.co/' },
+  sed: { n: 'Secretaría de Educación de mi municipio o departamento', m: 'gobernaciondeantioquia@antioquia.gov.co', w: '', hint: t('Viene con el correo de la Gobernación de Antioquia (Caucasia y municipios no certificados). Cámbialo si eres de otro lado.', 'Pre-filled with the Antioquia Governorship email (Caucasia and non-certified towns). Change it if you live elsewhere.') },
+  pers: { n: 'Personería de mi municipio', m: '', w: '' }
+};
+
+const CASOS = [
+  {
+    id: 'sincelejo', dep: 'Sucre', foto: 0, re: /sincelejo|ungrd|acu[ñn]a/i,
+    terr: ['Sincelejo, Sucre', 'Sincelejo, Sucre'],
+    monto: '$36.324 M',
+    montoTxt: ['que la UNGRD le exige devolver al municipio, más los rendimientos', 'the national disaster agency (UNGRD) demands the city pay back, plus interest'],
+    titulo: ['¿Dónde están los $36.324 millones del PAE de Sincelejo?', 'Where are Sincelejo\'s COP 36,324 million in school-meal money?'],
+    resumen: ['Plata de la Nación girada a través de la UNGRD para que no se cayera el PAE en Sincelejo terminó, según la UNGRD, en una cuenta ordinaria del municipio. La Presidencia denunció que salió sin contratistas ni facturas que la soporten y exige devolverla.', 'National funds sent through the UNGRD to keep school meals running in Sincelejo ended up, according to the UNGRD, in an ordinary city account. The Presidency says the money left with no contractors or invoices behind it and demands it back.'],
+    est: [['Reintegro exigido', 'Refund demanded', 1], ['Contraloría: 6 hallazgos', 'Comptroller: 6 findings', 1], ['Procuraduría: indagación previa', 'Inspector General: preliminary inquiry', 0], ['Alcalde lo niega', 'Mayor denies it', 0]],
+    tl: [
+      ['19 nov 2025', 'La Procuraduría abre indagación previa al alcalde Yahir Acuña por presuntos actos de corrupción en el PAE de 2025, tras un video difundido en medios.', 'The Inspector General opens a preliminary inquiry into Mayor Yahir Acuña over alleged corruption in the 2025 PAE, after a video went public.'],
+      ['31 mar 2026', 'El operador, Consorcio PAE Universal 2024-2027, suspende el servicio alegando que el municipio le debe más de $31.599 millones. Unos 46.000 estudiantes quedan sin comida.', 'The operator suspends service, claiming the city owes it over COP 31,599 million. About 46,000 students go without meals.'],
+      ['20 abr 2026', 'Se reanuda el PAE tras una mesa con la UApA y una ruta de giros de la Nación.', 'Meals resume after a meeting with the national unit and a new funding route.'],
+      ['Jun 2026', 'Informe de la Contraloría: $5.301 millones girados a la cuenta personal del representante legal del consorcio, la cuenta oficial del PAE embargada y un presunto detrimento de $1.629 millones.', 'Comptroller report: COP 5,301 million paid into the personal account of the consortium\'s legal representative, the official PAE account seized, and an alleged loss of COP 1,629 million.'],
+      ['10 sep 2026', 'La UNGRD (requerimiento 2026EE16294) exige reintegrar los $36.324 millones más rendimientos. Dice que la plata salió del fondo creado para manejarla hacia la cuenta "Municipio de Sincelejo otros ingresos" sin soportes, y que el fondo fue liquidado.', 'The UNGRD demands the COP 36,324 million be returned with interest. It says the money left the fund set up to manage it for a general city account with no supporting documents, and the fund was closed.'],
+      ['4 oct 2026', 'En Coveñas, el presidente Abelardo De la Espriella confronta al alcalde y anuncia que la plata nacional para Sincelejo no pasará por la administración local.', 'In Coveñas, President Abelardo De la Espriella confronts the mayor and says national money for Sincelejo will bypass the city government.'],
+      ['Nov 2026', 'La Presidencia denuncia el caso en redes. La UNGRD anuncia acciones ante la Procuraduría y la Contraloría y exige el reintegro total.', 'The Presidency goes public with the case. The UNGRD announces complaints to the Inspector General and the Comptroller and demands full repayment.']
+    ],
+    voz: ['<b>Lo que dice el alcalde:</b> Yahir Acuña sostiene que el video del PAE fue "editado y manipulado" y alega persecución política. Por estos hechos todavía no hay fallo en su contra.', '<b>What the mayor says:</b> Yahir Acuña says the PAE video was "edited and manipulated" and claims political persecution. There is no ruling against him on these facts yet.'],
+    ents: ['alc_sinc', 'ungrd', 'uapa', 'cgr', 'pgn', 'fgn', 'conc_sinc', 'pers_sinc'],
+    hechos: [
+      'La Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD), mediante requerimiento 2026EE16294 del 10 de septiembre de 2026, exigió al Municipio de Sincelejo reintegrar $36.324 millones, más rendimientos financieros, destinados a garantizar la continuidad del PAE, por haber sido trasladados a una cuenta ordinaria del municipio.',
+      'La Presidencia de la República denunció públicamente que esos recursos habrían sido transferidos sin contratistas ni facturas que los soporten.',
+      'La Contraloría General de la República, en informe de junio de 2026, reportó giros por $5.301 millones a una cuenta personal del representante legal del operador del PAE y un presunto detrimento de $1.629 millones.',
+      'La Procuraduría General de la Nación abrió el 19 de noviembre de 2025 indagación previa contra el alcalde de Sincelejo por presuntos actos de corrupción en el PAE de 2025.'
+    ],
+    pide: [
+      ['Alcaldía de Sincelejo', 'Copia de los actos, órdenes de pago y extractos con los que se trasladaron los $36.324 millones del fondo de la UNGRD a cuentas del municipio, y en qué se gastaron peso a peso, con los contratos y facturas que lo soporten.'],
+      ['Alcaldía de Sincelejo', 'Si ya se reintegró la plata a la UNGRD, en qué fecha y por qué valor; si no, el plan y las fechas para hacerlo.'],
+      ['Alcaldía de Sincelejo', 'Estado actual del contrato del PAE con el Consorcio PAE Universal 2024-2027: valor, pagos hechos, deudas y estudiantes atendidos en 2026.'],
+      ['UNGRD', 'Respuesta que recibió del municipio al requerimiento 2026EE16294 y acciones adelantadas para recuperar los recursos.'],
+      ['UApA', 'Recursos girados a Sincelejo para el PAE en 2025 y 2026, cobertura real y medidas para que el servicio no se interrumpa en 2027.'],
+      ['Contraloría General', 'Estado de los hallazgos del PAE de Sincelejo y si ya hay procesos de responsabilidad fiscal abiertos, con su número.'],
+      ['Procuraduría General', 'Estado de la indagación previa abierta el 19 de noviembre de 2025 y si se abrió investigación disciplinaria por el traslado de los recursos de la UNGRD.'],
+      ['Fiscalía General', 'Si existen noticias criminales por estos hechos y en qué etapa están, en lo que no esté sujeto a reserva.'],
+      ['Concejo y Personería de Sincelejo', 'Qué control político y qué acciones han adelantado sobre estos recursos.']
+    ],
+    src: [['UNGRD exige el reintegro', 'https://elintervencionista.com/los-36-mil-millones-de-la-ungrd-donde-esta-la-plata/'], ['Procuraduría indaga al alcalde', 'https://www.elheraldo.co/sucre/2025/11/19/la-procuraduria-indaga-al-alcalde-de-sincelejo-por-presuntos-actos-de-corrupcion-en-el-pae/'], ['Suspensión del PAE', 'https://larazon.co/operador-del-pae-suspendio-el-programa-en-sincelejo-por-millonaria-deuda-del-municipio/'], ['Hallazgos de la Contraloría', 'https://elintervencionista.com/seis-hallazgos-y-5-300-millones-en-efectivo-que-sacuden-el-pae-de-sincelejo/'], ['El presidente y el alcalde', 'https://www.elnuevosiglo.com.co/politica/presidente-prometio-frenar-presunto-esquema-de-corrupcion-en-sincelejo'], ['Respuesta del alcalde', 'https://www.minuto60.com/politica/yahir-acuna-alcalde-sincelejo-respondio-de-la-espriella-video-pae-manipulado/16546']]
+  },
+  {
+    id: 'nacional', dep: 'Nacional', foto: 1, re: /contralor[ií]a/i,
+    terr: ['Todo el país', 'Nationwide'],
+    monto: '$39.139 M',
+    montoTxt: ['en hallazgos fiscales sobre la plata del PAE gastada en 2025', 'in fiscal findings on PAE money spent in 2025'],
+    titulo: ['Contraloría: sobrecostos que se repiten y 600.000 niños en riesgo', 'Comptroller: repeated overruns and 600,000 kids at risk'],
+    resumen: ['En 32 auditorías la Contraloría encontró 84 hallazgos: 71 con posible incidencia disciplinaria, 41 fiscales y uno penal. Y alertó que en 13 territorios no había contratos ni plata a la vista para seguir dando la comida.', 'In 32 audits the Comptroller found 84 issues: 71 possibly disciplinary, 41 fiscal and one criminal. It warned that 13 territories had no contracts or funds in sight to keep serving meals.'],
+    est: [['84 hallazgos', '84 findings', 0], ['1 penal', '1 criminal', 1], ['13 territorios en riesgo', '13 territories at risk', 1]],
+    tl: [
+      ['Feb 2026', 'Informe anterior: auditorías a 68 entidades territoriales, hallazgos fiscales por $24.254 millones y alerta por 800.000 estudiantes en 12 territorios que podían arrancar el año sin PAE (entre ellos Magdalena, Cesar, Huila, Valledupar, Chocó, Quibdó y Buenaventura).', 'Previous report: audits of 68 territories, COP 24,254 million in fiscal findings, and an alert that 800,000 students in 12 territories could start the year without meals (including Magdalena, Cesar, Huila, Valledupar, Chocó, Quibdó and Buenaventura).'],
+      ['29 sep 2026', 'Nuevo informe: 32 auditorías, $39.139 millones en hallazgos fiscales y alerta por cerca de 600.000 estudiantes en 13 territorios.', 'New report: 32 audits, COP 39,139 million in fiscal findings and an alert for about 600,000 students in 13 territories.']
+    ],
+    voz: ['<b>Lo que dice la UApA:</b> anunció que aumentará la supervisión a los entes territoriales después de los informes de la Contraloría.', '<b>What the national unit says:</b> it announced tighter supervision of local governments after the Comptroller\'s reports.'],
+    ents: ['uapa', 'cgr', 'pgn', 'sed'],
+    hechos: [
+      'La Contraloría General de la República informó el 29 de septiembre de 2026 que, en 32 auditorías a los recursos del PAE ejecutados en 2025, determinó 84 hallazgos administrativos, 41 de ellos con incidencia fiscal por $39.139 millones, y alertó sobre el riesgo de que cerca de 600.000 estudiantes de 13 entidades territoriales certificadas se queden sin PAE.'
+    ],
+    pide: [
+      ['Contraloría General', 'Lista de las 32 entidades auditadas y de los 41 hallazgos fiscales, con el valor de cada uno y el estado de los procesos de responsabilidad fiscal.'],
+      ['Contraloría General', 'Nombre de las 13 entidades territoriales en riesgo de no continuidad del PAE.'],
+      ['UApA', 'Qué medidas tomó en cada una de esas 13 entidades para que los estudiantes no se queden sin comida, y cómo va la contratación del PAE 2027.'],
+      ['Procuraduría General', 'Investigaciones disciplinarias abiertas por los 71 hallazgos con presunta incidencia disciplinaria.'],
+      ['Secretaría de Educación', 'Si mi municipio o departamento está entre las entidades auditadas o en riesgo, y cómo va el contrato del PAE para 2027.']
+    ],
+    src: [['El Tiempo — hallazgos por $39.139 millones', 'https://www.eltiempo.com/justicia/investigacion/contraloria-detecta-hallazgos-fiscales-por-39-139-millones-en-recursos-del-pae-3589778'], ['El Espectador — informe de febrero', 'https://www.elespectador.com/judicial/contraloria-alerta-irregularidades-de-mas-de-cop-53000-en-el-pae-de-toda-colombia/'], ['Radio Nacional — UApA responde', 'https://www.radionacional.co/noticias-relacionadas/pae']]
+  },
+  {
+    id: 'santafe', dep: 'Antioquia', foto: 2, re: /santa fe de antioquia/i,
+    terr: ['Santa Fe de Antioquia', 'Santa Fe de Antioquia'],
+    monto: '3 cargos',
+    montoTxt: ['al exalcalde y a dos exsecretarios porque el PAE de 2022 no arrancó con el calendario escolar', 'against the former mayor and two former secretaries because 2022 school meals didn\'t start with the school year'],
+    titulo: ['Santa Fe de Antioquia: el PAE llegó tarde al colegio', 'Santa Fe de Antioquia: school meals arrived late'],
+    resumen: ['La Procuraduría Provincial formuló pliego de cargos al exalcalde Andrés Felipe Pardo Serna y a los exsecretarios Félix Antonio Giraldo y Jorge Mario Sánchez Palacio. Les atribuye posibles fallas en la planeación del contrato que dejaron a los estudiantes sin PAE al empezar 2022.', 'The provincial Inspector General\'s office charged former mayor Andrés Felipe Pardo Serna and two former secretaries over possible contract-planning failures that left students without meals at the start of 2022.'],
+    est: [['Pliego de cargos', 'Formal charges', 1], ['Falta grave (provisional)', 'Serious offense (provisional)', 0]],
+    tl: [
+      ['2022', 'El servicio del PAE no empieza a la par con el calendario escolar.', 'Meals don\'t start along with the school year.'],
+      ['2026', 'La Procuraduría formula cargos y califica de forma provisional la conducta como falta grave a título de culpa grave.', 'The Inspector General files charges and provisionally rates the conduct as a serious offense through gross negligence.']
+    ],
+    voz: ['<b>Ojo:</b> es una calificación provisional. Los investigados pueden defenderse y todavía no hay decisión de fondo.', '<b>Note:</b> this is a provisional rating. Those charged can defend themselves and there is no final decision yet.'],
+    ents: ['gob_ant', 'pgn', 'uapa', 'pers'],
+    hechos: [
+      'La Procuraduría General de la Nación formuló en 2026 pliego de cargos al exalcalde de Santa Fe de Antioquia y a dos exsecretarios porque el PAE de 2022 no inició con el calendario escolar.'
+    ],
+    pide: [
+      ['Procuraduría General', 'Estado del proceso disciplinario y fecha prevista de decisión.'],
+      ['Gobernación de Antioquia (SEDUCA)', 'Fecha en que empezó el PAE en Santa Fe de Antioquia en 2026, cobertura por institución y estado del contrato para 2027.'],
+      ['UApA', 'Recursos girados para el PAE de Santa Fe de Antioquia en 2026 y alertas de interrupción reportadas.']
+    ],
+    src: [['Radio Nacional — cargos al exalcalde', 'https://radionacional.co/actualidad/judicial/andres-felipe-pardo-procuraduria'], ['Minuto30', 'https://www.minuto30.com/exalcalde-santa-fe-de-antioquia-pae/1711492/']]
+  }
+];
+const MI = {
+  id: 'mio', ents: ['sed', 'uapa', 'cgr', 'pgn', 'pers'],
+  titulo: ['El PAE de mi colegio o municipio', 'School meals in my school or town']
+};
+let CFILTRO = 'Todos';
+
+function pintarCasos() {
+  const deps = ['Todos', ...new Set(CASOS.map(c => c.dep))];
+  $('#cfil').innerHTML = deps.map(d => `<button data-d="${esc(d)}" class="${d === CFILTRO ? 'on' : ''}">${d === 'Todos' ? t('Todos', 'All') : d === 'Nacional' ? t('Nacional', 'National') : esc(d)}</button>`).join('');
+  const L = CASOS.filter(c => CFILTRO === 'Todos' || c.dep === CFILTRO);
+  $('#casosList').innerHTML = L.map(c => `<article class="caso" id="caso-${c.id}">
+    <div class="ph"><img src="${FOTOS[c.foto % FOTOS.length]}" alt="" loading="lazy"><div class="over"><span class="terr">${esc(t(...c.terr))}</span><div class="monto">${c.monto}<small>${esc(t(...c.montoTxt))}</small></div></div></div>
+    <div class="bd">
+      <h3>${esc(t(...c.titulo))}</h3>
+      <div class="est">${c.est.map(e => `<span class="${e[2] ? 'hot' : ''}">${esc(t(e[0], e[1]))}</span>`).join('')}</div>
+      <p class="res">${esc(t(...c.resumen))}</p>
+      <details><summary>${t('Qué ha pasado, paso a paso', 'What has happened, step by step')}</summary>
+        <div class="cline">${c.tl.map(e => `<div><time>${esc(e[0])}</time><span>${esc(t(e[1], e[2]))}</span></div>`).join('')}</div>
+        <div class="voz">${t(...c.voz)}</div>
+        <div class="src">${c.src.map(s => `<a href="${esc(s[1])}" target="_blank" rel="noopener">${esc(s[0])}</a>`).join('')}</div>
+      </details>
+      <div class="ult" data-caso="${c.id}"></div>
+      <div class="acts">
+        <button class="btn r" data-exigir="${c.id}">${t('Exigir respuesta a todos', 'Demand answers from all')}</button>
+        <button class="btn w" data-comp="${c.id}">${t('Compartir', 'Share')}</button>
+      </div>
+    </div></article>`).join('');
+  obs($$('.caso'));
+  pintarUltimos();
+}
+function pintarUltimos() {
+  $$('.ult[data-caso]').forEach(el => {
+    const c = CASOS.find(x => x.id === el.dataset.caso); if (!c) return;
+    const l = todas().filter(n => c.re.test(n.titulo) && /pae|alimentaci|sincelejo|ungrd/i.test(n.titulo)).slice(0, 3);
+    el.innerHTML = l.length ? `<b style="font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--red)">${t('Lo último', 'Latest')}</b>` + l.map(n => `<a href="${esc(n.url)}" target="_blank" rel="noopener"><span>${esc(n.titulo)}</span><b>${haceCuanto(n.fecha)}</b></a>`).join('') : '';
+  });
+}
+$('#cfil').onclick = e => { const b = e.target.closest('button'); if (!b) return; CFILTRO = b.dataset.d; pintarCasos(); };
+$('#casosList').onclick = e => {
+  const x = e.target.closest('[data-exigir]'), w = e.target.closest('[data-comp]');
+  if (x) { $('#pCaso').value = x.dataset.exigir; pintarDest(); carta(); $('#peticion').scrollIntoView({ behavior: 'smooth' }); }
+  if (w) {
+    const c = CASOS.find(k => k.id === w.dataset.comp);
+    const url = location.origin + location.pathname + '#caso-' + c.id;
+    open('https://wa.me/?text=' + encodeURIComponent(`${t(...c.titulo)}\n\n${t(...c.resumen)}\n\n${t('La plata del PAE se cuida entre todos. Mira el caso y exige respuesta:', 'School-meal money is everyone\'s to watch. See the case and demand answers:')} ${url}`), '_blank');
+  }
+};
+$('#kSend').onclick = () => {
+  const mun = $('#kMun').value.trim(), dep = $('#kDep').value.trim(), txt = $('#kTxt').value.trim();
+  if (!mun || !txt) return toast(t('Escribe el municipio y qué pasó', 'Write the town and what happened'));
+  open('https://wa.me/573117700431?text=' + encodeURIComponent(`Caso PAE para PAE al Día\nMunicipio: ${mun}${dep ? ' (' + dep + ')' : ''}\nQué pasó: ${txt}`), '_blank');
+};
+
+/* ---------- derecho de petición a todos los entes ---------- */
+const casoSel = () => CASOS.find(c => c.id === $('#pCaso').value) || MI;
+function opcionesCaso() {
+  const v = $('#pCaso').value || 'sincelejo';
+  $('#pCaso').innerHTML = [...CASOS, MI].map(c => `<option value="${c.id}">${esc(t(...c.titulo))}</option>`).join('');
+  $('#pCaso').value = v;
+}
+function pintarDest() {
+  const c = casoSel();
+  $('#pDest').innerHTML = c.ents.map(k => { const e = ENT[k]; return `<div class="d on" data-k="${k}">
+    <input type="checkbox" checked aria-label="${esc(e.n)}">
+    <div><b>${esc(e.n)}</b>
+      <input type="email" value="${esc(e.m)}" placeholder="${t('Correo (si lo tienes)', 'Email (if you have it)')}">
+      ${e.hint ? `<span class="note" style="display:block;margin-top:4px">${esc(e.hint)}</span>` : ''}
+      ${!e.m && e.w ? `<a href="${esc(e.w)}" target="_blank" rel="noopener">${t('Radicar en su página web', 'File on its website')}</a>` : ''}
+    </div></div>`; }).join('');
+  contarDest();
+}
+function destSel() {
+  return $$('#pDest .d').filter(d => d.querySelector('input[type=checkbox]').checked).map(d => ({ n: ENT[d.dataset.k].n, m: d.querySelector('input[type=email]').value.trim() }));
+}
+function contarDest() {
+  $$('#pDest .d').forEach(d => d.classList.toggle('on', d.querySelector('input[type=checkbox]').checked));
+  const s = destSel(), con = s.filter(x => /@/.test(x.m)).length;
+  $('#pCnt').textContent = t(`Se envía a ${s.length} entidades: ${con} por correo de una sola vez${s.length - con ? `, ${s.length - con} por su formulario web o en físico` : ''}.`, `Goes to ${s.length} agencies: ${con} by email at once${s.length - con ? `, ${s.length - con} via web form or in person` : ''}.`);
+}
+$('#pCaso').onchange = () => { pintarDest(); if (!$('#pOut').hidden) carta(); };
+$('#pDest').oninput = $('#pDest').onchange = () => { contarDest(); if (!$('#pOut').hidden) carta(); };
+
+function asunto() {
+  const c = casoSel();
+  return c.id === 'mio' ? 'Derecho de petición — información del Programa de Alimentación Escolar (PAE)' : `Derecho de petición — ${c.titulo[0].replace(/^¿|\?$/g, '')}`;
+}
 function carta() {
+  const c = casoSel();
   const fecha = new Date().toLocaleDateString('es-CO', { timeZone: TZ, day: 'numeric', month: 'long', year: 'numeric' });
   const nom = $('#pNom').value.trim() || '[NOMBRE COMPLETO]', ced = $('#pCed').value.trim() || '[CÉDULA]';
-  const col = $('#rCol').value.trim() || '[NOMBRE DEL COLEGIO]', mun = $('#rMun').value.trim() || '[MUNICIPIO]';
-  const txt = `${mun}, ${fecha}
+  const mail = $('#pMail').value.trim() || '[CORREO O CELULAR]';
+  const mun = $('#rMun').value.trim() || '[MUNICIPIO]', col = $('#rCol').value.trim() || '[NOMBRE DEL COLEGIO]';
+  const dest = destSel();
+  let hechos, pide;
+  if (c.id === 'mio') {
+    hechos = `Como ciudadano(a) y en ejercicio del control social, quiero conocer cómo se presta el PAE en la institución educativa ${col}, del municipio de ${mun}, durante la vigencia 2026.`;
+    pide = [
+      'Número del contrato o convenio con el que se presta el PAE, nombre y NIT del operador, valor total y plazo de ejecución.',
+      'Número de estudiantes priorizados y efectivamente atendidos en la institución, por modalidad (ración preparada en sitio, industrializada, jornada única).',
+      'Fechas en las que el servicio no se prestó o se prestó incompleto en 2026, con las causas y las medidas tomadas.',
+      'Minuta o ciclo de menús aprobado y valor por ración que se paga al operador.',
+      'Garantía de que el servicio irá hasta el último día del calendario escolar 2026 y estado de la contratación para iniciar el calendario 2027.',
+      'Integrantes del Comité de Alimentación Escolar (CAE) de la institución y fecha de la próxima Mesa Pública del PAE.',
+      'A los organismos de control: si hay hallazgos, indagaciones o investigaciones sobre el PAE de este municipio o departamento, y en qué etapa están.'
+    ];
+  } else {
+    hechos = 'Según información pública:\n' + c.hechos.map((h, i) => `${i + 1}. ${h}`).join('\n');
+    pide = c.pide.map(p => `(${p[0]}) ${p[1]}`);
+  }
+  const txt = `${mun === '[MUNICIPIO]' ? 'Colombia' : mun}, ${fecha}
 
 Señores
-${$('#pDest').value}
+${dest.map(d => '- ' + d.n).join('\n') || '[ENTIDADES]'}
 E. S. D.
 
-Asunto: Derecho de petición — información del Programa de Alimentación Escolar (PAE)
+Asunto: ${asunto()}
 
-Yo, ${nom}, identificado(a) con cédula de ciudadanía No. ${ced}, en ejercicio del derecho fundamental de petición consagrado en el artículo 23 de la Constitución Política y regulado por la Ley 1755 de 2015, respetuosamente solicito la siguiente información sobre el PAE en la institución educativa ${col}, del municipio de ${mun}, para la vigencia 2026:
+Yo, ${nom}, identificado(a) con cédula de ciudadanía No. ${ced}, en ejercicio del derecho fundamental de petición (artículo 23 de la Constitución Política y Ley 1755 de 2015) y del control social a los recursos públicos, me dirijo a ustedes con respeto.
 
-1. Número del contrato o convenio con el que se presta el PAE, nombre y NIT del operador, valor total y plazo de ejecución.
-2. Número de estudiantes priorizados y efectivamente atendidos en la institución, por modalidad (ración preparada en sitio, industrializada, jornada única).
-3. Fechas en las que el servicio no se prestó o se prestó de forma incompleta durante 2026, con las causas y las medidas tomadas.
-4. Minuta o ciclo de menús aprobado y el valor por ración que se paga al operador.
-5. Garantía de que el servicio se prestará hasta el último día del calendario escolar 2026 y el estado del proceso de contratación para el inicio del calendario 2027.
-6. Integrantes del Comité de Alimentación Escolar (CAE) de la institución y fechas de la próxima Mesa Pública del PAE.
+HECHOS
+${hechos}
 
-Recibiré respuesta dentro de los quince (15) días hábiles que establece la ley.
+PETICIONES
+Solicito a cada entidad, en lo de su competencia:
+${pide.map((p, i) => `${i + 1}. ${p}`).join('\n')}
+
+Si alguna petición no es de su competencia, les pido remitirla a la autoridad que corresponda, como lo ordena el artículo 21 de la Ley 1755 de 2015, e informarme a quién la enviaron.
+
+Recibiré respuesta dentro de los quince (15) días hábiles que establece la ley, en: ${mail}
 
 Atentamente,
 
 ${nom}
 C.C. ${ced}
-Correo / teléfono: ______________________`;
+
+Enviada desde PAE al Día (pae-al-dia.netlify.app), app ciudadana de Vibras Positivas HM.`;
   $('#pOut').textContent = txt; $('#pOut').hidden = false; return txt;
 }
+const listo = () => { if (!$('#pNom').value.trim() || !$('#pCed').value.trim()) { toast(t('Pon tu nombre y cédula', 'Add your name and ID')); $('#pNom').focus(); return false; } return true; };
+const correos = () => destSel().map(d => d.m).filter(m => /@/.test(m)).join(',');
+$('#pSend').onclick = () => {
+  if (!listo()) return; const body = carta();
+  if (!correos()) return toast(t('Marca al menos una entidad con correo', 'Check at least one agency with email'));
+  location.href = `mailto:${correos()}?subject=${encodeURIComponent(asunto())}&body=${encodeURIComponent(body)}`;
+};
+$('#pGmail').onclick = () => {
+  if (!listo()) return; const body = carta();
+  open(`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(correos())}&su=${encodeURIComponent(asunto())}&body=${encodeURIComponent(body)}`, '_blank');
+};
 $('#pGen').onclick = () => { carta(); toast(t('Carta lista', 'Letter ready')); };
 $('#pCopy').onclick = async () => { const x = carta(); try { await navigator.clipboard.writeText(x); toast(t('Copiada', 'Copied')); } catch { toast(t('Selecciónala y cópiala', 'Select and copy it')); } };
 $('#pWa').onclick = () => open('https://wa.me/?text=' + encodeURIComponent(carta()), '_blank');
 
 /* ---------- arranque ---------- */
 aplicarIdioma();
+if (location.hash.startsWith('#caso-')) setTimeout(() => document.querySelector(location.hash)?.scrollIntoView(), 300);
 actualizar(false);
 document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') { reloj(); actualizar(false); } });
 if ('serviceWorker' in navigator) addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));

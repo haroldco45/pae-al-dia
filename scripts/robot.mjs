@@ -8,7 +8,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 
 const SALIDA = new URL('../data/noticias.json', import.meta.url);
 const CANAL_UAPA = 'UCtfxQ_1KDeG74_mx4vkS4Xw';
-const MAX_ITEMS = 60;
+const MAX_ITEMS = 70;
 
 const CONSULTAS = [
   '"PAE" alimentación escolar',
@@ -16,7 +16,10 @@ const CONSULTAS = [
   'PAE Antioquia alimentación escolar',
   'PAE Contraloría alimentación escolar',
   'PAE Caucasia OR "Bajo Cauca" alimentación escolar',
-  '"programa de alimentación escolar" Colombia'
+  '"programa de alimentación escolar" Colombia',
+  'PAE Sincelejo',
+  'UNGRD Sincelejo reintegro',
+  'PAE Procuraduría OR Fiscalía alcalde'
 ];
 
 const UA = 'Mozilla/5.0 (compatible; PAEalDiaBot/1.0; +https://github.com/haroldco45/pae-al-dia)';
@@ -49,7 +52,8 @@ function items(xml) {
 
 function esRelevante(titulo) {
   const t = titulo.toLowerCase();
-  if (/per[uú]|midis|chile|argentina|guatemala|el salvador/.test(t)) return false;
+  if (/per[uú]|midis|chile|junaeb|antofagasta|argentina|guatemala|el salvador/.test(t)) return false;
+  if (/sincelejo/.test(t) && /ungrd|36\.?3|reintegr|devolver|alimentaci/.test(t)) return true;
   return /pae|alimentaci[oó]n escolar|alimentos para aprender|restaurante escolar|uapa|manipulador/.test(t);
 }
 

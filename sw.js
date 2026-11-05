@@ -1,5 +1,5 @@
 // PAE al Día — service worker
-const V = 'pae-al-dia-v1';
+const V = 'pae-al-dia-v2';
 const BASE = ['./', 'index.html', 'manifest.json', 'icon-192.png', 'icon-512.png', 'data/noticias.json'];
 
 self.addEventListener('install', e => {

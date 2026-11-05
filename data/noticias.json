@@ -1,19 +1,33 @@
 {
-  "actualizado": "2026-11-05T08:18:46.747Z",
+  "actualizado": "2026-11-05T16:40:44.513Z",
   "items": [
+    {
+      "titulo": "Contraloría Distrital pone la lupa en el funcionamiento del PAE en Bogotá",
+      "fuente": "Caracol Radio",
+      "url": "https://caracol.com.co/2026/11/05/contraloria-distrital-pone-la-lupa-en-el-funcionamiento-del-pae-en-bogota/",
+      "fecha": "2026-11-04T23:38:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.WrT-4UXAjAAvVSzerzKBPQ&pid=News&w=640&h=360&c=7"
+    },
+    {
+      "titulo": "Alimentos escolares bajo inspección: Contraloría revisa el PAE en las 20 localidades de Bogotá",
+      "fuente": "La FM",
+      "url": "https://www.lafm.com.co/actualidad/plan-alimentacion-escolar-pae-bogota-inspeccion-contraloria-20-localidades-alimentos-estudiantes-colegios-publicos-416214",
+      "fecha": "2026-11-04T22:30:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.ONHMgBWGHzhSeoTMBTZvCQ&pid=News&w=640&h=360&c=7"
+    },
+    {
+      "titulo": "Asamblea del Cesar aprueba vigencias futuras para el PAE",
+      "fuente": "Diario del Cesar",
+      "url": "https://www.diariodelcesar.com/archivos/350906/asamblea-del-cesar-aprueba-vigencias-futuras-para-el-pae/",
+      "fecha": "2026-11-04T21:19:24.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT._9T2SS-aUTLBvN5hRbYBUg&pid=News&w=640&h=360&c=7"
+    },
     {
       "titulo": "Contralora en comisión investigadora del Programa de Alimentación Escolar: “Es evidente que hubo problemas de control interno y deficiencias”",
       "fuente": "La Tercera",
       "url": "https://www.msn.com/es-cl/noticias/otras/contralora-en-comisi%C3%B3n-investigadora-del-programa-de-alimentaci%C3%B3n-escolar-es-evidente-que-hubo-problemas-de-control-interno-y-deficiencias/ar-AA2gKAPq",
       "fecha": "2026-11-04T14:01:40.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.ZycCy6ep_O4UDqcDIsyO3Q&pid=News&w=640&h=360&c=7"
-    },
-    {
-      "titulo": "Asamblea del Cesar aprueba vigencias futuras para el PAE",
-      "fuente": "Diario del Cesar",
-      "url": "https://www.diariodelcesar.com/archivos/350906/asamblea-del-cesar-aprueba-vigencias-futuras-para-el-pae/",
-      "fecha": "2026-11-04T13:20:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT._9T2SS-aUTLBvN5hRbYBUg&pid=News&w=640&h=360&c=7"
     },
     {
       "titulo": "Concejo de Cali aprueba vigencias futuras para alimentación escolar, transporte y un nuevo megacolegio en el sur",
@@ -93,18 +107,18 @@
       "imagen": ""
     },
     {
+      "titulo": "MinEducación confirma continuidad del PAE en 2027 y anuncia presupuesto de $3,1 billones para las 97 entidades territoriales | El Colombiano",
+      "fuente": "El Colombiano",
+      "url": "https://www.elcolombiano.com/colombia/educacion/ministerio-educacion-confirma-continuidad-pae-2027-presupuesto-EH43000848",
+      "fecha": "2026-10-30T16:16:13.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.0Wz3l-xm9jCGuWJ4CpwpIg&pid=News&w=640&h=360&c=7"
+    },
+    {
       "titulo": "PAE 2027: Gobierno proyecta $3,1 billones y apunta a alimentar al 88% de los estudiantes de colegios oficiales",
       "fuente": "IFM Noticias",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOY2I5dHkzdmt4QzlxeGhzeTBfSEoxUGZGVVVVM0d3YlExQUNNb3N1Tjd3U0RlNVppVVdaQkVpNmx1c1BncTl4aTZkNnhjZEhHS0pRUVZybzQ1bWwtNmJCeHRncE9GRzlTSW1rUm9fTFROUVVwQ2ZFc25UYWVaX1RmZzVLYlFteGw3NFhWQmNsNndTMW9GemZ1c1J1NXBtTGhPczdPX1NudkRoX1lQcXdUdFNxd0RBQQ?oc=5",
       "fecha": "2026-10-30T12:57:08.000Z",
       "imagen": ""
-    },
-    {
-      "titulo": "MinEducación confirma continuidad del PAE en 2027 y anuncia presupuesto de $3,1 billones para las 97 entidades territoriales",
-      "fuente": "El Colombiano",
-      "url": "https://www.elcolombiano.com/colombia/educacion/ministerio-educacion-confirma-continuidad-pae-2027-presupuesto-EH43000848",
-      "fecha": "2026-10-30T09:09:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.0Wz3l-xm9jCGuWJ4CpwpIg&pid=News&w=640&h=360&c=7"
     },
     {
       "titulo": "PAE llega a San Pablo de Borbur con seguimiento y estrategias para mejorar la alimentación escolar de 458 estudiantes",
@@ -289,9 +303,9 @@
       "imagen": ""
     },
     {
-      "titulo": "Procuraduría formuló cargos a la alcaldesa de Frontino por presuntas irregularidades de $480 millones en contratos del PAE | El Colombiano",
-      "fuente": "El Colombiano",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOWpEaC1tOXM4bE54c0lOTVBwWldHZUJib0tSZEYtMHQ4Rmo3dEJCT2tiOEd3enRIUjBoLTRaU2VJX2ZXSk1lV2pqeG9VTXRWYjFjY1loQWtiYnJKRGFIU0YxaFZXOHdpVHNJa25Jd05pQl9UcnRfQmxVbFpDSEo3LU9XdE5zNGZkSHlkN0RNQWFZZF93cE0zcmZCZXk4dml3VEhyVXpkQXRVOGFwS0RnT0JXMHhWU0M5YjJiZGZSQzBIcDdOUEloaGJR0gHPAUFVX3lxTE04MWo3TTk0ckJyamlQdGJzT29yTjc3aGpBbzVYcFp3cUZhV2hYcmUzbC16R01tbDJKNDh6eGRNckdWaWhGYUVPUWR1NDNRaHY5c25LcG45bVFqYXpFQnA2QjFrNmFvM1kwWWh0NndaVHFUNVZiMHRqMTJ4NXlkWG9NcHkwZjEyNjUzY3lUUkRwNGdEUm5wU0RUZXJyRFJOcV91ZFVVd0hSVGo1VjBnQXpMWXdjN1dLWEFPMVJqVHlEcVFHY1o5Z2ZnZW1hZ3hMaw?oc=5",
+      "titulo": "Cargos a alcaldesa de Frontino (Antioquia) por presuntas irregularidades en contratación del PAE",
+      "fuente": "Procuraduria General de la Nación",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQY18xOVh0ajdSaG1QT2FiWXYyU3poZ2NhcG5fMVNiRGt5M09CSG1YRi1GUEtMNENkbnE5MDVnaU10dGlRNlU3dEFpdk5FTXR0bkpNbHVHRFlmbFdMdndGYVpNTHNPLWNGV3czUl9tTlZXVlhBZUFGelFacmstWnViMTNoN1E3Z0pHa0Y2ektjTEJDY1pXaWE4ZnZCN25EMWhTN2JVVEZTLVFaaERmWldycUVnVm04ODFHaE9LODh0WGR6Q09UM0FHWFpNdw?oc=5",
       "fecha": "2026-10-23T07:00:00.000Z",
       "imagen": ""
     },
@@ -303,16 +317,16 @@
       "imagen": ""
     },
     {
-      "titulo": "Procuraduría formuló pliego de cargos a la alcaldesa de Frontino por presuntas irregularidades en el PAE, ¿cuánta plata está comprometida?",
-      "fuente": "Teleantioquia",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQX3JjSGhMaFk5UlVxbW85TVpDSE9YMU41Smx0WGV6WkJyTkN2b3R3akhBWFNDcGNOTml3emxYTUh5VWRfVmJOSVF5ekFHQXVIQXlWVF9SS05WdlczNmRYOU9EXzJnUDdNbjUxNVNiTGp0TXEtSXQyalpEYUN0aVdaWFROM2FHejRlQzl6MjJWcDdRNk9kYUcwNjFINEtqS2g5RG5seEVqdnI2cnZkNkFXYndZVlM0S09FWmozVFVlNXFWb2hSYUhucDNiTDllWUpfQzFVS09mdGp6djdSb1EzdXMtR1otRkFtOWxXXzVnSVBRZTlRTTBEZ3lKTGpPZ0XSAYsCQVVfeXFMT2Y2dkVCcUxOZ3VOZDYxMFJnbHF5eGxHdlB6ZlVobVpmYlVwWDNnblhGOU45MWgxZmR2Q19odlh4TjRLMnVmOVBPR0FzSGVMR3EyUkRnb1lkX3RSZ0k4M05hLUZvSlNBUW85b1R0UDhtRV8yS0x0T21IWnhLeVA3NGs3dWEydHhDUXlUaTFtazRlNlRYYUxzTEcyOGFZam9hdENwMVp2NnI4ZGZtZm9RdlpzLTRoeXUxQWROaU1WX0doVU5WdkxnY0tWdEJoN3EtZzJ4TGs0RHRmUHYxZ3lwcjBnTEpsSy1LRXB5dzg5Nk90MUs2cEhQNUFhNi05RDlseGdhRmNMbFFHMUw4?oc=5",
+      "titulo": "Procuraduría formuló cargos a la alcaldesa de Frontino por presuntas irregularidades de $480 millones en contratos del PAE | El Colombiano",
+      "fuente": "El Colombiano",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOWpEaC1tOXM4bE54c0lOTVBwWldHZUJib0tSZEYtMHQ4Rmo3dEJCT2tiOEd3enRIUjBoLTRaU2VJX2ZXSk1lV2pqeG9VTXRWYjFjY1loQWtiYnJKRGFIU0YxaFZXOHdpVHNJa25Jd05pQl9UcnRfQmxVbFpDSEo3LU9XdE5zNGZkSHlkN0RNQWFZZF93cE0zcmZCZXk4dml3VEhyVXpkQXRVOGFwS0RnT0JXMHhWU0M5YjJiZGZSQzBIcDdOUEloaGJR0gHPAUFVX3lxTE04MWo3TTk0ckJyamlQdGJzT29yTjc3aGpBbzVYcFp3cUZhV2hYcmUzbC16R01tbDJKNDh6eGRNckdWaWhGYUVPUWR1NDNRaHY5c25LcG45bVFqYXpFQnA2QjFrNmFvM1kwWWh0NndaVHFUNVZiMHRqMTJ4NXlkWG9NcHkwZjEyNjUzY3lUUkRwNGdEUm5wU0RUZXJyRFJOcV91ZFVVd0hSVGo1VjBnQXpMWXdjN1dLWEFPMVJqVHlEcVFHY1o5Z2ZnZW1hZ3hMaw?oc=5",
       "fecha": "2026-10-23T07:00:00.000Z",
       "imagen": ""
     },
     {
-      "titulo": "Cargos a alcaldesa de Frontino (Antioquia) por presuntas irregularidades en contratación del PAE",
-      "fuente": "Procuraduria General de la Nación",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQY18xOVh0ajdSaG1QT2FiWXYyU3poZ2NhcG5fMVNiRGt5M09CSG1YRi1GUEtMNENkbnE5MDVnaU10dGlRNlU3dEFpdk5FTXR0bkpNbHVHRFlmbFdMdndGYVpNTHNPLWNGV3czUl9tTlZXVlhBZUFGelFacmstWnViMTNoN1E3Z0pHa0Y2ektjTEJDY1pXaWE4ZnZCN25EMWhTN2JVVEZTLVFaaERmWldycUVnVm04ODFHaE9LODh0WGR6Q09UM0FHWFpNdw?oc=5",
+      "titulo": "Procuraduría formuló pliego de cargos a la alcaldesa de Frontino por presuntas irregularidades en el PAE, ¿cuánta plata está comprometida?",
+      "fuente": "Teleantioquia",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQX3JjSGhMaFk5UlVxbW85TVpDSE9YMU41Smx0WGV6WkJyTkN2b3R3akhBWFNDcGNOTml3emxYTUh5VWRfVmJOSVF5ekFHQXVIQXlWVF9SS05WdlczNmRYOU9EXzJnUDdNbjUxNVNiTGp0TXEtSXQyalpEYUN0aVdaWFROM2FHejRlQzl6MjJWcDdRNk9kYUcwNjFINEtqS2g5RG5seEVqdnI2cnZkNkFXYndZVlM0S09FWmozVFVlNXFWb2hSYUhucDNiTDllWUpfQzFVS09mdGp6djdSb1EzdXMtR1otRkFtOWxXXzVnSVBRZTlRTTBEZ3lKTGpPZ0XSAYsCQVVfeXFMT2Y2dkVCcUxOZ3VOZDYxMFJnbHF5eGxHdlB6ZlVobVpmYlVwWDNnblhGOU45MWgxZmR2Q19odlh4TjRLMnVmOVBPR0FzSGVMR3EyUkRnb1lkX3RSZ0k4M05hLUZvSlNBUW85b1R0UDhtRV8yS0x0T21IWnhLeVA3NGs3dWEydHhDUXlUaTFtazRlNlRYYUxzTEcyOGFZam9hdENwMVp2NnI4ZGZtZm9RdlpzLTRoeXUxQWROaU1WX0doVU5WdkxnY0tWdEJoN3EtZzJ4TGs0RHRmUHYxZ3lwcjBnTEpsSy1LRXB5dzg5Nk90MUs2cEhQNUFhNi05RDlseGdhRmNMbFFHMUw4?oc=5",
       "fecha": "2026-10-23T07:00:00.000Z",
       "imagen": ""
     },
@@ -398,6 +412,83 @@
       "fuente": "La Prensa Regional",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUHVWNDNRejV6N3QxLVk5cHJqWVppTUFPOW9saWpzU3FyY1M0UFVkUi1pTG9ZT1pUVVNCYjdLV1NGWmdqWmd6SmZocUJqYms0TzRoTWJ2ZzJWeXotV0tFblhxZWVVOTV4eWIxRl9lUnVRcTRyMG4wS0RTdC1GZzRsc01ZSmxuUVBfb0lLT0tPeERzSFpwdTItRlZIQW1YSE04YTBfLUpDNkFzVjJfMENSNG1UamF3WC1NcERrRlprWVUxcm5nZXc?oc=5",
       "fecha": "2026-10-21T07:00:00.000Z",
+      "imagen": ""
+    },
+    {
+      "titulo": "Este 20 de octubre se realizará la segunda Mesa Pública del PAE 2026 en Manizales",
+      "fuente": "Centro de Información – Alcaldía de Manizales",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTWtQdmVzRVZ5QUE5S1J0MF9lQWpVb3o1UG5nNXhHRWNhS3dMRlhmVnFIcFJvQ2lhaEc0OW1reEptZUdZRThUankxSTFMOXBQczBCeFlyRTQ2QXNzYk41bzdsbTh6TWJPNHlJemkwZzcxZ1IxVjBTMUpZcUpSaUNhanEwUkktLVg2RER3U29KRkxDR1VXWDVuTWZjTkZCT3Y4bWpJWEhYWjZRbzBtTjhKRFpIZWFiWUNrRk4xRGxxc1lIMjhXTmc?oc=5",
+      "fecha": "2026-10-19T20:20:08.000Z",
+      "imagen": ""
+    },
+    {
+      "titulo": "Delcy Rodríguez: “El PAE garantiza alimentación diaria a más de 2,5 millones de estudiantes”",
+      "fuente": "cotejo.info",
+      "url": "https://cotejo.info/2026/10/media-verdad-delcy-rodriguez-pae-garantiza-alimentacion-diaria-2-millones-estudiantes/",
+      "fecha": "2026-10-19T12:55:00.000Z",
+      "imagen": ""
+    },
+    {
+      "titulo": "Gobernación del Magdalena pone en marcha el PAE para las comunidades Negras, Afrocolombanias, Raizales y Palenqueras, beneficiando a más de 16 mil estudiantes",
+      "fuente": "EL INFORMADOR - Santa Marta, Colombia",
+      "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxOZjZ2My1PaktiSFNiNDJIcTUyQ1pxM1dkc0hxMUNZUlZCQUpvSmJ2eGgyYWJIZElOQmV4NUp2T3NsU1ZDMmRoRm84S0JCd1c1RW82QTcwZW1XdTZUTzNna2JJRlVXeVBkQ0VnaUNWTzBoLUN5Qm9YSE1DRG0zYlBvMzQwVWUzM1JfQjFXUndSd0RaUGVBbm1HTXhqTTZUSWIwOGdZMDBtMEpWLVFybjRUNHplbDRJNmIwZWoyVXBJb1RETnBSSEtBUC16VjlUQVN2cWhWU3ZvaXhxeDh3UElqZzl2ZE5Da1ZjVzg1Q21kR2g3YmsxbUVnbWFwbVlEd3oxbFJJaUg3ZV9IX0lBX3JlUlF2d2s1ZjVZTUxHU3NtTzg5Q3hkWXdab1UwaGZ1ZGk3dnBTcmV1a0NCcXp5QkVDejhyN1FVQUJwejQ0TEl5b1dxVGc?oc=5",
+      "fecha": "2026-10-18T07:00:00.000Z",
+      "imagen": ""
+    },
+    {
+      "titulo": "Más de 16.000 estudiantes reciben alimentación escolar en Rionegro, que busca garantizar la continuidad del programa hasta 2027",
+      "fuente": "Alcaldía de Rionegro",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQMzFDNjdyaS1FNjItdzJIRVVEbVdDUzhnTGdSLUpXLW9oZklUY1FGU3BjejhIWWdnNDhGM19JMkllMFdxTXo2X1FqbERfczFBeWRvY3pLMnJsbUFZMWhNREdVUF9xc0Q2NU41bTN0YkNMeFpseVczVUFGNmY2SFJlV2NGazBnWWdlOG1nQmxtMFUyZzhlbnVIUTFtUi13dzgwOTRmd3lKXzVJQ0hYZDJXVUs3MjRweW00ZHhwVVM0dDQ1RGR2dldpYmJXU1ZHaEhnNmN2eFFJal8tbzJnQU9jOTRvZ3VzNzJDdnV0Zi15V0RoSGdVd25iamV6djJqQQ?oc=5",
+      "fecha": "2026-10-16T07:00:00.000Z",
+      "imagen": ""
+    },
+    {
+      "titulo": "Más de 112.000 estudiantes se benefician del PAE de Boyacá, una apuesta que conecta la alimentación escolar con el campo",
+      "fuente": "Gobernación de Boyacá",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNMEs4bDMtSXRINDdfSFp5Qm92ZjhXaEFqQkpfS2d1LXhoc0JneS04Wi1DdXVqRTNBYV9RUHFEUERrUjY5Q1lIX3pfbFFYb24zcWRSQ25GbFBGMUhFRVdkZ1RXMjBNVF8yRmxjSlMwUGpNYmpsZkRFdC1nYUREYU1kcTd5T0NtU2Mxb0JyS3h3a0ZhdEVDUDFWZDF1d2o1R0ZHRkxUdjZSdzNpUXVKWUJlZ1FfMW5Dc01NY3RyTTNNTElYUG9lTkpWVVZYd2lmZFJGTGVuNUJ5ZWcyWUdUekpB?oc=5",
+      "fecha": "2026-10-16T07:00:00.000Z",
+      "imagen": ""
+    },
+    {
+      "titulo": "PAE bajo la lupa: esta es la tecnología que busca registrar las raciones que reciben los estudiantes",
+      "fuente": "La FM",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSTNSYjFpX3hYUkZ6NV9XZUd4QlhnU3FzeFE5Yi1WaERNUFVBNHg5U0hZWjVIbGo0YUxNdURVX2RrSjc1bTlIV3d4QWI3UzMwaG5XajNMOS16SEZJbVcwRHl3NGhGTFNQOU5ueXJHWC1lZnRNRkF3ZU40bDFMUVV0OHRQMkUwNGtLY2xkWHd3ZUNUYlNpOVU5NVQwaFVMdmVZbENVQk5SVk0xSFh2UXU3aDF0Tmt3MEJneHBXMNIBvAFBVV95cUxPdk1DNTltcnNmV1k4NU1tX3VyRnJKU0NCYnZKSk1yMER2UXVVTmUzM3hBQkFjSF8xS3lDNndjZzN0bHZTWlU5TmM4MzBGY3JHZnJKVmc3RTA1bUhUUGVxcWkzU0RMeGpaOHJIb1ZHSDBJb1NxMW04Tk96YVZ3UFRiLVU5bzkzSk1ONzBuV1pjUGVsMDdDVTJ3TkhrZ21iMXRJbHJHMnZCOFJUNHdmdlYxcTVlUjZkUGZYZ25Vaw?oc=5",
+      "fecha": "2026-10-15T07:00:00.000Z",
+      "imagen": ""
+    },
+    {
+      "titulo": "Alerta por presuntas larvas en conservas para escolares de Cajamarca: PAE no reporta menores afectados",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/peru/2026/10/15/alerta-por-presuntas-larvas-en-conservas-para-escolares-de-cajamarca-pae-no-reporta-menores-afectados/",
+      "fecha": "2026-10-15T04:55:00.000Z",
+      "imagen": ""
+    },
+    {
+      "titulo": "Soacha innova en alimentación escolar con implementación de la modalidad 'Comida caliente transportada'",
+      "fuente": "Alcaldia de Soacha",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNWjd5VDZ0eDB6RHZuTV9faXlvdkRWZVU5dlZKMkhnVXM2UU0zbGJ5UGJnRFVXS05udFN5ZmpzSlp4VkhxcmhBekd4OS1mVUhDYnFuMDVGYjZDUmk0bXE3X25LRl9RUzNfM25oZ1FUTnhmS01fZmlRTGhIZUU4cUM2WHF4NVZiX1hTVVdyb0pJeEtfX0dWTGNWVHM2Y0hqMWFoZzdhd3o3QlFwUmdVVlBwNEc2aF9EenowNENVUzV5QzJmZDdvX3BuT0lCbUs4bUh4ZFhvX0hOdXU5UWptcjBqNkgxSmVCOHBpRFM5bDIycnkyYUhrQWFuQVVBY3FGdw?oc=5",
+      "fecha": "2026-10-14T14:27:33.000Z",
+      "imagen": ""
+    },
+    {
+      "titulo": "Con Comida Caliente Transportada (CCT), Cartagena pone en marcha piloto del PAE que beneficia a más de 900 estudiantes",
+      "fuente": "Alcaldía Mayor de Cartagena de Indias",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdnEybzFJREFlak14MnRxazNaSHZMX1QyTGFGSHY1YXZhSnZqVklpMTUwT0VhRGNlVll2UlhOMjdURzJadHAxQTc3ZjIzaU5SM0JDYzhTSVFYaDlhbjRfTVZMaVBiUk1ZT1dlbWRPZnVfc043REFHZ19Kall5ZWlZU2I2T3JBVG1UTmRhV2k1VEhNYzYtdTQyNjNMSE9OMDN1djlIRV9FSGg3ZVF3czc4QWVKQ3M4U0Y0NWJiMTlLd0ltWUM2ZllteDhhWDYzVlJCTFkw?oc=5",
+      "fecha": "2026-10-12T07:00:00.000Z",
+      "imagen": ""
+    },
+    {
+      "titulo": "PAE Cali fortalece la calidad de la alimentación escolar de la mano de proveedores locales",
+      "fuente": "Alcaldía de Santiago de Cali",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNMTF1elktZzBMVzY1dnpVVFhLOUV6aFBBTElQMGVwZ001NUgzTHdsVG5wY3ZwT19palR2TmF1R1dob2dGb1RJb2gyNGtwTDhWREdfaER0LW5qN0NSVXhwZVc4WjZoQ3IxYkZsQkdXRFpjLTJoZmNxZF83dXpzek5lek1KQk8yTl9vdUhlNFA5Qk1TbkVnTWowSEVwNmpydU9KZXRIZDdMbkJmSHVvbmNERUFYTGc5bHhSa0hGMFZBaUp0MXVjd2tNQ0haMmNFOWxQOXhxSF96eklwTGJ0alhz?oc=5",
+      "fecha": "2026-10-09T07:00:00.000Z",
+      "imagen": ""
+    },
+    {
+      "titulo": "Cartagena prueba nueva modalidad del PAE: estudiantes de colegios sin cocina tienen la comida caliente garantizada",
+      "fuente": "Alerta",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPa01lSFB2S055Y2pyVmlLbndXRnRBUDZ6dUh1elktczg2eEc3b0tuRmNUSDVOMUNBWUwxd2libU5mZnpwRzRFTG1HWnVTdC1rNmsxLVVmNUZXM2lIOHFhcURPcUNKbnpPejlJQzM2VzdyYXYyejFQc0ZNSlh5NVZaX2wtdWFFYWJPdXhLUlNoNWlLLUU5c3Z3SXY5eHVhWDZNNmZkZTl6Ymxxd9IBrgFBVV95cUxOOTVaUmhmY1VXdkcyaG1ydUJHWVIyc0hsNlBYblNtc2xEYjE3SERxay1oQnVQSS12NkFaSXZycmtUTDg0REFmYS1nM0F2ZzNZV3dNZmdqemc2RXRLUjItSVBxSE52LUNDQTZHc0YtWVFETk1OZDFCZEpoLWRNdW8yMHlHTlhVOFlWQTFGc3JETTdUR3k0aTBDcllPN09iOExucXdKYVVTd2NLSFhfcFE?oc=5",
+      "fecha": "2026-10-08T07:00:00.000Z",
       "imagen": ""
     }
   ],

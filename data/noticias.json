@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-06T11:22:44.912Z",
+  "actualizado": "2026-11-06T18:15:54.952Z",
   "items": [
     {
       "titulo": "Atlántico logra respaldo nacional para fortalecer el PAE",
@@ -21,6 +21,13 @@
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYmQzYkYtcVFPakFIcGNWWUVzaERsRmlCaDVDVWNrb2k3UVV3c1JOR2Vxa2NYZVFqZTF6WkFTcG9UbDBhMjZEV01nUG9RdWV2ajZMVVBGcHlzd0ExYXlGNVYwZUMtSWtEZHp5ZjdXS29ieGdURTlqZllmVzM3VmhvQnZjbDZseFV2cjlncW1XSmJmVjFBZmRiWFFsbFd1Ynh0cXNPVHh4QlJwN0ZGUmhCQjNmbzVwclBpSy10a1ZtUEh4VkZsazVV?oc=5",
       "fecha": "2026-11-05T18:45:27.000Z",
       "imagen": ""
+    },
+    {
+      "titulo": "Contraloría de Bogotá despliega operativo en colegios públicos para vigilar recursos y calidad del PAE",
+      "fuente": "Focus Noticias",
+      "url": "https://focusnoticias.com/contraloria-de-bogota-despliega-operativo-en-colegios-publicos-para-vigilar-recursos-y-calidad-del-pae/",
+      "fecha": "2026-11-05T18:15:25.000Z",
+      "imagen": "https://focusnoticias.com/wp-content/uploads/2026/11/HWXI4wlWkAAz8Wv.jpg"
     },
     {
       "titulo": "Atlántico garantiza continuidad del PAE para 95.921 estudiantes tras gestión ante el Gobierno nacional",
@@ -49,13 +56,6 @@
       "url": "https://www.elheraldo.co/atlantico/2026/11/05/atlantico-asegura-recursos-para-mantener-cobertura-del-pae/",
       "fecha": "2026-11-05T08:40:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.vRWWgnGX05S1mM373DL-hw&pid=News&w=640&h=360&c=7"
-    },
-    {
-      "titulo": "Contraloría de Bogotá despliega operativo en colegios públicos para vigilar recursos y calidad del PAE",
-      "fuente": "focusnoticias",
-      "url": "https://focusnoticias.com/contraloria-de-bogota-despliega-operativo-en-colegios-publicos-para-vigilar-recursos-y-calidad-del-pae/",
-      "fecha": "2026-11-05T08:36:00.000Z",
-      "imagen": "https://focusnoticias.com/wp-content/uploads/2026/11/HWXI4wlWkAAz8Wv.jpg"
     },
     {
       "titulo": "El presidente del Concejo Javier Ortiz asume ponencia del proyecto del PAE para 2028",
@@ -327,7 +327,7 @@
       "titulo": "Gobierno nacional prevé atender cuatro millones de niños a través del PAE La presidenta de la República Bolivariana de Venezuela, Delcy Rodríguez, durante el lanzamiento del Plan Venezuela Alimenta, aseguró que van a fortalecer el Programa Alimentac",
       "fuente": "Instagram",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBTRnZvbkd6a3YxandhYzZZTjktZUFFYlJ5RGtYMm5YOEF6YmI4Qk93al9Wd1VGRkM5bkpla1VXaU96VXppVnVhbU5GcExLU0NqV1E?oc=5",
-      "fecha": "2026-10-25T11:57:52.000Z",
+      "fecha": "2026-10-25T07:00:00.000Z",
       "imagen": ""
     },
     {
@@ -366,13 +366,6 @@
       "imagen": "http://www.bing.com/th?id=ONUT.dvzif-3lAu2qx7tEbsSIPQ&pid=News&w=640&h=360&c=7"
     },
     {
-      "titulo": "Cargos a alcaldesa de Frontino (Antioquia) por presuntas irregularidades en contratación del PAE",
-      "fuente": "Procuraduria General de la Nación",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQY18xOVh0ajdSaG1QT2FiWXYyU3poZ2NhcG5fMVNiRGt5M09CSG1YRi1GUEtMNENkbnE5MDVnaU10dGlRNlU3dEFpdk5FTXR0bkpNbHVHRFlmbFdMdndGYVpNTHNPLWNGV3czUl9tTlZXVlhBZUFGelFacmstWnViMTNoN1E3Z0pHa0Y2ektjTEJDY1pXaWE4ZnZCN25EMWhTN2JVVEZTLVFaaERmWldycUVnVm04ODFHaE9LODh0WGR6Q09UM0FHWFpNdw?oc=5",
-      "fecha": "2026-10-23T07:00:00.000Z",
-      "imagen": ""
-    },
-    {
       "titulo": "Alcaldesa de Frontino, Antioquia será investigada por presuntas irregularidades en contratos del PAE",
       "fuente": "Caracol Radio",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQb2NZem5fajN3S2xQTG1sZzJ0VEQ2R21nQTNBc3kxcVdtbE83X3dRTzJUTEdjQUozdFFUTXJ6eVJlelFWcHY1akplWGpUY1JLcEFhOXNWNUpvLTk3S19OQTc5Ui1uNFRkdDlEem9LMnNEMk1XSHVBdWpVYWp0dVRwandKbmZrRjhpZlNFZEJwMnRJMDFnMUM1bndiTFVlSHhpbl9zTTlOdmRybjRhRllnbkxBMFV4ZVd4UkQ1S2ZOcmVZNHpWcTI5dVFxdFRiS1nSAeMBQVVfeXFMTVhOTG5kcnAtVURzaFdFWU1uUm1LVVE0TzI4dm91ajFQUEJ0SmpscXpHZ3o2QW5OM2pCdGFncnV1Q210YWIwOTluWjhWbGRmMnBKTTZmRUFTS3VNNF9BMk1wa1ZqUVF4aWZ5Y0tzNTVReC1jYTlJSjQ5Q0FBdHdoZUZiY01GdXp5RHhSMDRrZ0J4OHhac25XdW5pTnUyb2UxdnBjTGpzRU9PYUVxR1NJeUJrMkxtNDhEMmViemdCZ19VQkN1V29yOFQzSGROS0NwWUlDeW9NaWFaZzEtNGxqSk5jWGM?oc=5",
@@ -387,6 +380,13 @@
       "imagen": ""
     },
     {
+      "titulo": "Procuraduría formuló cargos contra la alcaldesa de Frontino por presuntas irregularidades en el PAE",
+      "fuente": "Blu Radio",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbGRNaXNXVjFFblVYZW9VUjg1WncybDA3OGVLRnBMWkNvZjdVRU56UGJKU1NVWHVrM3dYUEttU0lrQktuLWdvLU5GRUZXSVhQczlmc1dyWHg3VHBSTzNkU0RTTTFJbk03b3U0TGJDVDFydFFhYUI1Rm52LU5jeC1iVDYxTFFGRHZKSFlrQXpDcXNjT1huMHdNZ3ZxLTVYb0p6eGFCaDdoem5Fc2M4aDhuR2dDVndlc3Q5c1htMlZpaDh4N0d2WDU3TTgtZFQzZDlXbU9GQUFvMGlJcGRoUUIwX1dB0gHvAUFVX3lxTE8zZ0hKSVhWVWhlVlh4Tko3VHhoQ1o5eVRWbXphdkVDYm9ENVZpMllxc0p6eFN2MTZYdkIycmJQYjE4V1ZESlJJTUhCNUN4M2pWWHhONVNXOTNNT2REN0pIbmhXRkpjbVNST3N3VXNibmdqNnFLaHhySWNlRXQ0dVB2R2ttM3QtRmk5VlJ4dm5xQ0dEenJtTHV1UGh3dS1mM1JxTHVfWVcwVWpjNWhCbkxUWEFYYzBrOUtFTTBWTG5VOEdCN21JWU9MNUxmQXNaNmN0d1M2VWJfcTlNVUFKS0k0bmpBRW1jUlhsV0lLRHow?oc=5",
+      "fecha": "2026-10-23T07:00:00.000Z",
+      "imagen": ""
+    },
+    {
       "titulo": "Procuraduría formuló pliego de cargos a la alcaldesa de Frontino por presuntas irregularidades en el PAE, ¿cuánta plata está comprometida?",
       "fuente": "Teleantioquia",
       "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQX3JjSGhMaFk5UlVxbW85TVpDSE9YMU41Smx0WGV6WkJyTkN2b3R3akhBWFNDcGNOTml3emxYTUh5VWRfVmJOSVF5ekFHQXVIQXlWVF9SS05WdlczNmRYOU9EXzJnUDdNbjUxNVNiTGp0TXEtSXQyalpEYUN0aVdaWFROM2FHejRlQzl6MjJWcDdRNk9kYUcwNjFINEtqS2g5RG5seEVqdnI2cnZkNkFXYndZVlM0S09FWmozVFVlNXFWb2hSYUhucDNiTDllWUpfQzFVS09mdGp6djdSb1EzdXMtR1otRkFtOWxXXzVnSVBRZTlRTTBEZ3lKTGpPZ0XSAYsCQVVfeXFMT2Y2dkVCcUxOZ3VOZDYxMFJnbHF5eGxHdlB6ZlVobVpmYlVwWDNnblhGOU45MWgxZmR2Q19odlh4TjRLMnVmOVBPR0FzSGVMR3EyUkRnb1lkX3RSZ0k4M05hLUZvSlNBUW85b1R0UDhtRV8yS0x0T21IWnhLeVA3NGs3dWEydHhDUXlUaTFtazRlNlRYYUxzTEcyOGFZam9hdENwMVp2NnI4ZGZtZm9RdlpzLTRoeXUxQWROaU1WX0doVU5WdkxnY0tWdEJoN3EtZzJ4TGs0RHRmUHYxZ3lwcjBnTEpsSy1LRXB5dzg5Nk90MUs2cEhQNUFhNi05RDlseGdhRmNMbFFHMUw4?oc=5",
@@ -394,9 +394,9 @@
       "imagen": ""
     },
     {
-      "titulo": "Procuraduría formuló cargos contra la alcaldesa de Frontino por presuntas irregularidades en el PAE",
-      "fuente": "Blu Radio",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbGRNaXNXVjFFblVYZW9VUjg1WncybDA3OGVLRnBMWkNvZjdVRU56UGJKU1NVWHVrM3dYUEttU0lrQktuLWdvLU5GRUZXSVhQczlmc1dyWHg3VHBSTzNkU0RTTTFJbk03b3U0TGJDVDFydFFhYUI1Rm52LU5jeC1iVDYxTFFGRHZKSFlrQXpDcXNjT1huMHdNZ3ZxLTVYb0p6eGFCaDdoem5Fc2M4aDhuR2dDVndlc3Q5c1htMlZpaDh4N0d2WDU3TTgtZFQzZDlXbU9GQUFvMGlJcGRoUUIwX1dB0gHvAUFVX3lxTE8zZ0hKSVhWVWhlVlh4Tko3VHhoQ1o5eVRWbXphdkVDYm9ENVZpMllxc0p6eFN2MTZYdkIycmJQYjE4V1ZESlJJTUhCNUN4M2pWWHhONVNXOTNNT2REN0pIbmhXRkpjbVNST3N3VXNibmdqNnFLaHhySWNlRXQ0dVB2R2ttM3QtRmk5VlJ4dm5xQ0dEenJtTHV1UGh3dS1mM1JxTHVfWVcwVWpjNWhCbkxUWEFYYzBrOUtFTTBWTG5VOEdCN21JWU9MNUxmQXNaNmN0d1M2VWJfcTlNVUFKS0k0bmpBRW1jUlhsV0lLRHow?oc=5",
+      "titulo": "Cargos a alcaldesa de Frontino (Antioquia) por presuntas irregularidades en contratación del PAE",
+      "fuente": "Procuraduria General de la Nación",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQY18xOVh0ajdSaG1QT2FiWXYyU3poZ2NhcG5fMVNiRGt5M09CSG1YRi1GUEtMNENkbnE5MDVnaU10dGlRNlU3dEFpdk5FTXR0bkpNbHVHRFlmbFdMdndGYVpNTHNPLWNGV3czUl9tTlZXVlhBZUFGelFacmstWnViMTNoN1E3Z0pHa0Y2ektjTEJDY1pXaWE4ZnZCN25EMWhTN2JVVEZTLVFaaERmWldycUVnVm04ODFHaE9LODh0WGR6Q09UM0FHWFpNdw?oc=5",
       "fecha": "2026-10-23T07:00:00.000Z",
       "imagen": ""
     },

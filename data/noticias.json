@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-08T14:08:37.408Z",
+  "actualizado": "2026-11-08T18:58:36.379Z",
   "items": [
     {
       "titulo": "Distrito de Santa Marta asegura que denuncias de Contraloría sobre el PAE son falsas",
@@ -34,6 +34,13 @@
       "fuente": "EL INFORMADOR - Santa Marta, Colombia",
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQbE9EQzdqNXQ5UWFwM0dWSkZYYTBVNy1vM042Q3haT21OMWctQzZWYWZaUE0wM2VmV2U1NkZGalV6RG45N1JBNUZzWFdNN1B5dkRWLV9kZlpHYjRjcUVPaVNHQjdyMTYzQWJkUUVrZmVTMF9QX0NRWkg5cGhrZzA4b3RPa3J6RGFyYUpja0FNbVMyc3VlckVyd3VfTEQyZWZXLXlyMTRSQTAzek1ZQjdNNDc2QXZEeWlKeWtLR3hKanpLa1JBUU9vazE2SFNRUXluV0ROZ0tEQTlCUWpYZm9YbmlsNWg1ZTVUZ2VublVsNkFyVFJNS3FzSQ?oc=5",
       "fecha": "2026-11-07T15:51:31.000Z",
+      "imagen": ""
+    },
+    {
+      "titulo": "Soacha innova en alimentación escolar con implementación de la modalidad 'Comida caliente transportada'",
+      "fuente": "Alcaldia de Soacha",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNWjd5VDZ0eDB6RHZuTV9faXlvdkRWZVU5dlZKMkhnVXM2UU0zbGJ5UGJnRFVXS05udFN5ZmpzSlp4VkhxcmhBekd4OS1mVUhDYnFuMDVGYjZDUmk0bXE3X25LRl9RUzNfM25oZ1FUTnhmS01fZmlRTGhIZUU4cUM2WHF4NVZiX1hTVVdyb0pJeEtfX0dWTGNWVHM2Y0hqMWFoZzdhd3o3QlFwUmdVVlBwNEc2aF9EenowNENVUzV5QzJmZDdvX3BuT0lCbUs4bUh4ZFhvX0hOdXU5UWptcjBqNkgxSmVCOHBpRFM5bDIycnkyYUhrQWFuQVVBY3FGdw?oc=5",
+      "fecha": "2026-11-07T15:44:09.000Z",
       "imagen": ""
     },
     {
@@ -135,20 +142,6 @@
       "imagen": "http://www.bing.com/th?id=ONUT.pJgOI0rZgsBdy4AnV-pDFg&pid=News&w=640&h=360&c=7"
     },
     {
-      "titulo": "Alimentos escolares bajo inspección: Contraloría revisa el PAE en las 20 localidades de Bogotá",
-      "fuente": "La FM",
-      "url": "https://www.lafm.com.co/actualidad/plan-alimentacion-escolar-pae-bogota-inspeccion-contraloria-20-localidades-alimentos-estudiantes-colegios-publicos-416214",
-      "fecha": "2026-11-05T14:47:51.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.ONHMgBWGHzhSeoTMBTZvCQ&pid=News&w=640&h=360&c=7"
-    },
-    {
-      "titulo": "Contraloría Distrital pone la lupa en el funcionamiento del PAE en Bogotá",
-      "fuente": "Caracol Radio",
-      "url": "https://caracol.com.co/2026/11/05/contraloria-distrital-pone-la-lupa-en-el-funcionamiento-del-pae-en-bogota/",
-      "fecha": "2026-11-05T12:38:04.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.WrT-4UXAjAAvVSzerzKBPQ&pid=News&w=640&h=360&c=7"
-    },
-    {
       "titulo": "¡Atlántico logra respaldo nacional para fortalecer el PAE! Más de 90 mil estudiantes del departamento se beneficiarán",
       "fuente": "impactonews",
       "url": "https://impactonews.co/atlantico-logra-respaldo-nacional-para-fortalecer-el-pae-mas-de-90-mil-estudiantes-del-departamento-se-beneficiaran/",
@@ -168,6 +161,20 @@
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQM1RyYkZWSGVucEJLTC1vaE5vZnBhWFFlcUZrMDRxUUFTWXBMSFkyLW5RSlc0VVFjMlk0bUpUQXAtX2NHNElMWmNTeUhWMzlRTXdUd0JDQzVUVzkwaVdScVNoMW13alJGS3JpTzRNQkNFeDRTZEFKbkxhaXVVTnlFckVkanJkQjBPZS15dFJXb3ZZU3d2UTdJbS02Ykg5dnR1WXJPa2pNaGZCZTFvZzN6VHhjZXVYUWpnYVV1T1oyTFZ3ZEU3V0RzOWZB?oc=5",
       "fecha": "2026-11-05T02:11:06.000Z",
       "imagen": ""
+    },
+    {
+      "titulo": "Contraloría Distrital pone la lupa en el funcionamiento del PAE en Bogotá",
+      "fuente": "Caracol Radio",
+      "url": "https://caracol.com.co/2026/11/05/contraloria-distrital-pone-la-lupa-en-el-funcionamiento-del-pae-en-bogota/",
+      "fecha": "2026-11-04T23:38:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.WrT-4UXAjAAvVSzerzKBPQ&pid=News&w=640&h=360&c=7"
+    },
+    {
+      "titulo": "Alimentos escolares bajo inspección: Contraloría revisa el PAE en las 20 localidades de Bogotá",
+      "fuente": "La FM",
+      "url": "https://www.lafm.com.co/actualidad/plan-alimentacion-escolar-pae-bogota-inspeccion-contraloria-20-localidades-alimentos-estudiantes-colegios-publicos-416214",
+      "fecha": "2026-11-04T22:30:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.ONHMgBWGHzhSeoTMBTZvCQ&pid=News&w=640&h=360&c=7"
     },
     {
       "titulo": "Asamblea del Cesar aprueba vigencias futuras para el PAE",
@@ -482,13 +489,6 @@
       "fuente": "Teleantioquia",
       "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQX3JjSGhMaFk5UlVxbW85TVpDSE9YMU41Smx0WGV6WkJyTkN2b3R3akhBWFNDcGNOTml3emxYTUh5VWRfVmJOSVF5ekFHQXVIQXlWVF9SS05WdlczNmRYOU9EXzJnUDdNbjUxNVNiTGp0TXEtSXQyalpEYUN0aVdaWFROM2FHejRlQzl6MjJWcDdRNk9kYUcwNjFINEtqS2g5RG5seEVqdnI2cnZkNkFXYndZVlM0S09FWmozVFVlNXFWb2hSYUhucDNiTDllWUpfQzFVS09mdGp6djdSb1EzdXMtR1otRkFtOWxXXzVnSVBRZTlRTTBEZ3lKTGpPZ0XSAYsCQVVfeXFMT2Y2dkVCcUxOZ3VOZDYxMFJnbHF5eGxHdlB6ZlVobVpmYlVwWDNnblhGOU45MWgxZmR2Q19odlh4TjRLMnVmOVBPR0FzSGVMR3EyUkRnb1lkX3RSZ0k4M05hLUZvSlNBUW85b1R0UDhtRV8yS0x0T21IWnhLeVA3NGs3dWEydHhDUXlUaTFtazRlNlRYYUxzTEcyOGFZam9hdENwMVp2NnI4ZGZtZm9RdlpzLTRoeXUxQWROaU1WX0doVU5WdkxnY0tWdEJoN3EtZzJ4TGs0RHRmUHYxZ3lwcjBnTEpsSy1LRXB5dzg5Nk90MUs2cEhQNUFhNi05RDlseGdhRmNMbFFHMUw4?oc=5",
       "fecha": "2026-10-23T07:00:00.000Z",
-      "imagen": ""
-    },
-    {
-      "titulo": "Un solo proponente en contrato de alimentación escolar en Valledupar",
-      "fuente": "El Pais Vallenato",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ1c5MkNsVUlwWlk5bzVfNjRQYlNaaVpOem5haGxkNTg1Nk1ReWgyVGk5S3V0SHd4YW9pVG93WFNuTVRVMkl2S3Z2XzNQZHRnaEZvU20zd3NzUzVoVXdnSDdwRzlBZEtGaXdKUS1NVm5KMWE2cERiVDFiOElwdXlfbUp4ZEVxeklweTdIdC11R2dvQm9VN1R2bWJJSmpNRExRVlZ3?oc=5",
-      "fecha": "2026-10-22T12:12:08.000Z",
       "imagen": ""
     }
   ],

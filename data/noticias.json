@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-11T15:02:55.940Z",
+  "actualizado": "2026-11-11T22:09:04.960Z",
   "items": [
     {
       "titulo": "Boyacá busca asegurar el PAE desde el primer día de clases en 2027",
@@ -9,11 +9,32 @@
       "imagen": ""
     },
     {
+      "titulo": "Programa de Alimentación Escolar sirve 2 millones de comidas diarias",
+      "fuente": "rnv.gob",
+      "url": "https://rnv.gob.ve/programa-de-alimentacion-escolar-sirve-2-millones-de-co/",
+      "fecha": "2026-11-11T11:38:00.000Z",
+      "imagen": "https://rnv.gob.ve/wp-content/uploads/2026/11/Programa-de-Alimentacion-Escolar-sirve-2-millones-de-comidas-diarias.png"
+    },
+    {
+      "titulo": "El Gobierno garantizará $3,1 billones para el PAE en 2027, pero persisten las brechas de cobertura entre regiones",
+      "fuente": "ifmnoticias",
+      "url": "https://ifmnoticias.com/educacion/alimentacion-escolar-en-2027-el-gobierno-garantiza-3-1-billones-para-el-pae-pero/",
+      "fecha": "2026-11-11T08:20:00.000Z",
+      "imagen": "https://storage.googleapis.com/ifmnoticias-media/articles/ingest/alimentacion-escolar-en-2027-el-gobierno-garantiza-3-1-billones-para-el-pae-pero-1794413068179.webp"
+    },
+    {
       "titulo": "La Mesa dotó al colegio Francisco Julián Olaya con equipos educativos y elementos para el PAE",
       "fuente": "El dorado radio",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcE1CZUdPTUdleTg2VXlWemE4dHN1cTBuVVR2RFhIazZ5NXZJdmJzZ083VEFiR0F3eXZjX3c3b2V0QVVMTmVFdmV3ZlRxRHhXUE41UWFTbFR6TVRsUGU0a1FLVlBtR2F5Nkg5X0txVjlMZXpma2E4VXFfZFJjVlFia051Tnk2ekh5bUV3V1JDb0ZsZ0Y1ZmlRd0lfUEZJbWUtNlZVNkdVakwxa1NJWFBhbFRVN0lOTzkxYUdjOW1CVG1QMUhQNFI1cUlyVjdlNEl0WDhBakdnTTZMdTdTTlE?oc=5",
       "fecha": "2026-11-10T17:13:37.000Z",
       "imagen": ""
+    },
+    {
+      "titulo": "Comisión Sexta avala premiar a regiones con mejor gestión del PAE",
+      "fuente": "El Nuevo Siglo",
+      "url": "https://www.elnuevosiglo.com.co/politica/comision-sexta-avala-premiar-regiones-con-mejor-gestion-del-pae",
+      "fecha": "2026-11-10T16:00:00.000Z",
+      "imagen": "https://www.elnuevosiglo.com.co/sites/default/files/2026-11/comision%20sexta_0.png"
     },
     {
       "titulo": "Baquero explica situación que llevó a trabajadoras del PAE a protestar en Villavicencio: «No podemos girarle»",
@@ -49,6 +70,13 @@
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaS1NcGpjR0lxZ3dxZkd1UFAwZ2pSWEo4YWNJM0NxbjN3S1ZaNnQxSERyNm1DQVFQSXRTbjVXbHZpZ3pmQ2QtX0U4S2F6Qml4TzZYOE9UX29icXdFMWRNZUlyNGJOYjd3NVd1LTlRU1lTSWpJTnNHbU9vck9lbVZzUy1OY3ZxQ2JXRXlLYnRNNlhFQ2hLM3ZWd0Jqc09mQlNZREtKR2hJRExrNzJrTFRoVXM4QlVOaGgyblZySW1STmgzbE3SAc8BQVVfeXFMUC1SZjJTUGFYeTRGTzUyaksyeHJ5RzJGaXRNVjg5VkM3bTVkMXM2N1RZT1g2cVMwNUhoeWN3Nk9WMkh0VGxCcG1ISmc3TngzdllJbk8wUlppUmdmOUV0aVR0UlpmMUxxc3RQS2ZyRXpwOVYtOFR3TzhjV2M1dV9TMXo0d2VFVG15bDFZVkRxc1hFUHRtRG5jRTBwbjFPdlZKbzNjNkxCaXgtRGJrSW9hdEZmSnZPc25pa1l1Z01idjhYVUdDMDdBcGF5T1lkeTZz?oc=5",
       "fecha": "2026-11-08T00:13:41.000Z",
       "imagen": ""
+    },
+    {
+      "titulo": "Mineducación reportó ejecución del 0% en más de $12.000 millones para el PAE en Sincelejo",
+      "fuente": "Noticias RCN",
+      "url": "https://www.noticiasrcn.com/colombia/mineducacion-reporto-ejecucion-nula-en-los-recursos-del-pae-para-sincelejo-en-2024-1079706",
+      "fecha": "2026-11-07T20:18:41.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.-I3ujRcRZP7FhnjTwnfZyg&pid=News&w=640&h=360&c=7"
     },
     {
       "titulo": "PAE 2023 de Cúcuta se empieza a dar a partir del 23 de enero",
@@ -128,13 +156,6 @@
       "imagen": ""
     },
     {
-      "titulo": "Mineducación reportó ejecución del 0% en más de $12.000 millones para el PAE en Sincelejo",
-      "fuente": "Noticias RCN",
-      "url": "https://www.noticiasrcn.com/colombia/mineducacion-reporto-ejecucion-nula-en-los-recursos-del-pae-para-sincelejo-en-2024-1079706",
-      "fecha": "2026-11-06T19:18:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.-I3ujRcRZP7FhnjTwnfZyg&pid=News&w=640&h=360&c=7"
-    },
-    {
       "titulo": "Atlántico gestiona recursos ante el Gobierno para garantizar el PAE a más de 95 mil estudiantes",
       "fuente": "Noticias Coopercom",
       "url": "https://noticiascoopercom.co/atlantico-gestiona-recursos-ante-el-gobierno-para-garantizar-el-pae-a-mas-de-95-mil-estudiantes/",
@@ -184,6 +205,13 @@
       "imagen": "http://www.bing.com/th?id=ONUT.pJgOI0rZgsBdy4AnV-pDFg&pid=News&w=640&h=360&c=7"
     },
     {
+      "titulo": "Atlántico asegura recursos para mantener cobertura del PAE",
+      "fuente": "ELHERALDO.CO",
+      "url": "https://www.elheraldo.co/atlantico/2026/11/05/atlantico-asegura-recursos-para-mantener-cobertura-del-pae/",
+      "fecha": "2026-11-05T16:41:53.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.vRWWgnGX05S1mM373DL-hw&pid=News&w=640&h=360&c=7"
+    },
+    {
       "titulo": "Contraloría Distrital pone la lupa en el funcionamiento del PAE en Bogotá",
       "fuente": "Caracol Radio",
       "url": "https://caracol.com.co/2026/11/05/contraloria-distrital-pone-la-lupa-en-el-funcionamiento-del-pae-en-bogota/",
@@ -196,13 +224,6 @@
       "url": "https://impactonews.co/atlantico-logra-respaldo-nacional-para-fortalecer-el-pae-mas-de-90-mil-estudiantes-del-departamento-se-beneficiaran/",
       "fecha": "2026-11-05T09:57:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.NE5M04nk9yb2w38ZwBCPhQ&pid=News&w=640&h=360&c=7"
-    },
-    {
-      "titulo": "Atlántico asegura recursos para mantener cobertura del PAE",
-      "fuente": "El Heraldo",
-      "url": "https://www.elheraldo.co/atlantico/2026/11/05/atlantico-asegura-recursos-para-mantener-cobertura-del-pae/",
-      "fecha": "2026-11-05T08:40:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.vRWWgnGX05S1mM373DL-hw&pid=News&w=640&h=360&c=7"
     },
     {
       "titulo": "El presidente del Concejo Javier Ortiz asume ponencia del proyecto del PAE para 2028",
@@ -394,18 +415,18 @@
       "imagen": ""
     },
     {
-      "titulo": "Salud docente, alimentación escolar e infraestructura: las prioridades de Antioquia ante el Gobierno nacional",
-      "fuente": "La Prensa Oriente",
-      "url": "https://www.laprensaoriente.info/antioquia/salud-docente-alimentacion-escolar-e-infraestructura-las-prioridades-de-antioquia-ante-el-gobierno-nacional/",
-      "fecha": "2026-10-28T09:25:00.000Z",
-      "imagen": "https://www.laprensaoriente.info/wp-content/uploads/2026/10/Educacion-Antioquia.jpeg"
-    },
-    {
       "titulo": "Antioquia pide soluciones para la salud de los maestros y más recursos para la alimentación escolar",
       "fuente": "Hora 13 Noticias",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQT3lmRUg1ZkVWZklGcTNGbF9GYVRtNElWWS1mbEVCSFJxZHdEZC13NkFHNVVwQllQVzdaSE9PendOSkRBVXhGVHBQbnkxd2EwUUZlVVlsTkp3Uy1ZdmtXNnF0V2NCRWNiNXJ6cl85eXkwcU5zVy1BMVBPdG5sYmhBWFhPU1ZxRHVJUVo0Tm1XSE9VanV6SW1zVWhuSUNXeC1zakFabGtES2NHRXhUbmRmQmZnc0NyalJm?oc=5",
       "fecha": "2026-10-28T07:00:00.000Z",
       "imagen": ""
+    },
+    {
+      "titulo": "Salud docente, alimentación escolar e infraestructura: las prioridades de Antioquia ante el Gobierno nacional",
+      "fuente": "La Prensa Oriente",
+      "url": "https://www.laprensaoriente.info/antioquia/salud-docente-alimentacion-escolar-e-infraestructura-las-prioridades-de-antioquia-ante-el-gobierno-nacional/",
+      "fecha": "2026-10-28T07:00:00.000Z",
+      "imagen": "https://www.laprensaoriente.info/wp-content/uploads/2026/10/Educacion-Antioquia.jpeg"
     },
     {
       "titulo": "Fenómeno El Niño: Programa de Alimentación Escolar prepara entregas anticipadas ante lluvias y huaicos en zonas vulnerables",
@@ -468,27 +489,6 @@
       "fuente": "Instagram",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBTRnZvbkd6a3YxandhYzZZTjktZUFFYlJ5RGtYMm5YOEF6YmI4Qk93al9Wd1VGRkM5bkpla1VXaU96VXppVnVhbU5GcExLU0NqV1E?oc=5",
       "fecha": "2026-10-25T07:00:00.000Z",
-      "imagen": ""
-    },
-    {
-      "titulo": "El Programa de Alimentación Escolar (PAE) en Colombia se encuentra bajo la lupa debido a c",
-      "fuente": "Diario del Sur",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRmFiM19SR0pEUmJOdjRvcWlmT25SNEQ2dm5Kd2Z5cVdJUlQyOGZCYVZrTU01eHlNMi1ZOHpla3BrMGV3emhvTzFzcXF5bmYyS3pUVXRCUVFGcnNrYTVKcTBPMVdHM0dTM2F5b2NNRkY2X0dEcC05RG1zRm9YdzRsZ1dkcDN0U1FHMGZna1NYXzRyVWJpMVBpa2o4LV9HdlhTUGFhRXAyYVR2YjlJdzZEUEdmd2IzcUZraExwTHhLcWZFdzNpT3c0SA?oc=5",
-      "fecha": "2026-10-24T21:00:19.000Z",
-      "imagen": ""
-    },
-    {
-      "titulo": "Gobernación capacita a municipios del Magdalena para planificar el PAE",
-      "fuente": "hoy diario del magdalena",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeDZ2cjJ0TFZNc1piRGJaX0hBdVVjbVNFTE8xaEtsd1lfY2VOMzRGaG4tVGh6M3NiV2lrdTFfX0NyZy1wM1BXTEtNLVVpMEpjTE94dnA4bzNHdk45eVBUdDhQczlXNmo3N1o3V2dxOEN4V0YwSVNldVYxaEx0VTdHNE9OSjZYV1IyV3NZT21nRW1QV19tTFl5LWVxTjBVeTViU3V2OTB5aEU5dFltM0VFUWJQOG4zSzN5Ml9UR2NVX0ppNWM?oc=5",
-      "fecha": "2026-10-24T18:47:00.000Z",
-      "imagen": ""
-    },
-    {
-      "titulo": "Gobernación del Magdalena fortalece la planificación del Plan de Alimentación Escolar 2027 con municipios no certificados",
-      "fuente": "Gobernación del Magdalena",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQQUYyWFppLVp4SlNoOVpJYUJqMkRmeTdPM0dZUkZUTjJ5c2ZGUHlrNF9CX2RyYjJqSEo1YjRHZWNuSWlodVplRGNkS1djUUJPcDg0UTY5YWh4d1VjRWtCVVVMUGtDbHVKa0VlUUFzekFRMUx2SHYzeGNFSEh3eG9YQl9Ld2J0TTNsbjVFeDE3MVkwaHMxdHYzZ1d1X2I3aVFlTC10ZUhIX0I4UXRyTlhXb1BPSHBtbS1ydDhKbHNhRXRiUXctOTRFTzY3bHhyTl9WaXYzWHdUM0VFUlJZbXFGOVY1WUxTN1hJQ05MMGg5cVF4dlhqMHROYQ?oc=5",
-      "fecha": "2026-10-24T07:00:00.000Z",
       "imagen": ""
     }
   ],

@@ -1,6 +1,13 @@
 {
-  "actualizado": "2026-11-12T11:41:40.999Z",
+  "actualizado": "2026-11-12T19:40:26.231Z",
   "items": [
+    {
+      "titulo": "El PAE de Boyacá refuerza la estrategia de cero desperdicios en los restaurantes escolares",
+      "fuente": "Suba Alternativa",
+      "url": "https://subaalternativa.co/el-pae-de-boyaca-refuerza-la-estrategia-de-cero-desperdicios-en-los-restaurantes-escolares/",
+      "fecha": "2026-11-12T08:08:00.000Z",
+      "imagen": "https://subaalternativa.co/wp-content/uploads/2026/11/El-PAE-de-Boyaca-refuerza-la-estrategia-de-cero-desperdicios-en-los-restaurantes-escolares.jpeg"
+    },
     {
       "titulo": "Tras ajustes, radican nuevamente proyecto del PAE Sincelejo 2028",
       "fuente": "El Meridiano",
@@ -9,11 +16,18 @@
       "imagen": ""
     },
     {
-      "titulo": "Ocho niños intoxicados tras consumir alimentos del PAE en colegio de Luruaco",
-      "fuente": "Emisora Atlántico",
+      "titulo": "Ocho niños intoxicados tras consumir alimentos del PAE en colegio de Luruaco - Emisora Atlántico",
+      "fuente": "Emisora Atlántico 1070 AM",
       "url": "https://emisoraatlantico.com.co/local/ocho-ninos-intoxicados-tras-consumir-alimentos-del-pae-en-colegio-de-luruaco/",
-      "fecha": "2026-11-11T16:37:00.000Z",
+      "fecha": "2026-11-12T04:14:40.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.PfEChmHpM3vcofJJyNOCAA&pid=News&w=640&h=360&c=7"
+    },
+    {
+      "titulo": "El Gobierno garantizará $3,1 billones para el PAE en 2027, pero persisten las brechas de cobertura entre regiones",
+      "fuente": "IFM Noticias",
+      "url": "https://ifmnoticias.com/educacion/alimentacion-escolar-en-2027-el-gobierno-garantiza-3-1-billones-para-el-pae-pero/",
+      "fecha": "2026-11-11T16:20:56.000Z",
+      "imagen": "https://storage.googleapis.com/ifmnoticias-media/articles/ingest/alimentacion-escolar-en-2027-el-gobierno-garantiza-3-1-billones-para-el-pae-pero-1794413068179.webp"
     },
     {
       "titulo": "Boyacá busca asegurar el PAE desde el primer día de clases en 2027",
@@ -28,13 +42,6 @@
       "url": "https://rnv.gob.ve/programa-de-alimentacion-escolar-sirve-2-millones-de-co/",
       "fecha": "2026-11-11T11:38:00.000Z",
       "imagen": "https://rnv.gob.ve/wp-content/uploads/2026/11/Programa-de-Alimentacion-Escolar-sirve-2-millones-de-comidas-diarias.png"
-    },
-    {
-      "titulo": "El Gobierno garantizará $3,1 billones para el PAE en 2027, pero persisten las brechas de cobertura entre regiones",
-      "fuente": "ifmnoticias",
-      "url": "https://ifmnoticias.com/educacion/alimentacion-escolar-en-2027-el-gobierno-garantiza-3-1-billones-para-el-pae-pero/",
-      "fecha": "2026-11-11T08:20:00.000Z",
-      "imagen": "https://storage.googleapis.com/ifmnoticias-media/articles/ingest/alimentacion-escolar-en-2027-el-gobierno-garantiza-3-1-billones-para-el-pae-pero-1794413068179.webp"
     },
     {
       "titulo": "La Mesa dotó al colegio Francisco Julián Olaya con equipos educativos y elementos para el PAE",
@@ -436,18 +443,18 @@
       "imagen": ""
     },
     {
-      "titulo": "Antioquia pide soluciones para la salud de los maestros y más recursos para la alimentación escolar",
-      "fuente": "Hora 13 Noticias",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQT3lmRUg1ZkVWZklGcTNGbF9GYVRtNElWWS1mbEVCSFJxZHdEZC13NkFHNVVwQllQVzdaSE9PendOSkRBVXhGVHBQbnkxd2EwUUZlVVlsTkp3Uy1ZdmtXNnF0V2NCRWNiNXJ6cl85eXkwcU5zVy1BMVBPdG5sYmhBWFhPU1ZxRHVJUVo0Tm1XSE9VanV6SW1zVWhuSUNXeC1zakFabGtES2NHRXhUbmRmQmZnc0NyalJm?oc=5",
-      "fecha": "2026-10-28T07:00:00.000Z",
-      "imagen": ""
-    },
-    {
       "titulo": "Salud docente, alimentación escolar e infraestructura: las prioridades de Antioquia ante el Gobierno nacional",
       "fuente": "La Prensa Oriente",
       "url": "https://www.laprensaoriente.info/antioquia/salud-docente-alimentacion-escolar-e-infraestructura-las-prioridades-de-antioquia-ante-el-gobierno-nacional/",
       "fecha": "2026-10-28T07:00:00.000Z",
       "imagen": "https://www.laprensaoriente.info/wp-content/uploads/2026/10/Educacion-Antioquia.jpeg"
+    },
+    {
+      "titulo": "Antioquia pide soluciones para la salud de los maestros y más recursos para la alimentación escolar",
+      "fuente": "Hora 13 Noticias",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQT3lmRUg1ZkVWZklGcTNGbF9GYVRtNElWWS1mbEVCSFJxZHdEZC13NkFHNVVwQllQVzdaSE9PendOSkRBVXhGVHBQbnkxd2EwUUZlVVlsTkp3Uy1ZdmtXNnF0V2NCRWNiNXJ6cl85eXkwcU5zVy1BMVBPdG5sYmhBWFhPU1ZxRHVJUVo0Tm1XSE9VanV6SW1zVWhuSUNXeC1zakFabGtES2NHRXhUbmRmQmZnc0NyalJm?oc=5",
+      "fecha": "2026-10-28T07:00:00.000Z",
+      "imagen": ""
     },
     {
       "titulo": "Fenómeno El Niño: Programa de Alimentación Escolar prepara entregas anticipadas ante lluvias y huaicos en zonas vulnerables",
@@ -482,13 +489,6 @@
       "fuente": "Gobernación del Huila",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNdkFxcDJPTTJnMnAxdUhwZzI3cFBmX0xsY2ppcUpZa0xGTUttYTU0aldfaTRmbUlWcUFsNzZsVk9XSGpMSExoZm4zVzd3ZzFJRWRUeUxnWWx5TVdGUEd1cm4wZTQtUms4VXBuUS1md1g0ZGtEZzE3TFdLLU1qaUgtNjRqWGUtNWg5SVc3VjRtUGphNnY1VVg4aTNzWno0QzIya01tQjVpS2hraVdFMkpMbER5eVloN3FMSFJRT1R4SXJhOUpNRURlRmx6Tnp2d3NtUERLWTNqVV9LbmZ3YkE?oc=5",
       "fecha": "2026-10-27T12:10:00.000Z",
-      "imagen": ""
-    },
-    {
-      "titulo": "Tunja solicita mayor apoyo de la Nación y el departamento para financiar el PAE de 2027",
-      "fuente": "Caracol Radio",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPenJJMmU5cVllaTRTcGtjanJ6MEZmcHotSjlKV3gyWEYwZzRxcllJdXpadVFOeVBSVmVERnR3VVNFLUhKS3NVdzFDQjZhX1VFNWp5U0ZfRnBlamhBN0xqeW5uenN4OE0xcnV0ZWk1TXRQbEVnRGJFdzczd1MtZWRvZVUwNklnR3FSUGxMQnY5YVpzUzhDUVF0ZVZ0N045SHBpUGloYlRaX3BmRktRVHNCTUMydGg2SWt6M3VCclpnVdIB0wFBVV95cUxQZGg3a3dtcGxRQ08zSFdNR1Znb0tLeUozTjU4UjZEZXM1b2tGang2X05jTWx6bnZhd1p0OVZRbnFkNmlDcV9tU2w5ME1mdktoQnBBSkpmWUlwU2JHT3V5Y0J2VDliYUJTS2d3cUxQamNlLWVneFg2cVlBVENGTkZYR2xoUzdIQS1BT2ZHc3dNdkJ5c0VERDdkTTNZeWxrZXA1azJQMHJtN0tfWlNQMTlxQzNSdlh2QjJ5anZSd2FoYjYxanVWbkNnTEFlRkFjWTVDSjVF?oc=5",
-      "fecha": "2026-10-27T11:29:01.000Z",
       "imagen": ""
     }
   ],

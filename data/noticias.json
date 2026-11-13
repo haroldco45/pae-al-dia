@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-13T00:56:29.058Z",
+  "actualizado": "2026-11-13T07:43:09.609Z",
   "items": [
     {
       "titulo": "“Hay que premiar a los municipios y departamentos que mejor gestionen el PAE”",
@@ -7,6 +7,13 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSTBtd3VMTXU4Mlpnc2NKdWZpZkNSLUpxdUFxSUppbmF4cVI4bnVuWVpudDBkQm9kRlBFMVZ6RE9hM0pUc3ZjRlcwVmpNYkVGd0xwNVYxX0NmUXpNZVEtSTFjbDJiSGx5Tk90QnFEakJGNnhtbW42ODRPRkp5eVVfT2VfYmRtT0FsUzFsaUJpNC1xLXNDeTVDaFBiV0hmMENNNVE?oc=5",
       "fecha": "2026-11-12T21:40:25.000Z",
       "imagen": ""
+    },
+    {
+      "titulo": "Investigan presunta intoxicación masiva de menores por comida del PAE en colegio de Atlántico",
+      "fuente": "Blu Radio",
+      "url": "https://www.bluradio.com/regiones/caribe/investigan-presunta-intoxicacion-masiva-de-menores-por-comida-del-pae-en-colegio-de-atlantico-rg10",
+      "fecha": "2026-11-12T17:55:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.uQyfMQA2H6WHXndeTsx7oQ&pid=News&w=640&h=360&c=7"
     },
     {
       "titulo": "Tras ajustes, radican nuevamente proyecto del PAE Sincelejo 2028",
@@ -247,6 +254,13 @@
       "imagen": "http://www.bing.com/th?id=ONUT.pJgOI0rZgsBdy4AnV-pDFg&pid=News&w=640&h=360&c=7"
     },
     {
+      "titulo": "Atlántico asegura recursos para mantener cobertura del PAE",
+      "fuente": "ELHERALDO.CO",
+      "url": "https://www.elheraldo.co/atlantico/2026/11/05/atlantico-asegura-recursos-para-mantener-cobertura-del-pae/",
+      "fecha": "2026-11-05T16:41:53.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.vRWWgnGX05S1mM373DL-hw&pid=News&w=640&h=360&c=7"
+    },
+    {
       "titulo": "Contraloría Distrital pone la lupa en el funcionamiento del PAE en Bogotá",
       "fuente": "Caracol Radio",
       "url": "https://caracol.com.co/2026/11/05/contraloria-distrital-pone-la-lupa-en-el-funcionamiento-del-pae-en-bogota/",
@@ -261,13 +275,6 @@
       "imagen": "http://www.bing.com/th?id=ONUT.NE5M04nk9yb2w38ZwBCPhQ&pid=News&w=640&h=360&c=7"
     },
     {
-      "titulo": "Atlántico asegura recursos para mantener cobertura del PAE",
-      "fuente": "El Heraldo",
-      "url": "https://www.elheraldo.co/atlantico/2026/11/05/atlantico-asegura-recursos-para-mantener-cobertura-del-pae/",
-      "fecha": "2026-11-05T08:40:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.vRWWgnGX05S1mM373DL-hw&pid=News&w=640&h=360&c=7"
-    },
-    {
       "titulo": "El presidente del Concejo Javier Ortiz asume ponencia del proyecto del PAE para 2028",
       "fuente": "El Meridiano",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQM1RyYkZWSGVucEJLTC1vaE5vZnBhWFFlcUZrMDRxUUFTWXBMSFkyLW5RSlc0VVFjMlk0bUpUQXAtX2NHNElMWmNTeUhWMzlRTXdUd0JDQzVUVzkwaVdScVNoMW13alJGS3JpTzRNQkNFeDRTZEFKbkxhaXVVTnlFckVkanJkQjBPZS15dFJXb3ZZU3d2UTdJbS02Ykg5dnR1WXJPa2pNaGZCZTFvZzN6VHhjZXVYUWpnYVV1T1oyTFZ3ZEU3V0RzOWZB?oc=5",
@@ -279,7 +286,7 @@
       "fuente": "La FM",
       "url": "https://www.lafm.com.co/actualidad/plan-alimentacion-escolar-pae-bogota-inspeccion-contraloria-20-localidades-alimentos-estudiantes-colegios-publicos-416214",
       "fecha": "2026-11-04T22:30:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.ONHMgBWGHzhSeoTMBTZvCQ&pid=News&w=640&h=360&c=7"
+      "imagen": "http://www.bing.com/th?id=ONUT.EroOgr9k9h6xuz8KumCIgQ&pid=News&w=640&h=360&c=7"
     },
     {
       "titulo": "Asamblea del Cesar aprueba vigencias futuras para el PAE",
@@ -482,13 +489,6 @@
       "fuente": "El Colombiano",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOVlJtMmgwenQzdXlrRUVxSjZrc1N5SlB0blI2aVF5VXl4X1JyYWFHTWpscTlpcVRfanR5eU1xNUZGUndwbHBaUjBPbHVVVURFcnZmdHpIZG9kMDE5b25FdkJKR2JPNklSc1pPYjBUdTVZT29Qb0R0emtpT3NXUFh2OXM0Y3cxekVrQ2oya0swbGZ5NjRJYVRVem9DVWZqX2NScFZFdTh5anFycHJtVDhSTmpXcEFRRERnLXdfU0kwc0I5a0JCNGRqSV9VMEhDRWl6b0JPdnZBN1B4c2VmVzJ4Y3ltREFHZ9IB6wFBVV95cUxQLWluSk5kdzRuanhrQk0wMXA4bHUzaG5xVWtYT0xRYnN4UEZGUVhYTGtWWU1tZ0c5ME01RTZZRlJEMHBCcjl3dXFsMVk1MVAzSVpXaTR0NUtSZzZiaFI5U1d2TExvWGNEaHVWR0tiR2p3MnM1YWJNalJZM0lzcDB3TjdlZ0w3QUxZQk8xdUpIZ0dBV1pwQlY0MVczU3p1MUVMV2xUNEg0YUtFRkdvWW9oNlhGWnlOY0dvYlhuYkRoaUwtY2lBb1I3VUJwUUplaGZkLVRyWUVqVHA0LWF6ZWpINUJMVHY5Sk55dkdJ?oc=5",
       "fecha": "2026-10-28T01:11:57.000Z",
-      "imagen": ""
-    },
-    {
-      "titulo": "Más sabor y menos desperdicio: chefs recorren Boyacá para transformar la alimentación escolar",
-      "fuente": "Boyacá 95.6 fm",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQjFzbENaRDVBeEk4VElpMnBEZHRsQjNBc2J1LUs1LWVOSE9nal9DR2owVjlZa0RwVllWeWtKcjBaSTEtc3ZwNHE0dEdTQnBUaVR3RFJqTlUwUWpZM0lmWG5Ka3VqQUxVTkpGTDBVRkpwRUlfdk4zeEFmb1V0QmlEVndueWs5RmNXVXlmRlgybjE1Y3p2X3lDLU50OVE5NlJ5TGFYODloMmt0b3d6M0RuSEZJdmlQRG1aQUR4ZXBB?oc=5",
-      "fecha": "2026-10-27T15:01:00.000Z",
       "imagen": ""
     }
   ],

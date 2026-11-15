@@ -1,10 +1,10 @@
 {
-  "actualizado": "2026-11-15T07:39:32.571Z",
+  "actualizado": "2026-11-15T15:27:56.351Z",
   "items": [
     {
       "titulo": "Mineducación encuentra seis alertas en el manejo del Programa de Alimentación Escolar",
-      "fuente": "La Opinión Cúcuta",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN0kwdDNiZm1PQWlSWUoxeW04X3dGcWw2dUhuM3VmdnZuZkc1WjJFSEZCN2p5MDV4REtMRDdMZVFhMVNUNHNoWTluOTdwLVpTMzBId0JHMDhDekpzaXdOTXN6RThIeVlaRGJUWjdMNkU5NTduUG9WWDNGUXM2bVVDMGQtUnNOY0hoUE9ZRV9KX0xjUlpWTnVwYUVHd3JwWVpYUU85c1E5UTZNZExkTUphOU10TWlwQQ?oc=5",
+      "fuente": "laopinion.com.co",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVF9EMkVOTll1cFJPWWExU3RRSWowYy1rOXdFZmNBeXBEdXRickFLeUZzc2xMZlFRaWNFdENzVHJXTnUxajJQZkM3RmQ3X2UzdjVpQnhBRkNrTVpTOWQ0SmpjQnZxRG9WSkUtbFc4Vm9zd2ZsMnduX2l6em41V1lxMVNJT2hGNVJEMnU0Y2Q0aXZZVVl6bl84RDFCQkNzSzhoWWE1eWJoYktmbHR2U2w1cVh5NHRTQlNicmFsdHA0d3g?oc=5",
       "fecha": "2026-11-14T22:08:17.000Z",
       "imagen": ""
     },
@@ -149,6 +149,13 @@
       "imagen": ""
     },
     {
+      "titulo": "Investigan presunta intoxicación por alimentos del PAE en colegio de Luruaco, Atlántico, que dejó a varios estudiantes afectados",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/investigan-presunta-intoxicacion-por-alimentos-del-pae-en-colegio-de-luruaco-atlantico-que-dejo-a-varios-estudiantes-afectados-3600726",
+      "fecha": "2026-11-13T09:51:49.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.p7jUmlbX1XPLHKw7b7Ap_g&pid=News&w=640&h=360&c=7"
+    },
+    {
       "titulo": "En Chiquinquirá, el PAE fortalece la participación ciudadana para mejorar la alimentación escolar",
       "fuente": "Gobernación de Boyacá",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaGNrcm55R3lpODdieTdHWVVIV1ZIU0tzcU5KNEF4aExKLWZkckpXU0dCZ0xjc2ZySnVMelBvYlp4S1FBc0tjMHY2T1RMWGxtbkFINXdBZExaS3Q1bTY1eXl2NlRYLVBqR1kxU2t5X2VTUU9KN3FhTmw4MHdma2Roc1hGNTZCN05FZlEyRFBrNnkyeUF1dEZnUkNtZkFuSVE1R1M0Nnc4TkFRcUVIVEhMdFdMZ2pLYlVYQUlrb0lxLWg?oc=5",
@@ -175,13 +182,6 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSTBtd3VMTXU4Mlpnc2NKdWZpZkNSLUpxdUFxSUppbmF4cVI4bnVuWVpudDBkQm9kRlBFMVZ6RE9hM0pUc3ZjRlcwVmpNYkVGd0xwNVYxX0NmUXpNZVEtSTFjbDJiSGx5Tk90QnFEakJGNnhtbW42ODRPRkp5eVVfT2VfYmRtT0FsUzFsaUJpNC1xLXNDeTVDaFBiV0hmMENNNVE?oc=5",
       "fecha": "2026-11-12T21:40:25.000Z",
       "imagen": ""
-    },
-    {
-      "titulo": "Investigan presunta intoxicación por alimentos del PAE en colegio de Luruaco, Atlántico, que dejó a varios estudiantes afectados",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/investigan-presunta-intoxicacion-por-alimentos-del-pae-en-colegio-de-luruaco-atlantico-que-dejo-a-varios-estudiantes-afectados-3600726",
-      "fecha": "2026-11-12T20:51:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.p7jUmlbX1XPLHKw7b7Ap_g&pid=News&w=640&h=360&c=7"
     },
     {
       "titulo": "Programa de Alimentación Escolar (PAE) Archivos",
@@ -264,7 +264,7 @@
       "titulo": "Baquero explica situación que llevó a trabajadoras del PAE a protestar en Villavicencio: «No podemos girarle»",
       "fuente": "viveelmeta.com",
       "url": "https://www.viveelmeta.com/baquero-explica-situacion-que-llevo-a-trabajadoras-del-pae-a-protestar-en-villavicencio-no-podemos-girarle-52984/",
-      "fecha": "2026-11-09T14:56:50.000Z",
+      "fecha": "2026-11-09T15:28:34.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.7lxADiqafAzJv0GPImallg&pid=News&w=640&h=360&c=7"
     },
     {
@@ -299,7 +299,7 @@
       "titulo": "Mineducación reportó ejecución del 0% en más de $12.000 millones para el PAE en Sincelejo",
       "fuente": "Noticias RCN",
       "url": "https://www.noticiasrcn.com/colombia/mineducacion-reporto-ejecucion-nula-en-los-recursos-del-pae-para-sincelejo-en-2024-1079706",
-      "fecha": "2026-11-07T20:18:41.000Z",
+      "fecha": "2026-11-07T20:21:55.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.-I3ujRcRZP7FhnjTwnfZyg&pid=News&w=640&h=360&c=7"
     },
     {

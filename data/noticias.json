@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-16T18:05:42.984Z",
+  "actualizado": "2026-11-17T01:58:12.944Z",
   "items": [
     {
       "titulo": "Gobierno Nacional garantiza Programa de Alimentación Escolar PAE para 2027",
@@ -296,13 +296,6 @@
       "imagen": "http://www.bing.com/th?id=ONUT.7lxADiqafAzJv0GPImallg&pid=News&w=640&h=360&c=7"
     },
     {
-      "titulo": "Antioquia garantiza $326 mil millones para la continuidad del PAE en 2027",
-      "fuente": "La Prensa Oriente",
-      "url": "https://www.laprensaoriente.info/educacion/antioquia-garantiza-326-mil-millones-para-la-continuidad-del-pae-en-2027/",
-      "fecha": "2026-11-08T23:20:46.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.E9HlirfM0ubk8od-ZdPb-Q&pid=News&w=640&h=360&c=7"
-    },
-    {
       "titulo": "Gobernación de Antioquia destinará $326 mil millones al Programa de Alimentación Escolar en 2027",
       "fuente": "Orientese.co",
       "url": "https://orientese.co/gobernacion-de-antioquia-destinara-326-mil-millones-al-programa-de-alimentacion-escolar-en-2027/",
@@ -315,6 +308,13 @@
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPemlpQ0E5bmNwQk92NDNzNk5zQnpLWXZhZXcxeldxZUR6S1JWZlZ2STQybUNPVVQ0VnI1OFNEREMzZkhFQmcybjhwM2NhQXg4bmZ5NElDWF90clczdkVhSWpGZzBrdUdZTnNtZlBfcmhSc1BqLXBkNzhZUTN3b2J4ZVA5N1ZLeWliSHNPTEtNU18wdVZuNDE5MHhSZDI3dUxOcHZkc2oyWFVPVEx5c1Zn0gGvAUFVX3lxTE96aWlDQTluY3BCT3Y0M3M2TnNCektZdmFldzF6V3FlRHpLUlZmVnZJNDJtQ09VVDRWcjU4U0REQzNmSEVCZzJuOHAzY2FBeDhuZnk0SUNYX3RyVzN2RWFJakZnMGt1R1lOc21mUF9yaFJzUGotcGQ3OFlRM3dvYnhlUDk3Vkt5aWJIc09MS01TXzB1Vm40MTkweFJkMjd1TE5wdmRzajJYVU9UTHlzVmc?oc=5",
       "fecha": "2026-11-08T05:43:14.000Z",
       "imagen": ""
+    },
+    {
+      "titulo": "Antioquia garantiza $326 mil millones para la continuidad del PAE en 2027",
+      "fuente": "La Prensa Oriente",
+      "url": "https://www.laprensaoriente.info/educacion/antioquia-garantiza-326-mil-millones-para-la-continuidad-del-pae-en-2027/",
+      "fecha": "2026-11-08T05:02:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.E9HlirfM0ubk8od-ZdPb-Q&pid=News&w=640&h=360&c=7"
     },
     {
       "titulo": "Antioquia destinará $326.000 millones al Programa de Alimentación Escolar en 2027",
@@ -373,18 +373,18 @@
       "imagen": "http://www.bing.com/th?id=ONUT.4rv54vFFjDN3wrrdWF3Ptg&pid=News&w=640&h=360&c=7"
     },
     {
-      "titulo": "Antioquia presentó avances del PAE y confirmó los recursos para su continuidad en 2027",
-      "fuente": "Gobernación de Antioquia",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQVU0xLWF3eXJkX2swUW5DVlZnY284c0sydUg4bE5GaGdxYjYydlpObDZQYnYwRUVOLW1ZNDBiR2JyM3RVVHZyNGQxcktXRGstcDJNSzRwY0FkZjZNZ2k3TjV5Q2FOWVNQVmJlQ1RKMjBoS2dwRjh6RWlhSlNlZTB4SUJNUmxhZi1GUlVkdGZmU1BLQmFnZHRibWxyVk83MHg4WHR4YUpDeUd6UlRVVXNwLXhFZVphcHV5bS1pUnZfNDI0bUpucVVnM0FoTnIzTTRsN3RtZlJiN0IwdkRRMGFr?oc=5",
-      "fecha": "2026-11-07T08:00:00.000Z",
-      "imagen": ""
-    },
-    {
       "titulo": "Mineducación reportó ejecución del 0% en más de $12.000 millones para el PAE en Sincelejo",
       "fuente": "Noticias RCN",
       "url": "https://www.noticiasrcn.com/colombia/mineducacion-reporto-ejecucion-nula-en-los-recursos-del-pae-para-sincelejo-en-2024-1079706",
       "fecha": "2026-11-07T08:00:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.-I3ujRcRZP7FhnjTwnfZyg&pid=News&w=640&h=360&c=7"
+    },
+    {
+      "titulo": "Antioquia presentó avances del PAE y confirmó los recursos para su continuidad en 2027",
+      "fuente": "Gobernación de Antioquia",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQVU0xLWF3eXJkX2swUW5DVlZnY284c0sydUg4bE5GaGdxYjYydlpObDZQYnYwRUVOLW1ZNDBiR2JyM3RVVHZyNGQxcktXRGstcDJNSzRwY0FkZjZNZ2k3TjV5Q2FOWVNQVmJlQ1RKMjBoS2dwRjh6RWlhSlNlZTB4SUJNUmxhZi1GUlVkdGZmU1BLQmFnZHRibWxyVk83MHg4WHR4YUpDeUd6UlRVVXNwLXhFZVphcHV5bS1pUnZfNDI0bUpucVVnM0FoTnIzTTRsN3RtZlJiN0IwdkRRMGFr?oc=5",
+      "fecha": "2026-11-07T08:00:00.000Z",
+      "imagen": ""
     },
     {
       "titulo": "92 mil niñas, niños y jóvenes se benefician del Programa de Alimentación Escolar en el Tolima",

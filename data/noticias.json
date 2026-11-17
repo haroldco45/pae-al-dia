@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-17T01:58:12.944Z",
+  "actualizado": "2026-11-17T10:30:34.393Z",
   "items": [
     {
       "titulo": "Gobierno Nacional garantiza Programa de Alimentación Escolar PAE para 2027",
@@ -177,6 +177,13 @@
       "imagen": ""
     },
     {
+      "titulo": "Investigan presunta intoxicación por alimentos del PAE en colegio de Luruaco, Atlántico, que dejó a varios estudiantes afectados",
+      "fuente": "El Tiempo",
+      "url": "https://www.eltiempo.com/colombia/otras-ciudades/investigan-presunta-intoxicacion-por-alimentos-del-pae-en-colegio-de-luruaco-atlantico-que-dejo-a-varios-estudiantes-afectados-3600726",
+      "fecha": "2026-11-13T09:51:49.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.p7jUmlbX1XPLHKw7b7Ap_g&pid=News&w=640&h=360&c=7"
+    },
+    {
       "titulo": "En Chiquinquirá, el PAE fortalece la participación ciudadana para mejorar la alimentación escolar",
       "fuente": "Gobernación de Boyacá",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaGNrcm55R3lpODdieTdHWVVIV1ZIU0tzcU5KNEF4aExKLWZkckpXU0dCZ0xjc2ZySnVMelBvYlp4S1FBc0tjMHY2T1RMWGxtbkFINXdBZExaS3Q1bTY1eXl2NlRYLVBqR1kxU2t5X2VTUU9KN3FhTmw4MHdma2Roc1hGNTZCN05FZlEyRFBrNnkyeUF1dEZnUkNtZkFuSVE1R1M0Nnc4TkFRcUVIVEhMdFdMZ2pLYlVYQUlrb0lxLWg?oc=5",
@@ -203,13 +210,6 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSTBtd3VMTXU4Mlpnc2NKdWZpZkNSLUpxdUFxSUppbmF4cVI4bnVuWVpudDBkQm9kRlBFMVZ6RE9hM0pUc3ZjRlcwVmpNYkVGd0xwNVYxX0NmUXpNZVEtSTFjbDJiSGx5Tk90QnFEakJGNnhtbW42ODRPRkp5eVVfT2VfYmRtT0FsUzFsaUJpNC1xLXNDeTVDaFBiV0hmMENNNVE?oc=5",
       "fecha": "2026-11-12T21:40:25.000Z",
       "imagen": ""
-    },
-    {
-      "titulo": "Investigan presunta intoxicación por alimentos del PAE en colegio de Luruaco, Atlántico, que dejó a varios estudiantes afectados",
-      "fuente": "El Tiempo",
-      "url": "https://www.eltiempo.com/colombia/otras-ciudades/investigan-presunta-intoxicacion-por-alimentos-del-pae-en-colegio-de-luruaco-atlantico-que-dejo-a-varios-estudiantes-afectados-3600726",
-      "fecha": "2026-11-12T20:51:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.p7jUmlbX1XPLHKw7b7Ap_g&pid=News&w=640&h=360&c=7"
     },
     {
       "titulo": "Programa de Alimentación Escolar (PAE) Archivos",
@@ -373,18 +373,18 @@
       "imagen": "http://www.bing.com/th?id=ONUT.4rv54vFFjDN3wrrdWF3Ptg&pid=News&w=640&h=360&c=7"
     },
     {
-      "titulo": "Mineducación reportó ejecución del 0% en más de $12.000 millones para el PAE en Sincelejo",
-      "fuente": "Noticias RCN",
-      "url": "https://www.noticiasrcn.com/colombia/mineducacion-reporto-ejecucion-nula-en-los-recursos-del-pae-para-sincelejo-en-2024-1079706",
-      "fecha": "2026-11-07T08:00:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.-I3ujRcRZP7FhnjTwnfZyg&pid=News&w=640&h=360&c=7"
-    },
-    {
       "titulo": "Antioquia presentó avances del PAE y confirmó los recursos para su continuidad en 2027",
       "fuente": "Gobernación de Antioquia",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQVU0xLWF3eXJkX2swUW5DVlZnY284c0sydUg4bE5GaGdxYjYydlpObDZQYnYwRUVOLW1ZNDBiR2JyM3RVVHZyNGQxcktXRGstcDJNSzRwY0FkZjZNZ2k3TjV5Q2FOWVNQVmJlQ1RKMjBoS2dwRjh6RWlhSlNlZTB4SUJNUmxhZi1GUlVkdGZmU1BLQmFnZHRibWxyVk83MHg4WHR4YUpDeUd6UlRVVXNwLXhFZVphcHV5bS1pUnZfNDI0bUpucVVnM0FoTnIzTTRsN3RtZlJiN0IwdkRRMGFr?oc=5",
       "fecha": "2026-11-07T08:00:00.000Z",
       "imagen": ""
+    },
+    {
+      "titulo": "Mineducación reportó ejecución del 0% en más de $12.000 millones para el PAE en Sincelejo",
+      "fuente": "Noticias RCN",
+      "url": "https://www.noticiasrcn.com/colombia/mineducacion-reporto-ejecucion-nula-en-los-recursos-del-pae-para-sincelejo-en-2024-1079706",
+      "fecha": "2026-11-07T08:00:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.-I3ujRcRZP7FhnjTwnfZyg&pid=News&w=640&h=360&c=7"
     },
     {
       "titulo": "92 mil niñas, niños y jóvenes se benefician del Programa de Alimentación Escolar en el Tolima",

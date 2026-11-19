@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-19T01:22:16.357Z",
+  "actualizado": "2026-11-19T09:14:17.906Z",
   "items": [
     {
       "titulo": "Cocineras de Monagas presentan propuestas del PAE ante Héctor Rodríguez",
@@ -30,11 +30,25 @@
       "imagen": "http://www.bing.com/th?id=ONUT.1tXml0yBERAJH44fxIKe7g&pid=News&w=640&h=360&c=7"
     },
     {
+      "titulo": "Boyacá aseguró más de $105 mil millones para garantizar el PAE desde el primer día de clases de 2027",
+      "fuente": "Caracol Radio",
+      "url": "https://caracol.com.co/2026/11/17/boyaca-aseguro-mas-de-105-mil-millones-para-garantizar-el-pae-desde-el-primer-dia-de-clases-de-2027/",
+      "fecha": "2026-11-17T21:52:52.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.g2C-dHjFu2YYjNB4V43ENA&pid=News&w=640&h=360&c=7"
+    },
+    {
       "titulo": "Proyecto de financiación del PAE 2028 superó primer debate en el concejo de Sincelejo",
       "fuente": "El Meridiano",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONHZlVEhQMEwwRGdTS2dfY3psSGxNNC1BUFYtempBU2s4NThUX0xWZjY3WFJwODFIei16UUNKbHY2UjloUGpBX09aUUdHUi1aUHZTaE5Rdnh5eG5jbW8wNEZCcXFUVlQ2MkpyR1hNd1FnUmZ0LTlHUUxUNG4yWmt5VnNCaDJ3TnlSN2NvUVNxSGZidlZ6aTVIRWd0bjY2azZEVHM0SzhlZ0VHRVQ2VmxRWV9aX2ZtUUY3UmtiMFBSRGxjZmpsUlBHSXVHaw?oc=5",
       "fecha": "2026-11-17T16:31:38.000Z",
       "imagen": ""
+    },
+    {
+      "titulo": "Comisión Sexta aprueba en primer debate proyecto para convertir el PAE en política pública de Estado",
+      "fuente": "Tüü Pütchika",
+      "url": "https://www.tuuputchika.com/comision-sexta-aprueba-en-primer-debate-proyecto-para-convertir-el-pae-en-politica-publica-de-estado/",
+      "fecha": "2026-11-17T16:00:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.CDEXiBr9NglgMik5EetOxA&pid=News&w=640&h=360&c=7"
     },
     {
       "titulo": "PAE nutre a 176 mil estudiantes barineses",
@@ -49,13 +63,6 @@
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVVdXNnVicmxnTFYxRXF2dVpfaVgzNHVBd1NtSXVndHE2bE1EWEhTd3hJZGQ2NktfRDRQUU1IVUM2eGZJbEJUbGRWRUNsOXNaT2tiS3NPdENkYXRKZHVFWjdEN3F1cGFFR3hWM0l6SkEta2U0clRkRC1xOXhZZkZxeQ?oc=5",
       "fecha": "2026-11-17T11:37:35.000Z",
       "imagen": ""
-    },
-    {
-      "titulo": "Boyacá aseguró más de $105 mil millones para garantizar el PAE desde el primer día de clases de 2027",
-      "fuente": "Caracol Radio",
-      "url": "https://caracol.com.co/2026/11/17/boyaca-aseguro-mas-de-105-mil-millones-para-garantizar-el-pae-desde-el-primer-dia-de-clases-de-2027/",
-      "fecha": "2026-11-17T08:52:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.g2C-dHjFu2YYjNB4V43ENA&pid=News&w=640&h=360&c=7"
     },
     {
       "titulo": "Gobierno Nacional garantiza Programa de Alimentación Escolar PAE para 2027",
@@ -86,13 +93,6 @@
       "imagen": ""
     },
     {
-      "titulo": "Alerta sobre presuntas irregularidades en el manejo de recursos del PAE: Ministerio de Educación",
-      "fuente": "Vanguardia",
-      "url": "https://www.vanguardia.com/colombia/2026/11/14/alerta-sobre-presuntas-irregularidades-en-el-manejo-de-recursos-del-pae-ministerio-de-educacion/",
-      "fecha": "2026-11-14T21:48:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.5ra95g8zzA389BDtHId3RQ&pid=News&w=640&h=360&c=7"
-    },
-    {
       "titulo": "Mineducación advierte presuntas irregularidades en funcionamiento del PAE",
       "fuente": "hoy diario del magdalena",
       "url": "https://hoydiariodelmagdalena.com.co/archivos/1314038/mineducacion-advierte-presuntas-irregularidades-en-funcionamiento-del-pae",
@@ -112,13 +112,6 @@
       "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNMENPQUNCNEgwVklRUTZXT2NvQm45MG0wRl91d09vSjRjSjFCSFRXbDlNblgxVHlYWWJ6c1ZyeXJuT3lpdm9pZUFfY3dDbU1LQlhqeXZuNFVicklrMWx6S1lYRTNTQ0k4bUxVa3ZFNHp4MWNsVUpYMzN1cERtLVRDS1ViWmVkR2ljTGFMQTF4aVpmQ3NQQUNSZmxjdk5aVWM2NU1WVTNod09zdGdmVThOeTVxbTZTY3VnWVQ3TkROMmN5TERQdFltQzBqb3o3UWZJRkZUaVVZaU9yeUtNRXh3ZWotQ2M0VG9ibmQ4VWdYeGlSbGRoX29aTnEzVlU5RzhzOXc?oc=5",
       "fecha": "2026-11-14T20:55:33.000Z",
       "imagen": ""
-    },
-    {
-      "titulo": "Ministra de Educación denunció irregularidades en el PAE durante el Gobierno Petro: contratistas ausentes, sobrecostos y presunto proselitismo político",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/colombia/2026/11/14/ministra-de-educacion-denuncio-irregularidades-en-el-pae-durante-el-gobierno-petro-contratistas-ausentes-sobrecostos-y-presunto-proselitismo-politico/",
-      "fecha": "2026-11-14T20:29:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.RXWx8bS1fKJYJiYCfkQpug&pid=News&w=640&h=360&c=7"
     },
     {
       "titulo": "Municipios del Tolima se anticipan al 2027 y comienzan a organizar el transporte escolar y el PAE",
@@ -156,6 +149,13 @@
       "imagen": ""
     },
     {
+      "titulo": "Alerta sobre presuntas irregularidades en el manejo de recursos del PAE: Ministerio de Educación",
+      "fuente": "Vanguardia",
+      "url": "https://www.vanguardia.com/colombia/2026/11/14/alerta-sobre-presuntas-irregularidades-en-el-manejo-de-recursos-del-pae-ministerio-de-educacion/",
+      "fecha": "2026-11-14T13:48:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.5ra95g8zzA389BDtHId3RQ&pid=News&w=640&h=360&c=7"
+    },
+    {
       "titulo": "MinEducación denuncia irregularidades en el PAE: contratos fantasma y presuntos sobrecostos",
       "fuente": "La FM",
       "url": "https://www.lafm.com.co/sociedad/ministerio-educacion-denuncia-irregularidades-pae-contratos-fantasmas-sobrecostos-alimentacion-escolar-417202",
@@ -168,6 +168,13 @@
       "url": "https://www.msn.com/es-co/noticias/otras/mineducaci%C3%B3n-lleva-a-la-contralor%C3%ADa-hallazgos-del-pae-recursos-se-repartieron-sin-metodolog%C3%ADa-t%C3%A9cnica-desde-2022/ar-AA2hrTwa",
       "fecha": "2026-11-14T13:00:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.sevF90nB0Yvl8DR4wKO2-Q&pid=News&w=640&h=360&c=7"
+    },
+    {
+      "titulo": "Ministra de Educación denunció irregularidades en el PAE durante el Gobierno Petro: contratistas ausentes, sobrecostos y presunto proselitismo político",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/colombia/2026/11/14/ministra-de-educacion-denuncio-irregularidades-en-el-pae-durante-el-gobierno-petro-contratistas-ausentes-sobrecostos-y-presunto-proselitismo-politico/",
+      "fecha": "2026-11-14T12:29:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.RXWx8bS1fKJYJiYCfkQpug&pid=News&w=640&h=360&c=7"
     },
     {
       "titulo": "“La alimentación de los niños no se negocia”: MinEducación denuncia ante entes de control contratos fantasma, software inoperante y presunto proselitismo en el PAE",
@@ -483,13 +490,6 @@
       "url": "https://noticiascoopercom.co/atlantico-gestiona-recursos-ante-el-gobierno-para-garantizar-el-pae-a-mas-de-95-mil-estudiantes/",
       "fecha": "2026-11-06T07:34:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.DdtgB74gWGU7KJ15TEkPYA&pid=News&w=640&h=360&c=7"
-    },
-    {
-      "titulo": "Atlántico logra respaldo nacional para fortalecer el PAE",
-      "fuente": "Notas de Actualidad",
-      "url": "https://www.atlantico.gov.co/index.php/noticias/educacion/28809-atlantico-logra-respaldo-nacional-para-fortalecer-el-pae",
-      "fecha": "2026-11-06T02:13:51.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.z_HeSDYYM2VDCCjihx_XWA&pid=News&w=640&h=360&c=7"
     }
   ],
   "videos": [

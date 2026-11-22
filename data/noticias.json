@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-22T16:57:08.754Z",
+  "actualizado": "2026-11-22T22:23:05.723Z",
   "items": [
     {
       "titulo": "Vigilan prestación del PAE en zona rural",
@@ -7,6 +7,13 @@
       "url": "https://www.diariodelsur.com.co/noticias/vigilan-prestacion-del-pae-en-zona-rural",
       "fecha": "2026-11-22T07:08:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.dEqW-epCnFbnxhplNb_XWQ&pid=News&w=640&h=360&c=7"
+    },
+    {
+      "titulo": "Programa de Alimentación Escolar emite comunicado sobre incidencia en Loreto",
+      "fuente": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-programa-alimentacion-escolar-emite-comunicado-sobre-incidencia-loreto-1100977.aspx",
+      "fecha": "2026-11-22T00:21:00.000Z",
+      "imagen": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/21/001333780W.webp"
     },
     {
       "titulo": "Veeduría al PAE 2026",
@@ -21,13 +28,6 @@
       "url": "https://elobservador.com.co/%f0%9f%8d%8e%f0%9f%a5%97-gachancipa-fortalece-la-alimentacion-escolar-con-productos-frescos-como-beneficia-a-los-estudiantes-video/",
       "fecha": "2026-11-21T02:31:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.MeZa7lNYWJTbyChsl_CEQQ&pid=News&w=640&h=360&c=7"
-    },
-    {
-      "titulo": "Programa de Alimentación Escolar emite comunicado sobre incidencia en Loreto",
-      "fuente": "Agencia Peruana de Noticias | ANDINA",
-      "url": "https://andina.pe/agencia/noticia-programa-alimentacion-escolar-emite-comunicado-sobre-incidencia-loreto-1100977.aspx",
-      "fecha": "2026-11-20T16:00:00.000Z",
-      "imagen": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/21/001333780W.webp"
     },
     {
       "titulo": "Escuelas Sostenibles: autoridades de FAO y del PAE visitaron experiencia del Jardín de Infantes N.º 237 de Los Cerrillos",
@@ -191,20 +191,6 @@
       "imagen": ""
     },
     {
-      "titulo": "'Poner la casa en orden': Ministerio de Educación anuncia cambios en el PAE de miles de estudiantes tras preocupante hallazgo",
-      "fuente": "RED+ Noticias",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNMENPQUNCNEgwVklRUTZXT2NvQm45MG0wRl91d09vSjRjSjFCSFRXbDlNblgxVHlYWWJ6c1ZyeXJuT3lpdm9pZUFfY3dDbU1LQlhqeXZuNFVicklrMWx6S1lYRTNTQ0k4bUxVa3ZFNHp4MWNsVUpYMzN1cERtLVRDS1ViWmVkR2ljTGFMQTF4aVpmQ3NQQUNSZmxjdk5aVWM2NU1WVTNod09zdGdmVThOeTVxbTZTY3VnWVQ3TkROMmN5TERQdFltQzBqb3o3UWZJRkZUaVVZaU9yeUtNRXh3ZWotQ2M0VG9ibmQ4VWdYeGlSbGRoX29aTnEzVlU5RzhzOXc?oc=5",
-      "fecha": "2026-11-14T20:55:33.000Z",
-      "imagen": ""
-    },
-    {
-      "titulo": "Ministra de Educación denunció irregularidades en el PAE durante el Gobierno Petro: contratistas ausentes, sobrecostos y presunto proselitismo político",
-      "fuente": "Infobae",
-      "url": "https://www.infobae.com/colombia/2026/11/14/ministra-de-educacion-denuncio-irregularidades-en-el-pae-durante-el-gobierno-petro-contratistas-ausentes-sobrecostos-y-presunto-proselitismo-politico/",
-      "fecha": "2026-11-14T20:29:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.RXWx8bS1fKJYJiYCfkQpug&pid=News&w=640&h=360&c=7"
-    },
-    {
       "titulo": "Municipios del Tolima se anticipan al 2027 y comienzan a organizar el transporte escolar y el PAE",
       "fuente": "El Irreverente",
       "url": "https://elirreverenteibague.com/municipios-del-tolima-se-anticipan-al-2027-y-comienzan-a-organizar-el-transporte-escolar-y-el-pae/",
@@ -264,6 +250,20 @@
       "titulo": "“La alimentación de los niños no se negocia”: MinEducación denuncia ante entes de control contratos fantasma, software inoperante y presunto proselitismo en el PAE",
       "fuente": "Ministerio de Educación Nacional",
       "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxPRFFEbGV3VEpLcFZESVlvX2s1WjFnTmN4WTJwX1l1dDhXeWx2WEo2WlkzSFoxUjQ4ZEc4NnJkWl9WYVJvN0plQTVCUl96MXdna2k4WFpiQjRQeUxWNjU3elV5akIyejFTcWp1NnE5bHp5dHdraEl2OWtpU2tuNTMyOEk3WXhrYzd5YTMzQV96OF9yOVliSUVOQzBYaWhWQmZHaGg3djktNUx1VncyeVhHanE5ZUhIa0NZSVA1MGUzLWVWVjNHTTQ1QjVSLWFveUZMeEQ2UmVod3hybXRBV2JpMVNCT0ZkRVl0UW9IcGVlTFFNeGQzMm1WZUVYYkt3X1NkTmczbDlWSUlBV3hQV04wbHRmM1BQTGJGcU9XaklKMXdDTWhuR21WUXVla2pSSUsza09ha3d1WEQwbG44cTh3bmtHSlJSdElaSFI5Wg?oc=5",
+      "fecha": "2026-11-14T08:00:00.000Z",
+      "imagen": ""
+    },
+    {
+      "titulo": "Ministra de Educación denunció irregularidades en el PAE durante el Gobierno Petro: contratistas ausentes, sobrecostos y presunto proselitismo político",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/colombia/2026/11/14/ministra-de-educacion-denuncio-irregularidades-en-el-pae-durante-el-gobierno-petro-contratistas-ausentes-sobrecostos-y-presunto-proselitismo-politico/",
+      "fecha": "2026-11-14T08:00:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.RXWx8bS1fKJYJiYCfkQpug&pid=News&w=640&h=360&c=7"
+    },
+    {
+      "titulo": "'Poner la casa en orden': Ministerio de Educación anuncia cambios en el PAE de miles de estudiantes tras preocupante hallazgo",
+      "fuente": "RED+ Noticias",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNMENPQUNCNEgwVklRUTZXT2NvQm45MG0wRl91d09vSjRjSjFCSFRXbDlNblgxVHlYWWJ6c1ZyeXJuT3lpdm9pZUFfY3dDbU1LQlhqeXZuNFVicklrMWx6S1lYRTNTQ0k4bUxVa3ZFNHp4MWNsVUpYMzN1cERtLVRDS1ViWmVkR2ljTGFMQTF4aVpmQ3NQQUNSZmxjdk5aVWM2NU1WVTNod09zdGdmVThOeTVxbTZTY3VnWVQ3TkROMmN5TERQdFltQzBqb3o3UWZJRkZUaVVZaU9yeUtNRXh3ZWotQ2M0VG9ibmQ4VWdYeGlSbGRoX29aTnEzVlU5RzhzOXc?oc=5",
       "fecha": "2026-11-14T08:00:00.000Z",
       "imagen": ""
     },

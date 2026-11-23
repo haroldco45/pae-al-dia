@@ -1,19 +1,19 @@
 {
-  "actualizado": "2026-11-22T22:23:05.723Z",
+  "actualizado": "2026-11-23T02:58:38.452Z",
   "items": [
+    {
+      "titulo": "Luz verde a $92 mil millones para alimentación escolar en el Tolima durante 2027",
+      "fuente": "Emisora Ondas de Ibagué",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbjhJczVJSHJHbDdudkNaM293N0dud2xvZzY2NFpHSk13WXc0SEpBSEllWlBreUZCejVnTlBNYm1SNUZSeEx1eWZKbWN0bC1xRlUyOFpaUUpaSG9iRFFhMVIyU1NnSzE5YjdNYzlIcmtpVGpUVl8tTFJza2FDLTZGdHcxSmloX1dUMlowUGdxTWtnX21ISWxUNnp1QVluT0hhdjJYVDh0anBjWnZxNkZZdEQ1cUkyeUJacVVLWnBxZmY1c3Z4NkE?oc=5",
+      "fecha": "2026-11-22T22:28:40.000Z",
+      "imagen": ""
+    },
     {
       "titulo": "Vigilan prestación del PAE en zona rural",
       "fuente": "Diario del Sur",
       "url": "https://www.diariodelsur.com.co/noticias/vigilan-prestacion-del-pae-en-zona-rural",
       "fecha": "2026-11-22T07:08:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.dEqW-epCnFbnxhplNb_XWQ&pid=News&w=640&h=360&c=7"
-    },
-    {
-      "titulo": "Programa de Alimentación Escolar emite comunicado sobre incidencia en Loreto",
-      "fuente": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-programa-alimentacion-escolar-emite-comunicado-sobre-incidencia-loreto-1100977.aspx",
-      "fecha": "2026-11-22T00:21:00.000Z",
-      "imagen": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/21/001333780W.webp"
     },
     {
       "titulo": "Veeduría al PAE 2026",
@@ -28,6 +28,13 @@
       "url": "https://elobservador.com.co/%f0%9f%8d%8e%f0%9f%a5%97-gachancipa-fortalece-la-alimentacion-escolar-con-productos-frescos-como-beneficia-a-los-estudiantes-video/",
       "fecha": "2026-11-21T02:31:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.MeZa7lNYWJTbyChsl_CEQQ&pid=News&w=640&h=360&c=7"
+    },
+    {
+      "titulo": "Programa de Alimentación Escolar emite comunicado sobre incidencia en Loreto",
+      "fuente": "Agencia Peruana de Noticias | ANDINA",
+      "url": "https://andina.pe/agencia/noticia-programa-alimentacion-escolar-emite-comunicado-sobre-incidencia-loreto-1100977.aspx",
+      "fecha": "2026-11-20T16:00:00.000Z",
+      "imagen": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/21/001333780W.webp"
     },
     {
       "titulo": "Escuelas Sostenibles: autoridades de FAO y del PAE visitaron experiencia del Jardín de Infantes N.º 237 de Los Cerrillos",
@@ -170,13 +177,6 @@
       "imagen": ""
     },
     {
-      "titulo": "Alerta sobre presuntas irregularidades en el manejo de recursos del PAE: Ministerio de Educación",
-      "fuente": "Vanguardia",
-      "url": "https://www.vanguardia.com/colombia/2026/11/14/alerta-sobre-presuntas-irregularidades-en-el-manejo-de-recursos-del-pae-ministerio-de-educacion/",
-      "fecha": "2026-11-14T21:48:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.5ra95g8zzA389BDtHId3RQ&pid=News&w=640&h=360&c=7"
-    },
-    {
       "titulo": "Mineducación advierte presuntas irregularidades en funcionamiento del PAE",
       "fuente": "hoy diario del magdalena",
       "url": "https://hoydiariodelmagdalena.com.co/archivos/1314038/mineducacion-advierte-presuntas-irregularidades-en-funcionamiento-del-pae",
@@ -268,6 +268,13 @@
       "imagen": ""
     },
     {
+      "titulo": "Alerta sobre presuntas irregularidades en el manejo de recursos del PAE: Ministerio de Educación",
+      "fuente": "Vanguardia",
+      "url": "https://www.vanguardia.com/colombia/2026/11/14/alerta-sobre-presuntas-irregularidades-en-el-manejo-de-recursos-del-pae-ministerio-de-educacion/",
+      "fecha": "2026-11-14T08:00:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.5ra95g8zzA389BDtHId3RQ&pid=News&w=640&h=360&c=7"
+    },
+    {
       "titulo": "MinEducación destapa graves irregularidades en el Programa de Alimentación Escolar: encontró sobrecostos y contratos cuestionados",
       "fuente": "Diario La Libertad",
       "url": "https://diariolalibertad.com/2026/11/14/mineducacion-destapa-graves-irregularidades-en-el-programa-de-alimentacion-escolar-encontro-sobrecostos-y-contratos-cuestionados/",
@@ -326,7 +333,7 @@
     {
       "titulo": "Más de 600 manipuladoras de alimentos son el corazón del Programa de Alimentación Escolar de Cali",
       "fuente": "Alcaldía de Santiago de Cali",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQLWJyUXZYTFJTWWltTWtvWE5SSmFKLURHaGFqcjVWOGQyczRmMC1FUGREOXBPV0FLTWExVVlySkU5QzNYYnFrdkxhbGZRR3pXSks2V196czRyM0ZPYkc2NWNOZkg1VU83eExtaGFoVGNsUHVsZkgtRThnME1Dbmh0b0ctVWVheU1oMnRvRkJqVzQ5d1lyblhUNXZsNVd2Mmxqdi1xUWJrbXBMemhpS3RRM25yQWU2dFN0Y1MwVVF6RHlhODM4cVlrMHFxSVZsSjJId19ETk02Vlc3c1BnejFoQ3pHRGhzLTVJ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOWVRJV3RnbjRlN2g4Mm1CM1NnVjEydW9VVFdwU1VrLXA2N09hOXRIakx0SkxTQnZRa2xHME9ieDZPOG9vajZpTUZEYm94dllScmtUa3FfRElUbmVKWDVjVy03Ulh2WkV0MUppa1ktdXRfRmhrV29zT1dmRllYaFlmSUpwNWVaX1RBbWRkTDljN3Y3LVdiOC1yb1ZNNXpzT1JWcGxHSkNpWjIycU9JcmZMUmdmVERvOGVlNmxUdW1hNmpXTDRNY0I2MWZhakFhdTdVRDdqUW9ZZ04yTzIydUFUazJYUEo4UFp4?oc=5",
       "fecha": "2026-11-13T08:00:00.000Z",
       "imagen": ""
     },
@@ -483,13 +490,6 @@
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPemlpQ0E5bmNwQk92NDNzNk5zQnpLWXZhZXcxeldxZUR6S1JWZlZ2STQybUNPVVQ0VnI1OFNEREMzZkhFQmcybjhwM2NhQXg4bmZ5NElDWF90clczdkVhSWpGZzBrdUdZTnNtZlBfcmhSc1BqLXBkNzhZUTN3b2J4ZVA5N1ZLeWliSHNPTEtNU18wdVZuNDE5MHhSZDI3dUxOcHZkc2oyWFVPVEx5c1Zn0gGvAUFVX3lxTE96aWlDQTluY3BCT3Y0M3M2TnNCektZdmFldzF6V3FlRHpLUlZmVnZJNDJtQ09VVDRWcjU4U0REQzNmSEVCZzJuOHAzY2FBeDhuZnk0SUNYX3RyVzN2RWFJakZnMGt1R1lOc21mUF9yaFJzUGotcGQ3OFlRM3dvYnhlUDk3Vkt5aWJIc09MS01TXzB1Vm40MTkweFJkMjd1TE5wdmRzajJYVU9UTHlzVmc?oc=5",
       "fecha": "2026-11-08T05:43:14.000Z",
       "imagen": ""
-    },
-    {
-      "titulo": "Antioquia garantiza $326 mil millones para la continuidad del PAE en 2027",
-      "fuente": "La Prensa Oriente",
-      "url": "https://www.laprensaoriente.info/educacion/antioquia-garantiza-326-mil-millones-para-la-continuidad-del-pae-en-2027/",
-      "fecha": "2026-11-08T05:02:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.E9HlirfM0ubk8od-ZdPb-Q&pid=News&w=640&h=360&c=7"
     }
   ],
   "videos": [

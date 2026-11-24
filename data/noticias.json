@@ -1,6 +1,20 @@
 {
-  "actualizado": "2026-11-24T10:16:45.325Z",
+  "actualizado": "2026-11-24T20:46:42.218Z",
   "items": [
+    {
+      "titulo": "Comunidad educativa de Osorno participó en evaluación de nuevo plato para la alimentación escolar",
+      "fuente": "miradasurtv",
+      "url": "https://miradasurtv.cl/comunidad-educativa-de-osorno-participo-en-evaluacion-de-nuevo-plato-para-la-alimentacion-escolar/",
+      "fecha": "2026-11-24T11:21:00.000Z",
+      "imagen": "https://miradasurtv.cl/wp-content/uploads/2026/11/junaeb-los-lagos.jpg"
+    },
+    {
+      "titulo": "Llega la Segunda Mesa Pública del PAE en Soacha, una cita clave por la transparencia y la alimentación escolar",
+      "fuente": "Alcaldia de Soacha",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOUkt1X0k4ZlIzVmM1aW5QLVlkLUZEcWNIb3Y1dzNVNG5nbHVaLVQxY0NsTTlpN2k5c1NBS3BIOTFzc3oxaF9vZ2JXZlpvQ1huVmdYR3NPX01NNFh0N050TjN1MEF1Tm1SWTRZbDFsU2FsZEJkanNlVUh6bVlocTdhaVY5a0JyV1YtSmRPd2I2dDAtQ2hIZlcySHZkb1c1QVh3YmVXUkpkRl9nckpGaDk4M1VhTmxKS2otS3pTYVRpcWM1MkFuTTdiWXRZYlBsZ2JNTmQ2NGNSSkpEY2tHSThBR0MyZ3R5RVdpem9OTEg5aHZkQ3F5dnRnMFN5MVY4NnlRSGIzZ3hYVQ?oc=5",
+      "fecha": "2026-11-24T03:40:35.000Z",
+      "imagen": ""
+    },
     {
       "titulo": "Concejo de Sincelejo aprobó vigencias futuras para el PAE de 2028",
       "fuente": "El Meridiano",
@@ -268,13 +282,6 @@
       "imagen": "http://www.bing.com/th?id=ONUT.RXWx8bS1fKJYJiYCfkQpug&pid=News&w=640&h=360&c=7"
     },
     {
-      "titulo": "MinEducación denuncia irregularidades en el PAE: contratos fantasma y presuntos sobrecostos",
-      "fuente": "La FM",
-      "url": "https://www.lafm.com.co/sociedad/ministerio-educacion-denuncia-irregularidades-pae-contratos-fantasmas-sobrecostos-alimentacion-escolar-417202",
-      "fecha": "2026-11-14T08:00:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.MNYykBXz6vALS5DliKkeBA&pid=News&w=640&h=360&c=7"
-    },
-    {
       "titulo": "'Poner la casa en orden': Ministerio de Educación anuncia cambios en el PAE de miles de estudiantes tras preocupante hallazgo",
       "fuente": "RED+ Noticias",
       "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNMENPQUNCNEgwVklRUTZXT2NvQm45MG0wRl91d09vSjRjSjFCSFRXbDlNblgxVHlYWWJ6c1ZyeXJuT3lpdm9pZUFfY3dDbU1LQlhqeXZuNFVicklrMWx6S1lYRTNTQ0k4bUxVa3ZFNHp4MWNsVUpYMzN1cERtLVRDS1ViWmVkR2ljTGFMQTF4aVpmQ3NQQUNSZmxjdk5aVWM2NU1WVTNod09zdGdmVThOeTVxbTZTY3VnWVQ3TkROMmN5TERQdFltQzBqb3o3UWZJRkZUaVVZaU9yeUtNRXh3ZWotQ2M0VG9ibmQ4VWdYeGlSbGRoX29aTnEzVlU5RzhzOXc?oc=5",
@@ -287,6 +294,13 @@
       "url": "https://www.vanguardia.com/colombia/2026/11/14/alerta-sobre-presuntas-irregularidades-en-el-manejo-de-recursos-del-pae-ministerio-de-educacion/",
       "fecha": "2026-11-14T08:00:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.5ra95g8zzA389BDtHId3RQ&pid=News&w=640&h=360&c=7"
+    },
+    {
+      "titulo": "MinEducación denuncia irregularidades en el PAE: contratos fantasma y presuntos sobrecostos",
+      "fuente": "La FM",
+      "url": "https://www.lafm.com.co/sociedad/ministerio-educacion-denuncia-irregularidades-pae-contratos-fantasmas-sobrecostos-alimentacion-escolar-417202",
+      "fecha": "2026-11-14T08:00:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.MNYykBXz6vALS5DliKkeBA&pid=News&w=640&h=360&c=7"
     },
     {
       "titulo": "Mineducación advierte presuntas irregularidades en funcionamiento del PAE",
@@ -370,7 +384,7 @@
       "fuente": "minuto60",
       "url": "https://www.minuto60.com/colombia/atlantico-intoxicacion-estudiantes-alimentos-pae/18925",
       "fecha": "2026-11-13T05:11:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.LvD2mHNfDsogpzwKCUhCNQ&pid=News&w=640&h=360&c=7"
+      "imagen": "http://www.bing.com/th?id=ONUT.Zg9G1qACkP4G33Hse9svcg&pid=News&w=640&h=360&c=7"
     },
     {
       "titulo": "Investigan presunta intoxicación masiva de menores por comida del PAE en colegio de Atlántico",
@@ -475,20 +489,6 @@
       "fuente": "boyacadigital.com",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSVY4eXN6ZnhYQU5mZ3Y1TmtqS1h2eC1vY2N1LTRYcXVGYUtSVkNqYzdsX2czelg1ajRldlNZUGVBUF9uenJMT3VLaU1ESDNxRlRqajRPVk5vSURGaW42M1NMbV92ejdXR05hUHVxeWJQd3ZwWHB5WHJBS1hxS1NZOWk4VVF0OU12UDFURldBV0Q3bnZHSUdaRmlkLTQtNGhhbF9MY2FYaEFJZlUzOGJlVS1uN0NERU52eTI4UFhQOGotbVZqSUw5andhT1Q2UQ?oc=5",
       "fecha": "2026-11-10T21:34:26.000Z",
-      "imagen": ""
-    },
-    {
-      "titulo": "PAE sirve 2 millones de platos diarias en escuelas de todo el país",
-      "fuente": "Ciudad CCS",
-      "url": "https://www.ciudadccs.info/publicacion/53525-pae-sirve-2-millones-de-platos-diarias-en-escuelas-de-todo-el-pais",
-      "fecha": "2026-11-10T16:00:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.PRr8z-Bdqkp1CrU7mIGOuA&pid=News&w=640&h=360&c=7"
-    },
-    {
-      "titulo": "La Mesa dotó al colegio Francisco Julián Olaya con equipos educativos y elementos para el PAE",
-      "fuente": "El dorado radio",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcE1CZUdPTUdleTg2VXlWemE4dHN1cTBuVVR2RFhIazZ5NXZJdmJzZ083VEFiR0F3eXZjX3c3b2V0QVVMTmVFdmV3ZlRxRHhXUE41UWFTbFR6TVRsUGU0a1FLVlBtR2F5Nkg5X0txVjlMZXpma2E4VXFfZFJjVlFia051Tnk2ekh5bUV3V1JDb0ZsZ0Y1ZmlRd0lfUEZJbWUtNlZVNkdVakwxa1NJWFBhbFRVN0lOTzkxYUdjOW1CVG1QMUhQNFI1cUlyVjdlNEl0WDhBakdnTTZMdTdTTlE?oc=5",
-      "fecha": "2026-11-10T08:00:00.000Z",
       "imagen": ""
     }
   ],

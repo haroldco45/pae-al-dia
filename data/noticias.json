@@ -1,6 +1,27 @@
 {
-  "actualizado": "2026-11-25T14:08:49.587Z",
+  "actualizado": "2026-11-25T23:13:44.346Z",
   "items": [
+    {
+      "titulo": "Sogamoso reduce las raciones industrializadas del PAE y fortalece la alimentación preparada en sitio",
+      "fuente": "Caracol Radio",
+      "url": "https://caracol.com.co/2026/11/25/sogamoso-reduce-las-raciones-industrializadas-del-pae-y-fortalece-la-alimentacion-preparada-en-sitio/",
+      "fecha": "2026-11-25T11:59:00.000Z",
+      "imagen": "https://caracol.com.co/resizer/v2/BD7DB3PS2FBQTJNCZ6XG7DSDDA.jpeg?auth=bad913323d2735db0a4e73d1f99d6a14b6aae4d219e7b4c8c1555702aafb5f92&quality=70&width=1200&height=675&smart=true"
+    },
+    {
+      "titulo": "PAE Conecta acerca la agricultura familiar, mypes y la industria a la alimentación escolar",
+      "fuente": "Agencia Peruana de Noticias | ANDINA",
+      "url": "https://andina.pe/agencia/noticia-pae-conecta-acerca-agricultura-familiar-mypes-y-industria-a-alimentacion-escolar-1101405.aspx",
+      "fecha": "2026-11-25T06:21:00.000Z",
+      "imagen": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/25/001334644W.webp"
+    },
+    {
+      "titulo": "Popayán gestiona nuevos proyectos para fortalecer la educación y la alimentación escolar",
+      "fuente": "Diario del Sur",
+      "url": "https://www.diariodelsur.com.co/noticias/popayan-gestiona-nuevos-proyectos-para-fortalecer-la-educacion-y-la-alimentacion-escolar",
+      "fecha": "2026-11-25T05:59:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.bB1aqZnOnJdb7iZOWPf4_A&pid=News&w=640&h=360&c=7"
+    },
     {
       "titulo": "PAE Boyacá proyecta atender a 109.000 estudiantes en 2027con recursos por más de $100.000 millones",
       "fuente": "Caracol Radio",
@@ -9,18 +30,25 @@
       "imagen": "http://www.bing.com/th?id=ONUT.kOzRiibgTrWep3GNcCbKBQ&pid=News&w=640&h=360&c=7"
     },
     {
-      "titulo": "Comunidad educativa de Osorno participó en evaluación de nuevo plato para la alimentación escolar",
-      "fuente": "MiradaSurTV",
-      "url": "https://miradasurtv.cl/comunidad-educativa-de-osorno-participo-en-evaluacion-de-nuevo-plato-para-la-alimentacion-escolar/",
-      "fecha": "2026-11-24T19:21:57.000Z",
-      "imagen": "https://miradasurtv.cl/wp-content/uploads/2026/11/junaeb-los-lagos.jpg"
+      "titulo": "436 millones para fortalecer el PAE. Soacha transforma la alimentación escolar de sus niños, niñas y jóvenes",
+      "fuente": "Alcaldia de Soacha",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQUGFURjlrNzdLUDNMallTdGx3SG8tandRNnpCbUFvMnlJSFhMY0c5SDMtSVNwbHpYZ0hmcE9Hby1DYldaa0NIRjNVUzVLcmdxZUlua1lEWmRvOEVlMC1QaFdYVjhfcndNV0h5MnhfT1lOazZZVzhaZmxTYUFubzJ6ejBwMXNWVFJkTWlHckwyb3JPanBIR1hscGFpd1k1YXNGTTV3NG03aU9Hb2Q0X3BpZUxxbHUzQ3l3ZnFOZWVIeFBKT1p6dzV2ZEx0V1UwbnJDMUJ5RG85ZkNuTEJsM09GeTVISGZfd2tJYUZfX1JiQUJsUDZ1RVBucEZnWlJKQkxMNkxKX2tmLTFyNTdvcE11bGRR?oc=5",
+      "fecha": "2026-11-25T05:05:23.000Z",
+      "imagen": ""
     },
     {
       "titulo": "Boyacá proyecta una inversión de $99.000 millones para garantizar el Programa de Alimentación Escolar en 2027",
       "fuente": "Boyacá 95.6 fm",
       "url": "https://956fm.boyaca.gov.co/boyaca-proyecta-una-inversion-de-99-000-millones-para-garantizar-el-programa-de-alimentacion-escolar-en-2027/",
-      "fecha": "2026-11-24T10:40:00.000Z",
+      "fecha": "2026-11-24T23:47:17.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.cOO5u5LHQHN_xS1ayEQSqw&pid=News&w=640&h=360&c=7"
+    },
+    {
+      "titulo": "Comunidad educativa de Osorno participó en evaluación de nuevo plato para la alimentación escolar",
+      "fuente": "MiradaSurTV",
+      "url": "https://miradasurtv.cl/comunidad-educativa-de-osorno-participo-en-evaluacion-de-nuevo-plato-para-la-alimentacion-escolar/",
+      "fecha": "2026-11-24T19:21:57.000Z",
+      "imagen": "https://miradasurtv.cl/wp-content/uploads/2026/11/junaeb-los-lagos.jpg"
     },
     {
       "titulo": "Llega la Segunda Mesa Pública del PAE en Soacha, una cita clave por la transparencia y la alimentación escolar",
@@ -289,6 +317,27 @@
       "imagen": "http://www.bing.com/th?id=ONUT.RXWx8bS1fKJYJiYCfkQpug&pid=News&w=640&h=360&c=7"
     },
     {
+      "titulo": "MinEducación denuncia irregularidades en el PAE: contratos fantasma y presuntos sobrecostos",
+      "fuente": "La FM",
+      "url": "https://www.lafm.com.co/sociedad/ministerio-educacion-denuncia-irregularidades-pae-contratos-fantasmas-sobrecostos-alimentacion-escolar-417202",
+      "fecha": "2026-11-14T08:00:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.MNYykBXz6vALS5DliKkeBA&pid=News&w=640&h=360&c=7"
+    },
+    {
+      "titulo": "Alerta sobre presuntas irregularidades en el manejo de recursos del PAE: Ministerio de Educación",
+      "fuente": "Vanguardia",
+      "url": "https://www.vanguardia.com/colombia/2026/11/14/alerta-sobre-presuntas-irregularidades-en-el-manejo-de-recursos-del-pae-ministerio-de-educacion/",
+      "fecha": "2026-11-14T08:00:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.5ra95g8zzA389BDtHId3RQ&pid=News&w=640&h=360&c=7"
+    },
+    {
+      "titulo": "Mineducación advierte presuntas irregularidades en funcionamiento del PAE",
+      "fuente": "hoy diario del magdalena",
+      "url": "https://hoydiariodelmagdalena.com.co/archivos/1314038/mineducacion-advierte-presuntas-irregularidades-en-funcionamiento-del-pae",
+      "fecha": "2026-11-14T08:00:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.ryb5qVf4CpEwjvtD4Oyz9A&pid=News&w=640&h=360&c=7"
+    },
+    {
       "titulo": "MinEducación denuncia graves fallas y contratos cuestionados en la Unidad del PAE",
       "fuente": "Diario del Cauca",
       "url": "https://www.diariodelsur.com.co/noticias/mineducacion-denuncia-graves-fallas-y-contratos-cuestionados-en-la-unidad-del-pae",
@@ -301,27 +350,6 @@
       "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNMENPQUNCNEgwVklRUTZXT2NvQm45MG0wRl91d09vSjRjSjFCSFRXbDlNblgxVHlYWWJ6c1ZyeXJuT3lpdm9pZUFfY3dDbU1LQlhqeXZuNFVicklrMWx6S1lYRTNTQ0k4bUxVa3ZFNHp4MWNsVUpYMzN1cERtLVRDS1ViWmVkR2ljTGFMQTF4aVpmQ3NQQUNSZmxjdk5aVWM2NU1WVTNod09zdGdmVThOeTVxbTZTY3VnWVQ3TkROMmN5TERQdFltQzBqb3o3UWZJRkZUaVVZaU9yeUtNRXh3ZWotQ2M0VG9ibmQ4VWdYeGlSbGRoX29aTnEzVlU5RzhzOXc?oc=5",
       "fecha": "2026-11-14T08:00:00.000Z",
       "imagen": ""
-    },
-    {
-      "titulo": "Alerta sobre presuntas irregularidades en el manejo de recursos del PAE: Ministerio de Educación",
-      "fuente": "Vanguardia",
-      "url": "https://www.vanguardia.com/colombia/2026/11/14/alerta-sobre-presuntas-irregularidades-en-el-manejo-de-recursos-del-pae-ministerio-de-educacion/",
-      "fecha": "2026-11-14T08:00:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.5ra95g8zzA389BDtHId3RQ&pid=News&w=640&h=360&c=7"
-    },
-    {
-      "titulo": "MinEducación denuncia irregularidades en el PAE: contratos fantasma y presuntos sobrecostos",
-      "fuente": "La FM",
-      "url": "https://www.lafm.com.co/sociedad/ministerio-educacion-denuncia-irregularidades-pae-contratos-fantasmas-sobrecostos-alimentacion-escolar-417202",
-      "fecha": "2026-11-14T08:00:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.MNYykBXz6vALS5DliKkeBA&pid=News&w=640&h=360&c=7"
-    },
-    {
-      "titulo": "Mineducación advierte presuntas irregularidades en funcionamiento del PAE",
-      "fuente": "hoy diario del magdalena",
-      "url": "https://hoydiariodelmagdalena.com.co/archivos/1314038/mineducacion-advierte-presuntas-irregularidades-en-funcionamiento-del-pae",
-      "fecha": "2026-11-14T08:00:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.ryb5qVf4CpEwjvtD4Oyz9A&pid=News&w=640&h=360&c=7"
     },
     {
       "titulo": "MinEducación destapa graves irregularidades en el Programa de Alimentación Escolar: encontró sobrecostos y contratos cuestionados",
@@ -443,17 +471,17 @@
       "imagen": "http://www.bing.com/th?id=ONUT.I0rxNM9L6iLtGztJXVi2ew&pid=News&w=640&h=360&c=7"
     },
     {
+      "titulo": "Programa de Alimentación Escolar de Cali beneficiará a más de 135.000 estudiantes en 2027; proceso de contratación ya inició",
+      "fuente": "Alcaldía de Santiago de Cali",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQbm1NeC1pZC13TzdKVURMM2pPdjgxLWJMOWZUYmhvc21fcFp5Wkk5Q2RSOTdMOXVpcl80ZVhZcE9KNjFjSzdKOHpiRzdKNllUQjdQdDRINFFyRG5kWkN3QVdROU1sR0s2SldRWUVWTGxNZzhmYl9MeVN0RkF1RUdYdWFXX1JlM3ktYnBWbHN1Z2tKRkVoMTdsQlZJZC15aWFIeUhIeTdobHNUWjlDQU5qMnNCM3hmUDJCWXEyc3pmU05uNWFvU09aOG9WektSQy1sYlhhelg2OW5WUWc4bWNhN0haNFJkdGc2S2paZ1U1OGp1a0VBWjJQLUJFblM?oc=5",
+      "fecha": "2026-11-12T08:00:00.000Z",
+      "imagen": ""
+    },
+    {
       "titulo": "Tras ajustes, radican nuevamente proyecto del PAE Sincelejo 2028",
       "fuente": "El Meridiano",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMm5ISTJGRWQtY0hINVhXdm1TMW4yckFhWTNoRWNMLW1ha1B3R1o1QVRWSGVEYlFGWXN2U19VbHc1YUp4SjFwTlpnSlI0X0pNX1liSl9yUFNIWFBNMmxLWS1nbEZ0emUwWF8wRG1Jc0Q1YXFRUGc2SkhpaDE5MXN0dHY3RlVGUFFYUkxWV3VJQk9hMTBIeFRERXNBbkdIQVdjWDVJc0dCZ1pLMlpyenc?oc=5",
       "fecha": "2026-11-12T05:55:42.000Z",
-      "imagen": ""
-    },
-    {
-      "titulo": "Programa de Alimentación Escolar de Cali beneficiará a más de 135.000 estudiantes en 2027; proceso de contratación ya inició",
-      "fuente": "Alcaldía de Santiago de Cali",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQbm1NeC1pZC13TzdKVURMM2pPdjgxLWJMOWZUYmhvc21fcFp5Wkk5Q2RSOTdMOXVpcl80ZVhZcE9KNjFjSzdKOHpiRzdKNllUQjdQdDRINFFyRG5kWkN3QVdROU1sR0s2SldRWUVWTGxNZzhmYl9MeVN0RkF1RUdYdWFXX1JlM3ktYnBWbHN1Z2tKRkVoMTdsQlZJZC15aWFIeUhIeTdobHNUWjlDQU5qMnNCM3hmUDJCWXEyc3pmU05uNWFvU09aOG9WektSQy1sYlhhelg2OW5WUWc4bWNhN0haNFJkdGc2S2paZ1U1OGp1a0VBWjJQLUJFblM?oc=5",
-      "fecha": "2026-11-12T05:00:00.000Z",
       "imagen": ""
     },
     {
@@ -462,34 +490,6 @@
       "url": "https://emisoraatlantico.com.co/local/ocho-ninos-intoxicados-tras-consumir-alimentos-del-pae-en-colegio-de-luruaco/",
       "fecha": "2026-11-12T04:18:01.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.PfEChmHpM3vcofJJyNOCAA&pid=News&w=640&h=360&c=7"
-    },
-    {
-      "titulo": "Comisión Sexta avala premiar a regiones con mejor gestión del PAE",
-      "fuente": "El Nuevo Siglo",
-      "url": "https://www.elnuevosiglo.com.co/politica/comision-sexta-avala-premiar-regiones-con-mejor-gestion-del-pae",
-      "fecha": "2026-11-11T16:37:10.000Z",
-      "imagen": "https://www.elnuevosiglo.com.co/sites/default/files/2026-11/comision%20sexta_0.png"
-    },
-    {
-      "titulo": "Boyacá busca asegurar el PAE desde el primer día de clases en 2027",
-      "fuente": "Matinal Noticias Boyacá",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNb3dieTRCZDdTRkw0V3VQY2IxUjlZclBZRGRyYkRQamRJVE8tLUNSaWUtakRJX181dW9wSVNzRzJqeHN4aXRsUW1ub0FUaXdiUmxHa2d5N3J5S2xjNUlqRlpUZjRkU1V0ai1COFhWRDRlTFJ4cEpBUnZycUY5QWwwc1drTXVwUkd5MGdrT25zMDFBUjNITF9Za3JnTy1XTkhXUWlhMnBCSVR2VXNybWFN?oc=5",
-      "fecha": "2026-11-11T12:56:06.000Z",
-      "imagen": ""
-    },
-    {
-      "titulo": "Programa de Alimentación Escolar sirve 2 millones de comidas diarias",
-      "fuente": "rnv.gob",
-      "url": "https://rnv.gob.ve/programa-de-alimentacion-escolar-sirve-2-millones-de-co/",
-      "fecha": "2026-11-11T11:38:00.000Z",
-      "imagen": "https://rnv.gob.ve/wp-content/uploads/2026/11/Programa-de-Alimentacion-Escolar-sirve-2-millones-de-comidas-diarias.png"
-    },
-    {
-      "titulo": "El Gobierno garantizará $3,1 billones para el PAE en 2027, pero persisten las brechas de cobertura entre regiones",
-      "fuente": "IFM Noticias",
-      "url": "https://ifmnoticias.com/educacion/alimentacion-escolar-en-2027-el-gobierno-garantiza-3-1-billones-para-el-pae-pero/",
-      "fecha": "2026-11-11T08:00:00.000Z",
-      "imagen": "https://storage.googleapis.com/ifmnoticias-media/articles/ingest/alimentacion-escolar-en-2027-el-gobierno-garantiza-3-1-billones-para-el-pae-pero-1794413068179.webp"
     }
   ],
   "videos": [

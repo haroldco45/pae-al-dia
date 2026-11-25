@@ -1,6 +1,13 @@
 {
-  "actualizado": "2026-11-25T03:59:12.962Z",
+  "actualizado": "2026-11-25T14:08:49.587Z",
   "items": [
+    {
+      "titulo": "PAE Boyacá proyecta atender a 109.000 estudiantes en 2027con recursos por más de $100.000 millones",
+      "fuente": "Caracol Radio",
+      "url": "https://caracol.com.co/2026/11/25/pae-boyaca-proyecta-atender-a-109000-estudiantes-en-2027con-recursos-por-mas-de-100000-millones/",
+      "fecha": "2026-11-25T05:06:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.kOzRiibgTrWep3GNcCbKBQ&pid=News&w=640&h=360&c=7"
+    },
     {
       "titulo": "Comunidad educativa de Osorno participó en evaluación de nuevo plato para la alimentación escolar",
       "fuente": "MiradaSurTV",
@@ -240,13 +247,6 @@
       "imagen": "http://www.bing.com/th?id=ONUT.10K6EVYg9qAPKZWiZouc_Q&pid=News&w=640&h=360&c=7"
     },
     {
-      "titulo": "MinEducación denuncia graves fallas y contratos cuestionados en la Unidad del PAE",
-      "fuente": "Diario del Cauca",
-      "url": "https://www.diariodelsur.com.co/noticias/mineducacion-denuncia-graves-fallas-y-contratos-cuestionados-en-la-unidad-del-pae",
-      "fecha": "2026-11-14T15:25:22.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.xlZ1K4WWWPcXYMbkyBezAg&pid=News&w=640&h=360&c=7"
-    },
-    {
       "titulo": "“La alimentación de los niños no se negocia”: MinEducación denuncia contratos fantasma en el PAE",
       "fuente": "Don Tamalio",
       "url": "https://dontamalio.com/alimentacion-mineducacion-contratos/",
@@ -263,7 +263,7 @@
     {
       "titulo": "MinEducación lleva a la Contraloría hallazgos del PAE: recursos se repartieron sin metodología técnica desde 2022",
       "fuente": "Portafolio on MSN",
-      "url": "https://www.msn.com/es-co/noticias/otras/mineducaci%C3%B3n-lleva-a-la-contralor%C3%ADa-hallazgos-del-pae-recursos-se-repartieron-sin-metodolog%C3%ADa-t%C3%A9cnica-desde-2022/ar-AA2hrTwa",
+      "url": "https://www.msn.com/es-co/noticias/other/mineducaci%C3%B3n-lleva-a-la-contralor%C3%ADa-hallazgos-del-pae-recursos-se-repartieron-sin-metodolog%C3%ADa-t%C3%A9cnica-desde-2022/ar-AA2hrTwa",
       "fecha": "2026-11-14T13:00:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.sevF90nB0Yvl8DR4wKO2-Q&pid=News&w=640&h=360&c=7"
     },
@@ -289,11 +289,11 @@
       "imagen": "http://www.bing.com/th?id=ONUT.RXWx8bS1fKJYJiYCfkQpug&pid=News&w=640&h=360&c=7"
     },
     {
-      "titulo": "MinEducación denuncia irregularidades en el PAE: contratos fantasma y presuntos sobrecostos",
-      "fuente": "La FM",
-      "url": "https://www.lafm.com.co/sociedad/ministerio-educacion-denuncia-irregularidades-pae-contratos-fantasmas-sobrecostos-alimentacion-escolar-417202",
+      "titulo": "MinEducación denuncia graves fallas y contratos cuestionados en la Unidad del PAE",
+      "fuente": "Diario del Cauca",
+      "url": "https://www.diariodelsur.com.co/noticias/mineducacion-denuncia-graves-fallas-y-contratos-cuestionados-en-la-unidad-del-pae",
       "fecha": "2026-11-14T08:00:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.MNYykBXz6vALS5DliKkeBA&pid=News&w=640&h=360&c=7"
+      "imagen": "http://www.bing.com/th?id=ONUT.xlZ1K4WWWPcXYMbkyBezAg&pid=News&w=640&h=360&c=7"
     },
     {
       "titulo": "'Poner la casa en orden': Ministerio de Educación anuncia cambios en el PAE de miles de estudiantes tras preocupante hallazgo",
@@ -308,6 +308,13 @@
       "url": "https://www.vanguardia.com/colombia/2026/11/14/alerta-sobre-presuntas-irregularidades-en-el-manejo-de-recursos-del-pae-ministerio-de-educacion/",
       "fecha": "2026-11-14T08:00:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.5ra95g8zzA389BDtHId3RQ&pid=News&w=640&h=360&c=7"
+    },
+    {
+      "titulo": "MinEducación denuncia irregularidades en el PAE: contratos fantasma y presuntos sobrecostos",
+      "fuente": "La FM",
+      "url": "https://www.lafm.com.co/sociedad/ministerio-educacion-denuncia-irregularidades-pae-contratos-fantasmas-sobrecostos-alimentacion-escolar-417202",
+      "fecha": "2026-11-14T08:00:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.MNYykBXz6vALS5DliKkeBA&pid=News&w=640&h=360&c=7"
     },
     {
       "titulo": "Mineducación advierte presuntas irregularidades en funcionamiento del PAE",
@@ -483,13 +490,6 @@
       "url": "https://ifmnoticias.com/educacion/alimentacion-escolar-en-2027-el-gobierno-garantiza-3-1-billones-para-el-pae-pero/",
       "fecha": "2026-11-11T08:00:00.000Z",
       "imagen": "https://storage.googleapis.com/ifmnoticias-media/articles/ingest/alimentacion-escolar-en-2027-el-gobierno-garantiza-3-1-billones-para-el-pae-pero-1794413068179.webp"
-    },
-    {
-      "titulo": "PAE sirve 2 millones de platos diarios en escuelas de todo el país",
-      "fuente": "CiudadCCS",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBNbDRJVW1QUHB4eVpnSEdIWUpvQVlJSFZXWkRzM2VzYXJ5RVlKUmllaGlHNUpqOWxxdWdGakFCQ1hOYXlQVFg2UWNmX2JPMnlPOFZieUdVWQ?oc=5",
-      "fecha": "2026-11-11T08:00:00.000Z",
-      "imagen": ""
     }
   ],
   "videos": [

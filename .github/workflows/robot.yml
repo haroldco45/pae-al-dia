@@ -31,7 +31,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "Sin noticias nuevas"
           else
-            git commit -m "Robot: noticias del PAE $(TZ=America/Bogota date '+%Y-%m-%d %H:%M') hora Colombia"
+            git commit -m "[skip netlify] Robot: noticias del PAE $(TZ=America/Bogota date '+%Y-%m-%d %H:%M') hora Colombia"
             git pull --rebase
             git push
           fi

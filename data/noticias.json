@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-28T01:48:25.120Z",
+  "actualizado": "2026-11-28T09:55:31.614Z",
   "items": [
     {
       "titulo": "PAE ‘AliMente en Grande’ convierte comedor escolar en aula de alimentación saludable en Villa de Leyva",
@@ -23,18 +23,18 @@
       "imagen": "http://www.bing.com/th?id=ONUT.xVp3QNDM1cb4mmXnXULoDQ&pid=News&w=640&h=360&c=7"
     },
     {
+      "titulo": "Programa de Alimentación Escolar garantiza servicio hasta el 18 de diciembre en Moquegua",
+      "fuente": "La Prensa Regional",
+      "url": "https://prensaregional.pe/programa-de-alimentacion-escolar-garantiza-servicio-hasta-el-18-de-diciembre-en-moquegua/",
+      "fecha": "2026-11-27T04:31:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.hB4JDZvaNByjCUgPVnI6bA&pid=News&w=640&h=360&c=7"
+    },
+    {
       "titulo": "El PAE Navideño llegó a todo Bolívar: más de 100 mil estudiantes disfrutaron los sabores y la alegría de esta época",
       "fuente": "El Original",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdDdCR0lUVnNSMHgyVXJsOEh5Z3d6T1k0cW1lZUhrN1d1MUpZQlN3UzZta29LeGxyNVhlUVR0YnJpRWhzeXo1M24talFmU1lDbVJLZ1hrdzNDc1UzT2duQzNxeHNYaE5wb29OTzFjNldZSFB4SExBLVNGaGdEcVFWZDdtWDVHcFo4ZXdrenJHamNRSm8wTzVMRVhzaHhZcktJRy1VNlE1TTRqX296eVNfeXVKRTg5OEhNdDZqR19PZjRTV2oxSnVCYklnLTFpamtZNFJn?oc=5",
       "fecha": "2026-11-26T23:46:17.000Z",
       "imagen": ""
-    },
-    {
-      "titulo": "PAE fortalece la alimentación saludable de 166 estudiantes en Villa de Leyva",
-      "fuente": "Suba Alternativa",
-      "url": "https://subaalternativa.co/pae-fortalece-la-alimentacion-saludable-de-166-estudiantes-en-villa-de-leyva/",
-      "fecha": "2026-11-26T21:47:23.000Z",
-      "imagen": "https://subaalternativa.co/wp-content/uploads/2026/11/El-PAE-transforma-los-comedores-escolares-en-espacios-de-bienestar-aprendizaje-y-alimentacion-saludable-en-Villa-de-Leyva.jpeg"
     },
     {
       "titulo": "El PAE transforma los comedores escolares en espacios de bienestar, aprendizaje y alimentación saludable en Villa de Leyva",
@@ -51,6 +51,13 @@
       "imagen": ""
     },
     {
+      "titulo": "PAE en casa: Alcaldía entrega canastas a estudiantes en Cali",
+      "fuente": "Diario Occidente",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTmNTQWtDUW5PUWtZMXFoUzZZOHlNbnpKR2p1U1dzcTRfUVFzR2ZoZS0yX25qUXZnSVlYSmsxUWlDTVBjV1pCTlZsM1lUREowZnhnTWNpYm93SndXaEhXLVpwNC1BcU15T0VPM0FVTkhfUnNNV0tVYU1Tc1hKM09oYXZSS05NcWdYc3ZQdV9WTWzSAZsBQVVfeXFMTTNGM0pZSmsza2FGamU1a2I2SzBaQ2YwZ1hnOHhQQkhVeU40UGR6RlNtSE9tVklZTWFvNC1ZMmJYN05qdXk5Z3BYQ2o1SnA1VnZsTHVXNE01WDE1bFFsV3hueEJJNEcybkZSNFdqMzlQdEdvYU9ZZm5IdC1Qd0NnVEQ5dTlST3dIVFRPdmx6OGhfbjVRNmFoUFFBdDQ?oc=5",
+      "fecha": "2026-11-26T11:14:00.000Z",
+      "imagen": ""
+    },
+    {
       "titulo": "Más de 100 mil niños y niñas de Bolívar disfrutaron del PAE Navideño",
       "fuente": "Caracol Radio",
       "url": "https://caracol.com.co/2026/11/26/mas-de-100-mil-ninos-y-ninas-de-bolivar-disfrutaron-del-pae-navideno/",
@@ -58,11 +65,25 @@
       "imagen": "http://www.bing.com/th?id=ONUT.FkzFhajYrGSNd-sgmUd4_A&pid=News&w=640&h=360&c=7"
     },
     {
+      "titulo": "PAE fortalece la alimentación saludable de 166 estudiantes en Villa de Leyva",
+      "fuente": "Suba Alternativa",
+      "url": "https://subaalternativa.co/pae-fortalece-la-alimentacion-saludable-de-166-estudiantes-en-villa-de-leyva/",
+      "fecha": "2026-11-26T05:48:00.000Z",
+      "imagen": "https://subaalternativa.co/wp-content/uploads/2026/11/El-PAE-transforma-los-comedores-escolares-en-espacios-de-bienestar-aprendizaje-y-alimentacion-saludable-en-Villa-de-Leyva.jpeg"
+    },
+    {
       "titulo": "Sogamoso reduce las raciones industrializadas del PAE y fortalece la alimentación preparada en sitio",
       "fuente": "Caracol Radio",
       "url": "https://caracol.com.co/2026/11/25/sogamoso-reduce-las-raciones-industrializadas-del-pae-y-fortalece-la-alimentacion-preparada-en-sitio/",
       "fecha": "2026-11-25T19:56:39.000Z",
       "imagen": "https://caracol.com.co/resizer/v2/BD7DB3PS2FBQTJNCZ6XG7DSDDA.jpeg?auth=bad913323d2735db0a4e73d1f99d6a14b6aae4d219e7b4c8c1555702aafb5f92&quality=70&width=1200&height=675&smart=true"
+    },
+    {
+      "titulo": "PAE Conecta acerca la agricultura familiar, mypes y la industria a la alimentación escolar",
+      "fuente": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-pae-conecta-acerca-agricultura-familiar-mypes-y-industria-a-alimentacion-escolar-1101405.aspx",
+      "fecha": "2026-11-25T19:21:00.000Z",
+      "imagen": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/25/001334644W.webp"
     },
     {
       "titulo": "PAE Boyacá proyecta atender a 109.000 estudiantes en 2027con recursos por más de $100.000 millones",
@@ -77,13 +98,6 @@
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN3VnbTlvYUtlLU9ocURqVjRZaEJIWWM3bGFzTHMtc3BDcndDT2w4RjV0eG84WGVzRzVYYWhFLXFlUUl4bHRBendhNkpORHNwWThZcGNwYlRDb19Db3FVX2JrSENxOHo4WnlwUHhWSGxvVG5nZWljQXk3dDFWcjhQdnVGLXJWWENRdkg3bGhFRDZwQmlNWXVDeUVuWm9Ra3FaSU1OUURkYjlJaTluZXFzeG0yblZGUQ?oc=5",
       "fecha": "2026-11-25T08:00:00.000Z",
       "imagen": ""
-    },
-    {
-      "titulo": "PAE Conecta acerca la agricultura familiar, mypes y la industria a la alimentación escolar",
-      "fuente": "Agencia Peruana de Noticias | ANDINA",
-      "url": "https://andina.pe/agencia/noticia-pae-conecta-acerca-agricultura-familiar-mypes-y-industria-a-alimentacion-escolar-1101405.aspx",
-      "fecha": "2026-11-25T06:21:00.000Z",
-      "imagen": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/25/001334644W.webp"
     },
     {
       "titulo": "Popayán gestiona nuevos proyectos para fortalecer la educación y la alimentación escolar",
@@ -191,13 +205,6 @@
       "imagen": "http://www.bing.com/th?id=ONUT.kRRV9PGn7zlcix59zLE8qg&pid=News&w=640&h=360&c=7"
     },
     {
-      "titulo": "Ausencias del diputado Brayam Escandón ponen en riesgo el trámite de $92.482 millones para la alimentación escolar en Tolima",
-      "fuente": "PYC Noticias",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMmhnS1p6NzBoTXZfbzN4S1FVZVBmT1l4TmtzOURDRjB6MF9oWG9KOGJ5N0VGNUw4VnU5TldPXzBSVk1DdlN5QXRlVGtWU0x5ZnNQQVoxUGJ5bkJLSlJYbV92Z3RVRFN3cVU4cTFyODhPVzRxWmtLQXJyZWswWTNVRU1EaWE0djNZUWsxc20zeVRldmc0cGJkTXR4YlJySkRjXzVVS3lPU0swRDNJV1QzVGZsaENJcW5KZ3NXQmVXVk1ZV3JfaUlKbjFLcUlhU1lXV0luS05BYktSc2xtSmc?oc=5",
-      "fecha": "2026-11-19T17:01:56.000Z",
-      "imagen": ""
-    },
-    {
       "titulo": "Ministerio de Educación reafirma dotación de cocinas escolares y fortalecimiento del PAE",
       "fuente": "Ciudad MCY",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMW5TZEx2dUhKejlGcTVqX3lyQTYxbE5uSUhieS1haHV4eWp4aXRtdUVhbUJWcW83b25aeWdTdmp2NV9YcDhkYnROYk41NVBTUFRqQ0t1a1IyS01SRFk4NTY0Vng1MUVkY1BTZnV1dUxZUnJvbUtTaU1vQ2FwbDBuUGl3RENocTVlbjdLR0lncFBRU09kck9VZkVNckdZREdQSmJNZ3dKREFmeUZ3d0kzY3FibDQ?oc=5",
@@ -219,6 +226,13 @@
       "imagen": ""
     },
     {
+      "titulo": "Ausencias del diputado Brayam Escandón ponen en riesgo el trámite de $92.482 millones para la alimentación escolar en Tolima",
+      "fuente": "PYC Noticias",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMmhnS1p6NzBoTXZfbzN4S1FVZVBmT1l4TmtzOURDRjB6MF9oWG9KOGJ5N0VGNUw4VnU5TldPXzBSVk1DdlN5QXRlVGtWU0x5ZnNQQVoxUGJ5bkJLSlJYbV92Z3RVRFN3cVU4cTFyODhPVzRxWmtLQXJyZWswWTNVRU1EaWE0djNZUWsxc20zeVRldmc0cGJkTXR4YlJySkRjXzVVS3lPU0swRDNJV1QzVGZsaENJcW5KZ3NXQmVXVk1ZV3JfaUlKbjFLcUlhU1lXV0luS05BYktSc2xtSmc?oc=5",
+      "fecha": "2026-11-19T08:00:00.000Z",
+      "imagen": ""
+    },
+    {
       "titulo": "Huánuco: escolares mejoran sus desayunos y almuerzos del PAE con verduras frescas de su biohuerto",
       "fuente": "Diario Correo",
       "url": "https://diariocorreo.pe/edicion/huanuco/huanuco-escolares-mejoran-sus-desayunos-y-almuerzos-del-pae-con-verduras-frescas-de-su-biohuerto-noticia/",
@@ -233,6 +247,13 @@
       "imagen": ""
     },
     {
+      "titulo": "Boyacá aseguró recursos para el PAE de 2027",
+      "fuente": "Boyacá 95.6 fm",
+      "url": "https://956fm.boyaca.gov.co/boyaca-aseguro-recursos-para-el-pae-de-2027/",
+      "fecha": "2026-11-18T08:00:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.1tXml0yBERAJH44fxIKe7g&pid=News&w=640&h=360&c=7"
+    },
+    {
       "titulo": "Proyecto de financiación del PAE 2028 superó primer debate en el concejo",
       "fuente": "El Meridiano",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOR3hPRDQtVkxTbzY4MlEyZllKYm1OeklFZ081TWtaY0VQQ3VCSjZ5bFNDQXNGUlAwWVE2WnhSU3cxZkRpd1UyTk43dXR0NGlpTFhvbTdQeHV1bFpGbzljeUhWUXRhMndjT2Jvdm9aVEo5dHVHWUZwNkhHOGNTN3dDNGpzM0NuWl9VdDZ6b3FsRnNUVXFfSWhoeEdlbGFIcXprN2RjNkxzd19hUGFqaHBqX0haM3FSYnZwM0E?oc=5",
@@ -240,24 +261,10 @@
       "imagen": ""
     },
     {
-      "titulo": "Boyacá aseguró recursos para el PAE de 2027",
-      "fuente": "Boyacá 95.6 fm",
-      "url": "https://956fm.boyaca.gov.co/boyaca-aseguro-recursos-para-el-pae-de-2027/",
-      "fecha": "2026-11-17T23:46:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.1tXml0yBERAJH44fxIKe7g&pid=News&w=640&h=360&c=7"
-    },
-    {
       "titulo": "Asamblea de Boyacá aprueba $105 mil millones para PAE",
       "fuente": "boyacadigital.com",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOc28ybnZaNE94bWdNN2UxTEl1UGFldVUyczhvamh1bEh3SjVYYW9QT21ZYVJZMzk1bEdmNTRHZTRFUUVxcmxWLVdkRDVlVEhOcEE2eXVuS0hwMlllU3dFZkhweV9fMDI0M210U1NNdDdvV3FiNjR3enhMZnJvN3loVUdqcFZMbGlLS3RDbFdDUXpHaWVfbkszc1p6NThmQmxpNV9IUTdoVFVKeFJlRmw4YkUxcEhnRElXVWNmZFlyWQ?oc=5",
       "fecha": "2026-11-17T20:01:48.000Z",
-      "imagen": ""
-    },
-    {
-      "titulo": "Proyecto de financiación del PAE 2028 superó primer debate en el concejo de Sincelejo",
-      "fuente": "El Meridiano",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONHZlVEhQMEwwRGdTS2dfY3psSGxNNC1BUFYtempBU2s4NThUX0xWZjY3WFJwODFIei16UUNKbHY2UjloUGpBX09aUUdHUi1aUHZTaE5Rdnh5eG5jbW8wNEZCcXFUVlQ2MkpyR1hNd1FnUmZ0LTlHUUxUNG4yWmt5VnNCaDJ3TnlSN2NvUVNxSGZidlZ6aTVIRWd0bjY2azZEVHM0SzhlZ0VHRVQ2VmxRWV9aX2ZtUUY3UmtiMFBSRGxjZmpsUlBHSXVHaw?oc=5",
-      "fecha": "2026-11-17T16:31:38.000Z",
       "imagen": ""
     },
     {
@@ -289,6 +296,13 @@
       "imagen": "http://www.bing.com/th?id=ONUT.g2C-dHjFu2YYjNB4V43ENA&pid=News&w=640&h=360&c=7"
     },
     {
+      "titulo": "Proyecto de financiación del PAE 2028 superó primer debate en el concejo de Sincelejo",
+      "fuente": "El Meridiano",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONHZlVEhQMEwwRGdTS2dfY3psSGxNNC1BUFYtempBU2s4NThUX0xWZjY3WFJwODFIei16UUNKbHY2UjloUGpBX09aUUdHUi1aUHZTaE5Rdnh5eG5jbW8wNEZCcXFUVlQ2MkpyR1hNd1FnUmZ0LTlHUUxUNG4yWmt5VnNCaDJ3TnlSN2NvUVNxSGZidlZ6aTVIRWd0bjY2azZEVHM0SzhlZ0VHRVQ2VmxRWV9aX2ZtUUY3UmtiMFBSRGxjZmpsUlBHSXVHaw?oc=5",
+      "fecha": "2026-11-17T08:00:00.000Z",
+      "imagen": ""
+    },
+    {
       "titulo": "Gobierno Nacional garantiza Programa de Alimentación Escolar PAE para 2027",
       "fuente": "El Quindiano",
       "url": "https://elquindiano.com/noticia/282134/gobierno-nacional-garantiza-programa-de-alimentacion-escolar-pae-para-2027/",
@@ -317,13 +331,6 @@
       "imagen": "http://www.bing.com/th?id=ONUT.2nM5Z6jEbKqdz-5V1OhprQ&pid=News&w=640&h=360&c=7"
     },
     {
-      "titulo": "Municipios del Tolima se anticipan al 2027 y comienzan a organizar el transporte escolar y el PAE",
-      "fuente": "El Irreverente",
-      "url": "https://elirreverenteibague.com/municipios-del-tolima-se-anticipan-al-2027-y-comienzan-a-organizar-el-transporte-escolar-y-el-pae/",
-      "fecha": "2026-11-14T19:10:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.ek3M3zrt_G1Nf7BEtOHP1Q&pid=News&w=640&h=360&c=7"
-    },
-    {
       "titulo": "Contratos, sobrecostos y fallas tecnológicas sacuden al Programa de Alimentación Escolar",
       "fuente": "Corrillos",
       "url": "https://www.corrillos.com.co/contratos-sobrecostos-y-fallas-tecnologicas-sacuden-al-programa-de-alimentacion-escolar/",
@@ -347,16 +354,9 @@
     {
       "titulo": "MinEducación lleva a la Contraloría hallazgos del PAE: recursos se repartieron sin metodología técnica desde 2022",
       "fuente": "Portafolio on MSN",
-      "url": "https://www.msn.com/es-co/noticias/other/mineducaci%C3%B3n-lleva-a-la-contralor%C3%ADa-hallazgos-del-pae-recursos-se-repartieron-sin-metodolog%C3%ADa-t%C3%A9cnica-desde-2022/ar-AA2hrTwa",
+      "url": "https://www.msn.com/es-co/noticias/otras/mineducaci%C3%B3n-lleva-a-la-contralor%C3%ADa-hallazgos-del-pae-recursos-se-repartieron-sin-metodolog%C3%ADa-t%C3%A9cnica-desde-2022/ar-AA2hrTwa",
       "fecha": "2026-11-14T13:00:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.sevF90nB0Yvl8DR4wKO2-Q&pid=News&w=640&h=360&c=7"
-    },
-    {
-      "titulo": "“La alimentación de los niños no se negocia”: MinEducación denuncia ante entes de control contratos fantasma, software inoperante y presunto proselitismo en el PAE",
-      "fuente": "Ministerio de Educación Nacional",
-      "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxPRFFEbGV3VEpLcFZESVlvX2s1WjFnTmN4WTJwX1l1dDhXeWx2WEo2WlkzSFoxUjQ4ZEc4NnJkWl9WYVJvN0plQTVCUl96MXdna2k4WFpiQjRQeUxWNjU3elV5akIyejFTcWp1NnE5bHp5dHdraEl2OWtpU2tuNTMyOEk3WXhrYzd5YTMzQV96OF9yOVliSUVOQzBYaWhWQmZHaGg3djktNUx1VncyeVhHanE5ZUhIa0NZSVA1MGUzLWVWVjNHTTQ1QjVSLWFveUZMeEQ2UmVod3hybXRBV2JpMVNCT0ZkRVl0UW9IcGVlTFFNeGQzMm1WZUVYYkt3X1NkTmczbDlWSUlBV3hQV04wbHRmM1BQTGJGcU9XaklKMXdDTWhuR21WUXVla2pSSUsza09ha3d1WEQwbG44cTh3bmtHSlJSdElaSFI5Wg?oc=5",
-      "fecha": "2026-11-14T08:00:00.000Z",
-      "imagen": ""
     },
     {
       "titulo": "Ministra de Educación reporta graves hallazgos en el PAE: cuestionados contratos dentro de la Unidad de Alimentación Escolar",
@@ -366,6 +366,13 @@
       "imagen": "http://www.bing.com/th?id=ONUT.l7tPDmgnt-2TnFVvgEYI6Q&pid=News&w=640&h=360&c=7"
     },
     {
+      "titulo": "“La alimentación de los niños no se negocia”: MinEducación denuncia ante entes de control contratos fantasma, software inoperante y presunto proselitismo en el PAE",
+      "fuente": "Ministerio de Educación Nacional",
+      "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxPRFFEbGV3VEpLcFZESVlvX2s1WjFnTmN4WTJwX1l1dDhXeWx2WEo2WlkzSFoxUjQ4ZEc4NnJkWl9WYVJvN0plQTVCUl96MXdna2k4WFpiQjRQeUxWNjU3elV5akIyejFTcWp1NnE5bHp5dHdraEl2OWtpU2tuNTMyOEk3WXhrYzd5YTMzQV96OF9yOVliSUVOQzBYaWhWQmZHaGg3djktNUx1VncyeVhHanE5ZUhIa0NZSVA1MGUzLWVWVjNHTTQ1QjVSLWFveUZMeEQ2UmVod3hybXRBV2JpMVNCT0ZkRVl0UW9IcGVlTFFNeGQzMm1WZUVYYkt3X1NkTmczbDlWSUlBV3hQV04wbHRmM1BQTGJGcU9XaklKMXdDTWhuR21WUXVla2pSSUsza09ha3d1WEQwbG44cTh3bmtHSlJSdElaSFI5Wg?oc=5",
+      "fecha": "2026-11-14T08:00:00.000Z",
+      "imagen": ""
+    },
+    {
       "titulo": "Ministra de Educación denunció irregularidades en el PAE durante el Gobierno Petro: contratistas ausentes, sobrecostos y presunto proselitismo político",
       "fuente": "Infobae",
       "url": "https://www.infobae.com/colombia/2026/11/14/ministra-de-educacion-denuncio-irregularidades-en-el-pae-durante-el-gobierno-petro-contratistas-ausentes-sobrecostos-y-presunto-proselitismo-politico/",
@@ -373,23 +380,23 @@
       "imagen": "http://www.bing.com/th?id=ONUT.RXWx8bS1fKJYJiYCfkQpug&pid=News&w=640&h=360&c=7"
     },
     {
-      "titulo": "MinEducación denuncia graves fallas y contratos cuestionados en la Unidad del PAE",
-      "fuente": "Diario del Cauca",
-      "url": "https://www.diariodelsur.com.co/noticias/mineducacion-denuncia-graves-fallas-y-contratos-cuestionados-en-la-unidad-del-pae",
+      "titulo": "MinEducación denuncia irregularidades en el PAE: contratos fantasma y presuntos sobrecostos",
+      "fuente": "La FM",
+      "url": "https://www.lafm.com.co/sociedad/ministerio-educacion-denuncia-irregularidades-pae-contratos-fantasmas-sobrecostos-alimentacion-escolar-417202",
       "fecha": "2026-11-14T08:00:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.xlZ1K4WWWPcXYMbkyBezAg&pid=News&w=640&h=360&c=7"
+      "imagen": "http://www.bing.com/th?id=ONUT.MNYykBXz6vALS5DliKkeBA&pid=News&w=640&h=360&c=7"
+    },
+    {
+      "titulo": "Municipios del Tolima se anticipan al 2027 y comienzan a organizar el transporte escolar y el PAE",
+      "fuente": "El Irreverente",
+      "url": "https://elirreverenteibague.com/municipios-del-tolima-se-anticipan-al-2027-y-comienzan-a-organizar-el-transporte-escolar-y-el-pae/",
+      "fecha": "2026-11-14T08:00:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.ek3M3zrt_G1Nf7BEtOHP1Q&pid=News&w=640&h=360&c=7"
     },
     {
       "titulo": "Ministerio de Educación de Colombia denuncia irregularidades en el Programa de Alimentación Escolar durante el Gobierno Petro",
       "fuente": "CRprensa.com",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQV0FSVy04MklXTWNPck1weVZkYWp2Ni1lYTVyRHdDNjJrSVc5eFR4QldYeFVEYmhfcmhKWE94SVRfSWdsZE8xdnpTZDFydWZDMXdnUDRFVVFPS2phaGpMeFJOdTFBVklzY19Mb3dPUnFqNkVQbGhYbDNSY1lFUVNDQW5wUHRSZlMxdWVCMjR0aURmbndzY3pWN3NpV0tZblk4cEc2ZFVrZVJMd0QyZ0VGQ0hTRHVmQVR0aDhEdUdwdUVMRl9MdkU0WDU0SW0tamlLYUpEeFRZOXY2R1BIMkd0dnR3bkkzWnFKWkxDSFRKZw?oc=5",
-      "fecha": "2026-11-14T08:00:00.000Z",
-      "imagen": ""
-    },
-    {
-      "titulo": "'Poner la casa en orden': Ministerio de Educación anuncia cambios en el PAE de miles de estudiantes tras preocupante hallazgo",
-      "fuente": "RED+ Noticias",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNMENPQUNCNEgwVklRUTZXT2NvQm45MG0wRl91d09vSjRjSjFCSFRXbDlNblgxVHlYWWJ6c1ZyeXJuT3lpdm9pZUFfY3dDbU1LQlhqeXZuNFVicklrMWx6S1lYRTNTQ0k4bUxVa3ZFNHp4MWNsVUpYMzN1cERtLVRDS1ViWmVkR2ljTGFMQTF4aVpmQ3NQQUNSZmxjdk5aVWM2NU1WVTNod09zdGdmVThOeTVxbTZTY3VnWVQ3TkROMmN5TERQdFltQzBqb3o3UWZJRkZUaVVZaU9yeUtNRXh3ZWotQ2M0VG9ibmQ4VWdYeGlSbGRoX29aTnEzVlU5RzhzOXc?oc=5",
       "fecha": "2026-11-14T08:00:00.000Z",
       "imagen": ""
     },
@@ -401,11 +408,11 @@
       "imagen": "http://www.bing.com/th?id=ONUT.5ra95g8zzA389BDtHId3RQ&pid=News&w=640&h=360&c=7"
     },
     {
-      "titulo": "MinEducación denuncia irregularidades en el PAE: contratos fantasma y presuntos sobrecostos",
-      "fuente": "La FM",
-      "url": "https://www.lafm.com.co/sociedad/ministerio-educacion-denuncia-irregularidades-pae-contratos-fantasmas-sobrecostos-alimentacion-escolar-417202",
+      "titulo": "'Poner la casa en orden': Ministerio de Educación anuncia cambios en el PAE de miles de estudiantes tras preocupante hallazgo",
+      "fuente": "RED+ Noticias",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNMENPQUNCNEgwVklRUTZXT2NvQm45MG0wRl91d09vSjRjSjFCSFRXbDlNblgxVHlYWWJ6c1ZyeXJuT3lpdm9pZUFfY3dDbU1LQlhqeXZuNFVicklrMWx6S1lYRTNTQ0k4bUxVa3ZFNHp4MWNsVUpYMzN1cERtLVRDS1ViWmVkR2ljTGFMQTF4aVpmQ3NQQUNSZmxjdk5aVWM2NU1WVTNod09zdGdmVThOeTVxbTZTY3VnWVQ3TkROMmN5TERQdFltQzBqb3o3UWZJRkZUaVVZaU9yeUtNRXh3ZWotQ2M0VG9ibmQ4VWdYeGlSbGRoX29aTnEzVlU5RzhzOXc?oc=5",
       "fecha": "2026-11-14T08:00:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.MNYykBXz6vALS5DliKkeBA&pid=News&w=640&h=360&c=7"
+      "imagen": ""
     },
     {
       "titulo": "Mineducación advierte presuntas irregularidades en funcionamiento del PAE",
@@ -413,6 +420,13 @@
       "url": "https://hoydiariodelmagdalena.com.co/archivos/1314038/mineducacion-advierte-presuntas-irregularidades-en-funcionamiento-del-pae",
       "fecha": "2026-11-14T08:00:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.ryb5qVf4CpEwjvtD4Oyz9A&pid=News&w=640&h=360&c=7"
+    },
+    {
+      "titulo": "MinEducación denuncia graves fallas y contratos cuestionados en la Unidad del PAE",
+      "fuente": "Diario del Cauca",
+      "url": "https://www.diariodelsur.com.co/noticias/mineducacion-denuncia-graves-fallas-y-contratos-cuestionados-en-la-unidad-del-pae",
+      "fecha": "2026-11-14T08:00:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.xlZ1K4WWWPcXYMbkyBezAg&pid=News&w=640&h=360&c=7"
     },
     {
       "titulo": "MinEducación destapa graves irregularidades en el Programa de Alimentación Escolar: encontró sobrecostos y contratos cuestionados",
@@ -450,13 +464,6 @@
       "imagen": ""
     },
     {
-      "titulo": "En Chiquinquirá, el PAE fortalece la participación ciudadana para mejorar la alimentación escolar",
-      "fuente": "Gobernación de Boyacá",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaGNrcm55R3lpODdieTdHWVVIV1ZIU0tzcU5KNEF4aExKLWZkckpXU0dCZ0xjc2ZySnVMelBvYlp4S1FBc0tjMHY2T1RMWGxtbkFINXdBZExaS3Q1bTY1eXl2NlRYLVBqR1kxU2t5X2VTUU9KN3FhTmw4MHdma2Roc1hGNTZCN05FZlEyRFBrNnkyeUF1dEZnUkNtZkFuSVE1R1M0Nnc4TkFRcUVIVEhMdFdMZ2pLYlVYQUlrb0lxLWg?oc=5",
-      "fecha": "2026-11-13T08:00:00.000Z",
-      "imagen": ""
-    },
-    {
       "titulo": "Investigan presunta intoxicación por alimentos del PAE en colegio de Luruaco, Atlántico, que dejó a varios estudiantes afectados",
       "fuente": "El Tiempo",
       "url": "https://www.eltiempo.com/colombia/otras-ciudades/investigan-presunta-intoxicacion-por-alimentos-del-pae-en-colegio-de-luruaco-atlantico-que-dejo-a-varios-estudiantes-afectados-3600726",
@@ -464,9 +471,9 @@
       "imagen": "http://www.bing.com/th?id=ONUT.p7jUmlbX1XPLHKw7b7Ap_g&pid=News&w=640&h=360&c=7"
     },
     {
-      "titulo": "Más de 600 manipuladoras de alimentos son el corazón del Programa de Alimentación Escolar de Cali",
-      "fuente": "Alcaldía de Santiago de Cali",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOWVRJV3RnbjRlN2g4Mm1CM1NnVjEydW9VVFdwU1VrLXA2N09hOXRIakx0SkxTQnZRa2xHME9ieDZPOG9vajZpTUZEYm94dllScmtUa3FfRElUbmVKWDVjVy03Ulh2WkV0MUppa1ktdXRfRmhrV29zT1dmRllYaFlmSUpwNWVaX1RBbWRkTDljN3Y3LVdiOC1yb1ZNNXpzT1JWcGxHSkNpWjIycU9JcmZMUmdmVERvOGVlNmxUdW1hNmpXTDRNY0I2MWZhakFhdTdVRDdqUW9ZZ04yTzIydUFUazJYUEo4UFp4?oc=5",
+      "titulo": "En Chiquinquirá, el PAE fortalece la participación ciudadana para mejorar la alimentación escolar",
+      "fuente": "Gobernación de Boyacá",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaGNrcm55R3lpODdieTdHWVVIV1ZIU0tzcU5KNEF4aExKLWZkckpXU0dCZ0xjc2ZySnVMelBvYlp4S1FBc0tjMHY2T1RMWGxtbkFINXdBZExaS3Q1bTY1eXl2NlRYLVBqR1kxU2t5X2VTUU9KN3FhTmw4MHdma2Roc1hGNTZCN05FZlEyRFBrNnkyeUF1dEZnUkNtZkFuSVE1R1M0Nnc4TkFRcUVIVEhMdFdMZ2pLYlVYQUlrb0lxLWg?oc=5",
       "fecha": "2026-11-13T08:00:00.000Z",
       "imagen": ""
     },
@@ -483,13 +490,6 @@
       "url": "https://diariolalibertad.com/2026/11/13/investigan-posible-intoxicacion-de-ocho-estudiantes-tras-consumir-alimentos-del-pae-en-luruaco/",
       "fecha": "2026-11-13T08:00:00.000Z",
       "imagen": "https://diariolalibertad.com/wp-content/uploads/2026/11/f6898772-c047-41b2-952c-6700a2a3cf71.webp"
-    },
-    {
-      "titulo": "Alerta por intoxicación de estudiantes con alimentos del PAE: autoridades investigan",
-      "fuente": "minuto60",
-      "url": "https://www.minuto60.com/colombia/atlantico-intoxicacion-estudiantes-alimentos-pae/18925",
-      "fecha": "2026-11-13T05:11:00.000Z",
-      "imagen": "http://www.bing.com/th?id=ONUT.Zg9G1qACkP4G33Hse9svcg&pid=News&w=640&h=360&c=7"
     }
   ],
   "videos": [
